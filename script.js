@@ -1,109 +1,192 @@
-const quizData = {
-    score: 0,
-    currentQ: 0,
-    questions: [
-        // 25 Multiple Choice
-        { type: 'mc', q: 'What is the capital of France?', options: ['London', 'Paris', 'Berlin', 'Madrid'], answer: 1 },
-        { type: 'mc', q: '2 + 2 = ?', options: ['3', '4', '5', '6'], answer: 1 },
-        { type: 'mc', q: 'What color is the sky?', options: ['Red', 'Green', 'Blue', 'Yellow'], answer: 2 },
-        // ADD MORE MC HERE (total 25)
-        { type: 'mc', q: 'Sample Question 4?', options: ['A', 'B', 'C', 'D'], answer: 0 },
-        { type: 'mc', q: 'Sample Question 5?', options: ['A', 'B', 'C', 'D'], answer: 1 },
-        // ... add 20 more MC
+// quiz_data is loaded via fetch at bottom of this file
+let questions = [];
+let currentIndex = 0;
+let score = 0;
+let totalPoints = 0;
+let passThreshold = 0.85;
+let shuffledQuestions = [];
 
-        // 20 Fill in the Blank
-        { type: 'fill', q: 'The sun rises in the ______.', answer: 'east' },
-        { type: 'fill', q: 'A dog says ______.', answer: 'woof' },
-        // ADD MORE FILL HERE (total 20)
-
-        // 5 Essay
-        { type: 'essay', q: 'Tell me about your favorite animal. Why do you like it?' },
-        { type: 'essay', q: 'What did you do last weekend?' },
-        // ADD MORE ESSAY HERE (total 5)
-    ]
-};
-
-function renderQuestion() {
-    const q = quizData.questions[quizData.currentQ];
-    const container = document.getElementById('quiz-container');
-    document.getElementById('q-num').textContent = quizData.currentQ + 1;
-
-    let html = `<div class="card visible"><div class="question">${q.q}</div>`;
-
-    if (q.type === 'mc') {
-        html += `<div class="options">`;
-        q.options.forEach((opt, i) => {
-            html += `<div class="option" onclick="selectMC(this, ${i})">${opt}</div>`;
-        });
-        html += `</div><button class="next-btn" id="nextBtn" onclick="nextQ()" disabled>Next ➡️</button></div>`;
-    } else if (q.type === 'fill') {
-        html += `<div class="fill-blank"><input type="text" id="fillInput" placeholder="Type your answer..." onkeypress="if(event.key==='Enter')checkFill()"></div>`;
-        html += `<button class="next-btn" onclick="checkFill()">Check ✅</button>`;
-    } else if (q.type === 'essay') {
-        html += `<div class="essay"><textarea id="essayInput" placeholder="Write your answer here..."></textarea></div>`;
-        html += `<button class="next-btn" onclick="nextQ()">Next ➡️</button>`;
-    }
-
-    html += `</div>`;
-    container.innerHTML = html;
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 
-function selectMC(el, idx) {
-    const q = quizData.questions[quizData.currentQ];
-    document.querySelectorAll('.option').forEach(o => o.style.pointerEvents = 'none');
-    if (idx === q.answer) {
-        el.classList.add('correct');
-        quizData.score += 2; // 2 points per MC
-        document.getElementById('score').textContent = quizData.score;
-    } else {
-        el.classList.add('wrong');
-        document.querySelectorAll('.option')[q.answer].classList.add('correct');
-    }
-    document.getElementById('nextBtn').disabled = false;
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
 }
 
-function checkFill() {
-    const input = document.getElementById('fillInput');
-    const q = quizData.questions[quizData.currentQ];
-    const userAns = input.value.trim().toLowerCase();
-    const correct = q.answer.toLowerCase();
-    if (userAns === correct) {
-        quizData.score += 2; // 2 points per fill
-        document.getElementById('score').textContent = quizData.score;
-        input.style.borderColor = '#4caf50';
-    } else {
-        input.style.borderColor = '#f44336';
-    }
-    setTimeout(nextQ, 1000);
+function startQuiz() {
+  shuffledQuestions = shuffle(questions);
+  currentIndex = 0;
+  score = 0;
+  totalPoints = questions.reduce((s, q) => s + q.points, 0);
+  passThreshold = Math.round(totalPoints * 0.85);
+  document.getElementById('total').textContent = totalPoints;
+  document.getElementById('final-total').textContent = totalPoints;
+  showScreen('question-screen');
+  showQuestion();
 }
 
-function nextQ() {
-    quizData.currentQ++;
-    if (quizData.currentQ < quizData.questions.length) {
-        renderQuestion();
-    } else {
-        showResults();
-    }
+function showQuestion() {
+  const q = shuffledQuestions[currentIndex];
+  document.getElementById('chapter-badge').textContent = q.chapter;
+  document.getElementById('q-number').textContent = `Pertanyaan ${currentIndex + 1}`;
+  document.getElementById('q-points').textContent = `${q.points} poin`;
+  document.getElementById('question-text').textContent = q.question;
+  document.getElementById('progress-text').textContent = `${currentIndex + 1}/${shuffledQuestions.length}`;
+  document.getElementById('btn-next').classList.add('hidden');
+  document.getElementById('feedback').classList.add('hidden');
+
+  const container = document.getElementById('options-container');
+  container.innerHTML = '';
+
+  if (q.type === 'mc') {
+    const options = shuffle(q.options);
+    options.forEach(opt => {
+      const btn = document.createElement('button');
+      btn.className = 'option-btn';
+      btn.textContent = opt;
+      btn.onclick = () => selectOption(btn, opt, q);
+      container.appendChild(btn);
+    });
+  } else if (q.type === 'fill') {
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.className = 'fill-input';
+    input.placeholder = 'Ketik jawabanmu di sini...';
+    input.onkeydown = (e) => {
+      if (e.key === 'Enter') checkFill(input, q);
+    };
+    const checkBtn = document.createElement('button');
+    checkBtn.className = 'btn-check';
+    checkBtn.textContent = 'Cek Jawaban';
+    checkBtn.onclick = () => checkFill(input, q);
+    container.appendChild(input);
+    container.appendChild(checkBtn);
+  } else if (q.type === 'essay') {
+    const textarea = document.createElement('textarea');
+    textarea.className = 'essay-input';
+    textarea.placeholder = 'Ketik jawaban essaymu di sini...';
+    const checkBtn = document.createElement('button');
+    checkBtn.className = 'btn-check';
+    checkBtn.textContent = 'Kirim Jawaban';
+    checkBtn.onclick = () => checkEssay(textarea, q);
+    container.appendChild(textarea);
+    container.appendChild(checkBtn);
+  }
 }
 
-function showResults() {
-    document.getElementById('quiz-container').innerHTML = '';
-    const results = document.getElementById('results');
-    results.classList.remove('hidden');
-    results.classList.add('visible');
-    document.getElementById('final-score').textContent = quizData.score;
-    const grade = quizData.score >= 80 ? '🌟 Excellent!' : quizData.score >= 60 ? '👍 Good Job!' : '💪 Keep Practicing!';
-    document.getElementById('grade').innerHTML = `<p style="font-size:1.5em">${grade}</p>`;
+function selectOption(btn, selected, q) {
+  const allBtns = document.querySelectorAll('.option-btn');
+  allBtns.forEach(b => b.classList.add('disabled'));
+  btn.classList.add(selected === q.answer ? 'correct' : 'wrong');
+  if (selected === q.answer) {
+    score += q.points;
+    document.getElementById('score').textContent = score;
+    showFeedback('Benar! 🎉', true);
+  } else {
+    showFeedback(`Kurang tepat. Jawaban benar: ${q.answer}`, false);
+    triggerShake(btn);
+  }
+  document.getElementById('btn-next').classList.remove('hidden');
+}
+
+function checkFill(input, q) {
+  const userAns = input.value.trim().toLowerCase();
+  const correct = q.answer.toLowerCase();
+  const isCorrect = userAns === correct || userAns.includes(correct);
+  input.classList.add(isCorrect ? 'correct' : 'wrong');
+  input.disabled = true;
+  if (isCorrect) {
+    score += q.points;
+    document.getElementById('score').textContent = score;
+    showFeedback('Benar! 🎉', true);
+  } else {
+    showFeedback(`Kurang tepat. Jawaban benar: ${q.answer}`, false);
+    triggerShake(input);
+  }
+  document.getElementById('btn-next').classList.remove('hidden');
+}
+
+function checkEssay(textarea, q) {
+  textarea.disabled = true;
+  score += q.points; // Essay: full points for attempting
+  document.getElementById('score').textContent = score;
+  showFeedback(`Terima kasih! Jawaban benar: ${q.answer}`, true);
+  document.getElementById('btn-next').classList.remove('hidden');
+}
+
+function showFeedback(msg, isPositive) {
+  const fb = document.getElementById('feedback');
+  fb.textContent = msg;
+  fb.className = `feedback ${isPositive ? 'positive' : 'negative'} visible`;
+}
+
+function triggerShake(el) {
+  el.classList.add('shake');
+  setTimeout(() => el.classList.remove('shake'), 600);
+}
+
+function nextQuestion() {
+  currentIndex++;
+  if (currentIndex >= shuffledQuestions.length) {
+    showResult();
+  } else {
+    showQuestion();
+  }
+}
+
+function showResult() {
+  showScreen('result-screen');
+  document.getElementById('final-score').textContent = score;
+  document.getElementById('score').textContent = score;
+
+  const passed = score >= passThreshold;
+  document.getElementById('result-icon').textContent = passed ? '🏆' : '💪';
+  document.getElementById('result-title').textContent = passed ? 'Lulus! Hebat!' : 'Coba Lagi Ya!';
+  document.getElementById('result-message').textContent = passed
+    ? `Kamu lulus dengan nilai ${score} dari ${totalPoints} poin!`
+    : `Perolehan kamu ${score} dari ${totalPoints} poin. Coba lagi untuk lulus!`;
+
+  if (passed) {
+    confetti();
+  }
+}
+
+function confetti() {
+  const colors = ['#f44336','#4caf50','#2196f3','#ff9800','#9c27b0'];
+  for (let i = 0; i < 50; i++) {
+    const c = document.createElement('div');
+    c.className = 'confetti';
+    c.style.left = Math.random() * 100 + 'vw';
+    c.style.background = colors[Math.floor(Math.random() * colors.length)];
+    c.style.animationDelay = Math.random() * 2 + 's';
+    document.body.appendChild(c);
+    setTimeout(() => c.remove(), 4000);
+  }
 }
 
 function restartQuiz() {
-    quizData.score = 0;
-    quizData.currentQ = 0;
-    document.getElementById('score').textContent = 0;
-    document.getElementById('results').classList.add('hidden');
-    document.getElementById('results').classList.remove('visible');
-    renderQuestion();
+  showScreen('start-screen');
+  document.getElementById('score').textContent = '0';
 }
 
-// Init
-renderQuestion();
+// Load quiz data via fetch (so JS is in its own .js file, never touches HTML)
+fetch('quiz_data.json')
+  .then(r => r.json())
+  .then(data => {
+    questions = data;
+    document.getElementById('info-questions').textContent = questions.length;
+    const pts = questions.reduce((s, q) => s + q.points, 0);
+    document.getElementById('info-points').textContent = pts;
+    document.getElementById('info-pass').textContent = `${Math.round(pts * 0.85)} poin (85%)`;
+  })
+  .catch(() => {
+    document.querySelector('.start-card').innerHTML +=
+      '<p style="color:red">Gagal memuat quiz. Refresh halaman.</p>';
+  });

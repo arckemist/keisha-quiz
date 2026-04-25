@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "chapter": "Kutai Kingdom",
+    "type": "mc",
+    "question": "Di mana Kerajaan Kutai berada?",
+    "options": [
+      "Kalimantan Timur",
+      "Jawa Barat",
+      "Jawa Tengah",
+      "Sumatera"
+    ],
+    "answer": "Kalimantan Timur",
+    "points": 2
+  },
+  {
+    "id": 2,
+    "chapter": "Kutai Kingdom",
+    "type": "mc",
+    "question": "Siapa raja pertama dari Kerajaan Kutai?",
+    "options": [
+      "Purnawarman",
+      "Kudungga",
+      "Rajasa",
+      "Hayam Wuruk"
+    ],
+    "answer": "Kudungga",
+    "points": 2
+  },
+  {
+    "id": 3,
+    "chapter": "Kutai Kingdom",
+    "type": "fill",
+    "question": "Warisan budaya dari Kerajaan Kutai adalah ....",
+    "answer": "Candi",
+    "points": 2
+  },
+  {
+    "id": 4,
+    "chapter": "Tarumanegara Kingdom",
+    "type": "mc",
+    "question": "Di mana Kerajaan Tarumanegara berada?",
+    "options": [
+      "Jawa Timur",
+      "Jawa Barat",
+      "Kalimantan",
+      "Sumatera"
+    ],
+    "answer": "Jawa Barat",
+    "points": 2
+  },
+  {
+    "id": 5,
+    "chapter": "Tarumanegara Kingdom",
+    "type": "mc",
+    "question": "Siapa raja terkenal dari Kerajaan Tarumanegara?",
+    "options": [
+      "Purnawarman",
+      "Kudungga",
+      "Rajasa",
+      "Mpu Sindok"
+    ],
+    "answer": "Purnawarman",
+    "points": 2
+  },
+  {
+    "id": 6,
+    "chapter": "Tarumanegara Kingdom",
+    "type": "fill",
+    "question": "Warisan budaya dari Kerajaan Tarumanegara adalah Prasasti ....",
+    "answer": "Ciaruteun",
+    "points": 2
+  },
+  {
+    "id": 7,
+    "chapter": "Tarumanegara Kingdom",
+    "type": "mc",
+    "question": "Apa yang tertulis di Prasasti Ciaruteun?",
+    "options": [
+      "Tentang Raja Purnawarman yang terkenal",
+      "Tentang Raja Kudungga",
+      "Tentang peresmian Kediri",
+      "Tentang bangunnya candi"
+    ],
+    "answer": "Tentang Raja Purnawarman yang terkenal",
+    "points": 2
+  },
+  {
+    "id": 8,
+    "chapter": "Tarumanegara Kingdom",
+    "type": "essay",
+    "question": "Apa yang terjadi pada tahun 650 dalam sejarah Kerajaan Tarumanegara? Jelaskan.",
+    "answer": "Tarumanegara diserang dan dihancurkan oleh Sriwijaya.",
+    "points": 5
+  },
+  {
+    "id": 9,
+    "chapter": "Mataram Kingdom (Hindu)",
+    "type": "mc",
+    "question": "Di mana Kerajaan Mataram (Hindu) berada?",
+    "options": [
+      "Jawa Tengah",
+      "Jawa Timur",
+      "Kalimantan",
+      "Bali"
+    ],
+    "answer": "Jawa Tengah",
+    "points": 2
+  },
+  {
+    "id": 10,
+    "chapter": "Mataram Kingdom (Hindu)",
+    "type": "mc",
+    "question": "Siapa raja pertama dari Kerajaan Mataram (Hindu)?",
+    "options": [
+      "Purnawarman",
+      "Sri Sanjaya",
+      "Mpu Sindok",
+      "Rakai Pikatan"
+    ],
+    "answer": "Sri Sanjaya",
+    "points": 2
+  },
+  {
+    "id": 11,
+    "chapter": "Mataram Kingdom (Hindu)",
+    "type": "mc",
+    "question": "Siapa penakluk Kerajaan Mataram dan siapa pemimpinnya?",
+    "options": [
+      "Singasari - Ken Arok",
+      "Kediri - Karajasa",
+      "Sriwijaya - Balaputradewa",
+      "Majapahit - Hayam Wuruk"
+    ],
+    "answer": "Singasari - Ken Arok",
+    "points": 2
+  },
+  {
+    "id": 12,
+    "chapter": "Mataram Kingdom (Hindu)",
+    "type": "mc",
+    "question": "Kerajaan Mataram (Hindu) terbagi menjadi 2 kerajaan. Apa saja?",
+    "options": [
+      "Kediri dan Singasari",
+      "Mataram dan Pajang",
+      "Singasari dan Majapahit",
+      "Kediri dan Mataram"
+    ],
+    "answer": "Kediri dan Singasari",
+    "points": 2
+  },
+  {
+    "id": 13,
+    "chapter": "Mataram Kingdom (Hindu)",
+    "type": "fill",
+    "question": "Warisan budaya yang dibangun pada era Mataram Hindu adalah Candi ....",
+    "answer": "Prambanan",
+    "points": 2
+  },
+  {
+    "id": 14,
+    "chapter": "Kediri Kingdom",
+    "type": "mc",
+    "question": "Di mana Kerajaan Kediri berada?",
+    "options": [
+      "Jawa Timur",
+      "Jawa Tengah",
+      "Jawa Barat",
+      "Kalimantan"
+    ],
+    "answer": "Jawa Timur",
+    "points": 2
+  },
+  {
+    "id": 15,
+    "chapter": "Kediri Kingdom",
+    "type": "mc",
+    "question": "Siapa raja terkenal dari Kerajaan Kediri?",
+    "options": [
+      "Ken Arok",
+      "Mpu Tantular",
+      "Jayabaya",
+      "Purnawarman"
+    ],
+    "answer": "Jayabaya",
+    "points": 2
+  },
+  {
+    "id": 16,
+    "chapter": "Kediri Kingdom",
+    "type": "mc",
+    "question": "Apa yang terjadi pada abad ke-11 di Kerajaan Kediri?",
+    "options": [
+      "Kediri diserang dan dikalahkan oleh Singasari",
+      "Kediri bergabung dengan Majapahit",
+      "Kediri menjadi pusat agama Buddha",
+      "Kediri hancur karena bencana alam"
+    ],
+    "answer": "Kediri diserang dan dikalahkan oleh Singasari",
+    "points": 2
+  },
+  {
+    "id": 17,
+    "chapter": "Kediri Kingdom",
+    "type": "fill",
+    "question": "Kerajaan Kediri terkenal dengan pengaruhnya di bidang ....",
+    "answer": "Sastra",
+    "points": 2
+  },
+  {
+    "id": 18,
+    "chapter": "Singasari Kingdom",
+    "type": "mc",
+    "question": "Di mana Kerajaan Singasari berada?",
+    "options": [
+      "Jawa Timur",
+      "Jawa Tengah",
+      "Jawa Barat",
+      "Sumatera"
+    ],
+    "answer": "Jawa Timur",
+    "points": 2
+  },
+  {
+    "id": 19,
+    "chapter": "Singasari Kingdom",
+    "type": "mc",
+    "question": "Siapa raja terkenal dari Kerajaan Singasari?",
+    "options": [
+      "Ken Arok",
+      "Purnawarman",
+      "Mpu Tantular",
+      "Balaputradewa"
+    ],
+    "answer": "Ken Arok",
+    "points": 2
+  },
+  {
+    "id": 20,
+    "chapter": "Singasari Kingdom",
+    "type": "essay",
+    "question": "Kapan Kerajaan Singasari berakhir dan apa situasi sebelum kerajaan berakhir? Jelaskan.",
+    "answer": "Kerajaan Singasari berakhir pada tahun 1292, digulingkan oleh perintah yang dibunuh dan digantikan.",
+    "points": 5
+  },
+  {
+    "id": 21,
+    "chapter": "Majapahit Kingdom",
+    "type": "mc",
+    "question": "Siapa raja terkenal dari Kerajaan Majapahit dan kapan dia memerintah?",
+    "options": [
+      "Hayam Wuruk (1350-1389)",
+      "Purnawarman (400-an)",
+      "Ken Arok (1222-1292)",
+      "Jayabaya (1135-1165)"
+    ],
+    "answer": "Hayam Wuruk (1350-1389)",
+    "points": 2
+  },
+  {
+    "id": 22,
+    "chapter": "Majapahit Kingdom",
+    "type": "mc",
+    "question": "Siapa Perdana Menteri dari Kerajaan Majapahit?",
+    "options": [
+      "Mpu Tantular",
+      "Gajah Mada",
+      "Mpu Sindok",
+      "Rakai Pikatan"
+    ],
+    "answer": "Gajah Mada",
+    "points": 2
+  },
+  {
+    "id": 23,
+    "chapter": "Majapahit Kingdom",
+    "type": "essay",
+    "question": "Apa itu Sumpah Palapa? Jelaskan.",
+    "answer": "Sumpah Palapa adalah sumpah yang diucapkan oleh Gajah Mada bahwa dia tidak akan memakan buah palapa sebelum berhasil menyatukan Nusantara di bawah kekuasaan Majapahit.",
+    "points": 5
+  },
+  {
+    "id": 24,
+    "chapter": "Buddhist Mataram Kingdom",
+    "type": "mc",
+    "question": "Siapa raja terkenal dari Kerajaan Mataram Buddha?",
+    "options": [
+      "Purnawarman",
+      "Balaputradewa",
+      "Sri Sanjaya",
+      "Mpu Sindok"
+    ],
+    "answer": "Balaputradewa",
+    "points": 2
+  },
+  {
+    "id": 25,
+    "chapter": "Buddhist Mataram Kingdom",
+    "type": "mc",
+    "question": "Siapa Pramodawardhani dan apa yang terjadi padanya?",
+    "options": [
+      "Ratu Jawa - digulingkan dan Buddhisme jatuh",
+      "Putri Majapahit - menikah dengan Hayam Wuruk",
+      "Ratu Kediri - lari ke Sriwijaya",
+      "Ratu Singasari - dibuang ke Bali"
+    ],
+    "answer": "Ratu Jawa - digulingkan dan Buddhisme jatuh",
+    "points": 2
+  },
+  {
+    "id": 26,
+    "chapter": "Buddhist Mataram Kingdom",
+    "type": "mc",
+    "question": "Candi terkenal yang dibangun pada era Kerajaan Mataram Buddha adalah?",
+    "options": [
+      "Candi Borobudur",
+      "Candi Prambanan",
+      "Candi Sewu",
+      "Candi Penataran"
+    ],
+    "answer": "Candi Borobudur",
+    "points": 2
+  },
+  {
+    "id": 27,
+    "chapter": "Buddhist Mataram Kingdom",
+    "type": "fill",
+    "question": "Raja yang memerintahkan pembangunan Candi Borobudur adalah Raja ....",
+    "answer": "Samaratungga",
+    "points": 2
+  },
+  {
+    "id": 28,
+    "chapter": "Sriwijaya Kingdom",
+    "type": "mc",
+    "question": "Di mana Kerajaan Sriwijaya berada?",
+    "options": [
+      "Sumatera Selatan",
+      "Jawa Timur",
+      "Kalimantan",
+      "Bali"
+    ],
+    "answer": "Sumatera Selatan",
+    "points": 2
+  },
+  {
+    "id": 29,
+    "chapter": "Sriwijaya Kingdom",
+    "type": "mc",
+    "question": "Siapa raja yang membawa Kerajaan Sriwijaya ke masa keemasan?",
+    "options": [
+      "Balaputradewa",
+      "Rajasa",
+      "Syailendra",
+      "Dewa"
+    ],
+    "answer": "Balaputradewa",
+    "points": 2
+  },
+  {
+    "id": 30,
+    "chapter": "Sriwijaya Kingdom",
+    "type": "mc",
+    "question": "Apa yang menyebabkan Kerajaan Sriwijaya runtuh?",
+    "options": [
+      "Diserang oleh Majapahit dan datangnya Bangsa Mongol",
+      "Bencana alam dahsyat",
+      "Perang saudara",
+      "Kehabisan sumber daya alam"
+    ],
+    "answer": "Diserang oleh Majapahit dan datangnya Bangsa Mongol",
+    "points": 2
+  },
+  {
+    "id": 31,
+    "chapter": "Sriwijaya Kingdom",
+    "type": "essay",
+    "question": "Jelaskan apa yang kamu ketahui tentang warisan budaya Kerajaan Sriwijaya.",
+    "answer": "Warisan budaya Sriwijaya antara lain: Candi Muara Takus, Prasasti Balitung, dan prasasti-prasasti Buddha yang menunjukkan pengaruhnya di Nusantara.",
+    "points": 5
+  },
+  {
+    "id": 32,
+    "chapter": "Kutai Kingdom",
+    "type": "mc",
+    "question": "Candi tertua di Kalimantan Timur yang menjadi warisan Kerajaan Kutai adalah?",
+    "options": [
+      "Candi Agung",
+      "Candi Kikim",
+      "Candi Prambanan",
+      "Candi Borobudur"
+    ],
+    "answer": "Candi Agung",
+    "points": 2
+  },
+  {
+    "id": 33,
+    "chapter": "Tarumanegara Kingdom",
+    "type": "mc",
+    "question": "Prasasti Ciaruteun ditemukan di daerah?",
+    "options": [
+      "Cianjur, Jawa Barat",
+      "Yogyakarta",
+      "Kudus, Jawa Tengah",
+      "Malang, Jawa Timur"
+    ],
+    "answer": "Cianjur, Jawa Barat",
+    "points": 2
+  },
+  {
+    "id": 34,
+    "chapter": "Mataram Kingdom (Hindu)",
+    "type": "mc",
+    "question": "Candi yang menjadi warisan utama era Mataram Hindu adalah?",
+    "options": [
+      "Candi Prambanan",
+      "Candi Borobudur",
+      "Candi Sewu",
+      "Candi Kalasan"
+    ],
+    "answer": "Candi Prambanan",
+    "points": 2
+  },
+  {
+    "id": 35,
+    "chapter": "Majapahit Kingdom",
+    "type": "mc",
+    "question": "Kerajaan Majapahit mencapai puncak kejayaannya di bawah pemerintahan?",
+    "options": [
+      "Hayam Wuruk dengan Gajah Mada",
+      "Paron Jagal",
+      "Mpu Tantular",
+      "Rakai IK"
+    ],
+    "answer": "Hayam Wuruk dengan Gajah Mada",
+    "points": 2
+  },
+  {
+    "id": 36,
+    "chapter": "Sriwijaya Kingdom",
+    "type": "mc",
+    "question": "Kerajaan Sriwijaya terkenal sebagai kerajaan maritim yang menguasai jalur perdagangan di?",
+    "options": [
+      "Selat Malaka dan Laut Cina Selatan",
+      "Laut Jawa",
+      "Samudra Hindia",
+      "Selat Bali"
+    ],
+    "answer": "Selat Malaka dan Laut Cina Selatan",
+    "points": 2
+  }
+]

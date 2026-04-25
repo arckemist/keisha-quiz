@@ -1,33 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KeeVa Quiz</title>
+    <title>Keisha — Hindu & Buddhist Kingdoms Quiz</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🎉 KeeVa's Quiz!</h1>
-            <p class="subtitle">P2 Level</p>
-            <div class="score-board">
-                <span>Score: <strong id="score">0</strong></span>
-                <span>Question: <strong id="q-num">1</strong>/50</span>
+    <div class="quiz-container">
+        <!-- Header -->
+        <div class="quiz-header">
+            <h1>Hindu &amp; Buddhist Kingdoms</h1>
+            <p class="subtitle">Grade 4 — Social Studies</p>
+            <div class="score-bar">
+                <span id="score">0</span>/<span id="total"></span> points
+                &nbsp;|&nbsp;
+                <span id="progress-text">0/0</span> questions
             </div>
-        </header>
+        </div>
 
-        <main id="quiz-container">
-            <!-- Questions loaded here -->
-        </main>
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <div class="start-card">
+                <h2>Selamat Datang!</h2>
+                <p>Kerajaan Hindu-Buddha di Indonesia</p>
+                <div class="quiz-info">
+                    <div class="info-row"><span>Pertanyaan</span><strong id="info-questions">36</strong></div>
+                    <div class="info-row"><span>Total Poin</span><strong id="info-points">84</strong></div>
+                    <div class="info-row"><span>Lulus</span><strong id="info-pass">70 poin (85%)</strong></div>
+                </div>
+                <button class="btn-start" onclick="startQuiz()">Mulai Quiz!</button>
+            </div>
+        </div>
 
-        <div id="results" class="hidden">
-            <h2>🎊 Great Job!</h2>
-            <p>Final Score: <strong id="final-score">0</strong>/100</p>
-            <div id="grade"></div>
-            <button onclick="restartQuiz()">🔄 Try Again</button>
+        <!-- Question Screen -->
+        <div id="question-screen" class="screen">
+            <div class="chapter-badge" id="chapter-badge"></div>
+            <div class="question-card">
+                <div class="question-meta">
+                    <span id="q-number"></span>
+                    <span class="q-points" id="q-points"></span>
+                </div>
+                <p class="question-text" id="question-text"></p>
+                <div id="options-container"></div>
+                <div id="feedback" class="feedback hidden"></div>
+            </div>
+            <button id="btn-next" class="btn-next hidden" onclick="nextQuestion()">Lanjut →</button>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <div id="result-icon"></div>
+            <h2 id="result-title"></h2>
+            <p id="result-message"></p>
+            <div class="result-score">
+                <span id="final-score">0</span>/<span id="final-total">84</span>
+            </div>
+            <p class="result-points">Total poin yang kamu dapat</p>
+            <div id="result-breakdown"></div>
+            <button class="btn-start" onclick="restartQuiz()">Coba Lagi</button>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
