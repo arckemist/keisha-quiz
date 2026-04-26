@@ -1,266 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Keisha — Hindu & Buddhist Kingdoms Quiz (v2)</title>
-<style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:system-ui,-apple-system,sans-serif;background:#f0f4ff;color:#1a1a2e;min-height:100vh}
-.header{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;padding:20px;text-align:center}
-.header h1{font-size:1.5rem;margin-bottom:4px}
-.header p{opacity:0.9;font-size:0.9rem}
-.progress-wrap{padding:12px 16px;background:#fff;border-bottom:1px solid #e0e7ff;position:sticky;top:0;z-index:10}
-.progress-bar{height:8px;background:#e0e7ff;border-radius:4px;overflow:hidden}
-.progress-fill{height:100%;background:linear-gradient(90deg,#4f46e5,#7c3aed);width:0%;transition:width 0.4s ease}
-.progress-text{font-size:0.78rem;color:#6b7280;margin-top:4px;text-align:right}
-.container{max-width:720px;margin:0 auto;padding:16px}
-.card{background:#fff;border-radius:16px;padding:20px;margin-bottom:16px;box-shadow:0 2px 8px rgba(0,0,0,0.06);display:none;animation:slideIn 0.3s ease}
-.card.active{display:block}
-.chapter-tag{font-size:0.72rem;color:#7c3aed;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px}
-.question{font-size:1.05rem;font-weight:600;margin-bottom:14px;line-height:1.5}
-.options{list-style:none;display:flex;flex-direction:column;gap:8px}
-.options li{background:#f5f7ff;border:2px solid #e0e7ff;border-radius:10px;padding:12px 16px;cursor:pointer;transition:all 0.2s;font-size:0.95rem;display:flex;align-items:center}
-.options li:hover:not(.selected):not(.correct){border-color:#a5b4fc;background:#eef2ff}
-.options li.selected{background:#ede9fe;border-color:#7c3aed}
-.options li.correct{background:#d1fae5;border-color:#059669;color:#065f46}
-.options li.wrong{background:#fee2e2;border-color:#dc2626;color:#991b1b}
-.options li .opt-label{font-weight:700;margin-right:10px;min-width:20px}
-.fill-input{width:100%;padding:12px 16px;font-size:1rem;border:2px solid #e0e7ff;border-radius:10px;outline:none;transition:border-color 0.2s}
-.fill-input:focus{border-color:#7c3aed}
-.fill-input.correct{border-color:#059669;background:#d1fae5}
-.fill-input.wrong{border-color:#dc2626;background:#fee2e2}
-.essay-textarea{width:100%;padding:12px 16px;font-size:0.95rem;border:2px solid #e0e7ff;border-radius:10px;outline:none;resize:vertical;min-height:100px;font-family:inherit}
-.essay-textarea:focus{border-color:#7c3aed}
-.answer-feedback{font-size:0.85rem;font-weight:600;margin-top:8px;display:none}
-.answer-feedback.show{display:block}
-.next-btn{display:block;width:100%;margin-top:14px;padding:13px;background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;border:none;border-radius:10px;font-size:1rem;font-weight:600;cursor:pointer;transition:opacity 0.2s}
-.next-btn:hover{opacity:0.9}
-.next-btn:disabled{opacity:0.5;cursor:not-allowed}
-.essay-submit{display:block;width:100%;margin-top:14px;padding:13px;background:linear-gradient(135deg,#059669,#047857);color:white;border:none;border-radius:10px;font-size:1rem;font-weight:600;cursor:pointer}
-@keyframes slideIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-@keyframes confetti{0%{transform:translateY(0) rotate(0);opacity:1}100%{transform:translateY(-200px) rotate(720deg);opacity:0}}
-.confetti-particle{position:fixed;top:50%;left:50%;width:10px;height:10px;border-radius:50%;animation:confetti 1s ease-out forwards;pointer-events:none;z-index:999}
-@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
-.shake{animation:shake 0.4s ease}
-/* Review mode */
-.review-section{display:none}
-.review-card{background:#fff;border-radius:16px;padding:16px;margin-bottom:12px;border-left:4px solid #7c3aed}
-.review-card h3{font-size:0.95rem;margin-bottom:6px}
-.review-card p{font-size:0.88rem;color:#374151;margin-bottom:4px}
-.review-correct{color:#059669;font-weight:600}
-.review-wrong{color:#dc2626;font-weight:600}
-.review-pts{font-size:0.78rem;color:#6b7280}
-.start-screen{text-align:center;padding:40px 20px}
-.start-screen h2{font-size:1.8rem;margin-bottom:12px;color:#4f46e5}
-.start-screen p{color:#6b7280;margin-bottom:8px;font-size:0.95rem}
-.start-screen .meta{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin:16px 0}
-.start-screen .meta span{background:#eef2ff;color:#4f46e5;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:600}
-.start-btn{display:inline-block;padding:14px 40px;background:linear-gradient(135deg,#4f46e5,#7c3aed);color:white;border:none;border-radius:12px;font-size:1.1rem;font-weight:700;cursor:pointer;margin-top:16px}
-.result-screen{text-align:center;padding:40px 20px;display:none}
-.result-screen h2{font-size:2rem;margin-bottom:8px}
-.score-big{font-size:4rem;font-weight:800;background:linear-gradient(135deg,#4f46e5,#7c3aed);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin:12px 0}
-.review-btn{padding:12px 28px;background:#eef2ff;color:#4f46e5;border:none;border-radius:10px;font-size:1rem;font-weight:600;cursor:pointer;margin:6px}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="quiz-title">Quiz</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="header">
- <h1>Keisha — SS Revision</h1>
- <p>Hindu & Buddhist Kingdoms of Indonesia</p>
-</div>
-<div class="progress-wrap" id="progressWrap" style="display:none">
- <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
- <div class="progress-text" id="progressText"></div>
-</div>
-<div class="container" id="app"></div>
-<script>
-const QUESTIONS = [{"type": "mc", "chapter": "A. Kutai Kingdom", "q": "Where was the Kingdom of Kutai located?", "options": ["East Kalimantan", "Central Java", "West Java", "East Java"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "A. Kutai Kingdom", "q": "Who was the first king of the Kutai Kingdom?", "options": ["Mulawarman", "Purnawarman", "Sanjaya", "Ken Arok"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "A. Kutai Kingdom", "q": "The Kingdom of Kutai was located in ___ Kalimantan.", "answer": "east", "points": 2}, {"type": "fill", "chapter": "A. Kutai Kingdom", "q": "The first king of Kutai Kingdom was named ___.", "answer": "mulawarman", "points": 2}, {"type": "mc", "chapter": "A. Kutai Kingdom", "q": "What type of kingdom was Kutai?", "options": ["Hindu Kingdom", "Buddhist Kingdom", "Islamic Kingdom", "Christian Kingdom"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "A. Kutai Kingdom", "q": "The Kutai Kingdom is one of the oldest ___ kingdoms in Indonesia.", "answer": "hindu", "points": 2}, {"type": "essay", "chapter": "A. Kutai Kingdom", "q": "Why is the Kingdom of Kutai important in Indonesian history?", "points": 0}, {"type": "mc", "chapter": "B. Tarumanegara Kingdom", "q": "Where was the Kingdom of Tarumanegara located?", "options": ["West Java", "Central Java", "East Java", "South Sumatra"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "B. Tarumanegara Kingdom", "q": "Who was the famous king of Tarumanegara?", "options": ["Purnawarman", "Mulawarman", "Sanjaya", "Ken Arok"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "B. Tarumanegara Kingdom", "q": "What was written in the Prasasti (Inscription) Ciaruteun?", "options": ["Reports about the famous King Purnawarman", "The story of Buddha's teachings", "Trade agreements with China", "The founding of Kutai Kingdom"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "B. Tarumanegara Kingdom", "q": "The famous king of Tarumanegara was King ___.", "answer": "purnawarman", "points": 2}, {"type": "fill", "chapter": "B. Tarumanegara Kingdom", "q": "Tarumanegara was located in West ___.", "answer": "java", "points": 2}, {"type": "mc", "chapter": "B. Tarumanegara Kingdom", "q": "In what year was Tarumanegara attacked and defeated?", "options": ["650 AD", "500 AD", "750 AD", "400 AD"], "answer": "A", "points": 2}, {"type": "essay", "chapter": "B. Tarumanegara Kingdom", "q": "What happened to the Tarumanegara Kingdom in the year 650? Explain why this was significant.", "points": 0}, {"type": "mc", "chapter": "C. Mataram Kingdom (Hindu)", "q": "Where was the Hindu Mataram Kingdom located?", "options": ["Central Java", "East Java", "West Java", "South Sumatra"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "C. Mataram Kingdom (Hindu)", "q": "Who was the first king of the Hindu Mataram Kingdom?", "options": ["Sanjaya", "Purnawarman", "Rakai Panataran", "Balaputradewa"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "C. Mataram Kingdom (Hindu)", "q": "What heritage was built during the Hindu Mataram era?", "options": ["Candi (temples)", "Museums", "Palaces", "Stadiums"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "C. Mataram Kingdom (Hindu)", "q": "The Hindu Mataram Kingdom was located in Central ___.", "answer": "java", "points": 2}, {"type": "fill", "chapter": "C. Mataram Kingdom (Hindu)", "q": "The first king of Hindu Mataram was King ___.", "answer": "sanjaya", "points": 2}, {"type": "mc", "chapter": "C. Mataram Kingdom (Hindu)", "q": "The Hindu Mataram Kingdom was divided into two kingdoms. What were they?", "options": ["Kediri and Singasari", "Kutai and Tarumanegara", "Pajajaran and Sunda", "Surabaya and Gresik"], "answer": "A", "points": 2}, {"type": "essay", "chapter": "C. Mataram Kingdom (Hindu)", "q": "Explain how the Hindu Mataram Kingdom was divided and who ruled each new kingdom.", "points": 0}, {"type": "mc", "chapter": "D. Kediri Kingdom", "q": "Where was the Kediri Kingdom located?", "options": ["East Java", "Central Java", "West Java", "South Sumatra"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "D. Kediri Kingdom", "q": "Who was the famous king of Kediri Kingdom?", "options": ["King Karel", "Ken Arok", "Gajah Mada", "Purnawarman"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "D. Kediri Kingdom", "q": "In which century did the Kediri Kingdom experience major events?", "options": ["11th Century", "5th Century", "7th Century", "15th Century"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "D. Kediri Kingdom", "q": "The Kediri Kingdom was located in East ___.", "answer": "java", "points": 2}, {"type": "fill", "chapter": "D. Kediri Kingdom", "q": "The famous king of Kediri was named ___.", "answer": "karel", "points": 2}, {"type": "mc", "chapter": "D. Kediri Kingdom", "q": "What were some achievements of the Kediri Kingdom?", "options": ["Literary works and trade development", "Building large warships", "Establishing universities", "Creating paper money"], "answer": "A", "points": 2}, {"type": "essay", "chapter": "D. Kediri Kingdom", "q": "Describe the significant achievements of the Kediri Kingdom during its golden age.", "points": 0}, {"type": "mc", "chapter": "E. Singasari Kingdom", "q": "Where was the Singasari Kingdom located?", "options": ["East Java", "Central Java", "West Java", "South Sumatra"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "E. Singasari Kingdom", "q": "Who was the famous king of Singasari Kingdom?", "options": ["Ken Arok", "King Karel", "Gajah Mada", "Purnawarman"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "E. Singasari Kingdom", "q": "Which kingdom conquered the Singasari Kingdom?", "options": ["Majapahit", "Kediri", "Mataram", "Tarumanegara"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "E. Singasari Kingdom", "q": "The Singasari Kingdom was located in East ___.", "answer": "java", "points": 2}, {"type": "fill", "chapter": "E. Singasari Kingdom", "q": "The famous king of Singasari was ___.", "answer": "ken arok", "points": 2}, {"type": "mc", "chapter": "E. Singasari Kingdom", "q": "What happened before the Singasari Kingdom ended?", "options": ["It was defeated by Raden Wijaya (founder of Majapahit)", "It moved to Central Java", "It became a Buddhist kingdom", "It allied with Sriwijaya"], "answer": "A", "points": 2}, {"type": "essay", "chapter": "E. Singasari Kingdom", "q": "How did the Singasari Kingdom end, and who was the conqueror? Explain the situation.", "points": 0}, {"type": "mc", "chapter": "F. Majapahit Kingdom", "q": "Who was the famous prime minister of Majapahit Kingdom?", "options": ["Gajah Mada", "Ken Arok", "Raden Wijaya", "Purnawarman"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "F. Majapahit Kingdom", "q": "What year did Gajah Mada rule Majapahit?", "options": ["1250–1294", "500–600", "800–900", "1400–1500"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "F. Majapahit Kingdom", "q": "What was the Palapa Oath about?", "options": ["A vow to unite the Nusantara under Majapahit", "A trade agreement with China", "A promise to build temples", "A peace treaty with Kediri"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "F. Majapahit Kingdom", "q": "The famous prime minister of Majapahit was ___.", "answer": "gajah mada", "points": 2}, {"type": "fill", "chapter": "F. Majapahit Kingdom", "q": "Gajah Mada made a vow called Sumpah ___ to unite the archipelago.", "answer": "palapa", "points": 2}, {"type": "mc", "chapter": "F. Majapahit Kingdom", "q": "How many parts of the archipelago did Gajah Mada claim under the Palapa Oath?", "options": ["12 parts", "7 parts", "5 parts", "3 parts"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "F. Majapahit Kingdom", "q": "The capital of Majapahit was located in ___ Java.", "answer": "east", "points": 2}, {"type": "mc", "chapter": "G. Buddhist Kingdom of Mataram", "q": "Who was the famous king of the Buddhist Kingdom of Mataram?", "options": ["Samaratungga", "Purnawarman", "Sanjaya", "Ken Arok"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "G. Buddhist Kingdom of Mataram", "q": "Who was Pramodhawardhani?", "options": ["A queen who became the ruler of Buddhist Mataram after Samaratungga", "The first king of Kutai", "The founder of Borobudur", "The prime minister of Majapahit"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "G. Buddhist Kingdom of Mataram", "q": "Which famous temple was built during the Buddhist Kingdom of Mataram?", "options": ["Borobudur", "Candi Prambanan", "Candi Borobudur", "Candi Kalasan"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "G. Buddhist Kingdom of Mataram", "q": "The famous king of Buddhist Mataram was ___.", "answer": "samaratungga", "points": 2}, {"type": "fill", "chapter": "G. Buddhist Kingdom of Mataram", "q": "Pramodhawardhani became queen after King ___.", "answer": "samaratungga", "points": 2}, {"type": "mc", "chapter": "G. Buddhist Kingdom of Mataram", "q": "How many temples are part of the Buddhist Kingdom heritage, excluding Borobudur?", "options": ["4 temples", "2 temples", "6 temples", "3 temples"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "G. Buddhist Kingdom of Mataram", "q": "The Buddhist Kingdom of Mataram was ruled by King ___ from the Syailendra dynasty.", "answer": "samaratungga", "points": 2}, {"type": "mc", "chapter": "H. Sriwijaya Kingdom", "q": "Where was the Sriwijaya Kingdom located?", "options": ["South Sumatra", "Central Java", "East Java", "West Java"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "H. Sriwijaya Kingdom", "q": "Who brought Sriwijaya to its golden age?", "options": ["King Purnawarman", "King Karel", "Ken Arok", "Raden Wijaya"], "answer": "A", "points": 2}, {"type": "mc", "chapter": "H. Sriwijaya Kingdom", "q": "What caused the collapse of Sriwijaya Kingdom?", "options": ["Attacked and defeated by Majapahit", "Natural disasters", "Civil war", "Foreign invasion from India"], "answer": "A", "points": 2}, {"type": "fill", "chapter": "H. Sriwijaya Kingdom", "q": "Sriwijaya Kingdom was located in ___ Sumatra.", "answer": "south", "points": 2}, {"type": "fill", "chapter": "H. Sriwijaya Kingdom", "q": "The king who brought Sriwijaya to its golden age was King ___.", "answer": "purnawarman", "points": 2}, {"type": "fill", "chapter": "H. Sriwijaya Kingdom", "q": "The heritage from Sriwijaya Kingdom is the ___ Bukit Inscription.", "answer": "telaga", "points": 2}];
-const ESSAY_ANSWERS = {"6": "The Kingdom of Kutai is important because it is one of the oldest Hindu kingdoms in Indonesia, establishing early Hindu influence in the archipelago.", "13": "In 650 AD, Tarumanegara was attacked and defeated by the kingdom of Srivijaya. This was significant because it marked the end of Tarumanegara's prominence in West Java.", "20": "The Hindu Mataram Kingdom split into two: the Buddhist Kingdom of Mataram (ruled by Syailendra dynasty including Samaratungga) and the Hindu Mataram Kingdom which later became Kediri and Singasari.", "27": "The Kediri Kingdom achieved significant literary works like the Kakawin literature and developed trade and agriculture in East Java, making it a prosperous kingdom.", "34": "The Singasari Kingdom was defeated and ended when Raden Wijaya, who later founded Majapahit, overthrew Ken Arok and took control of the kingdom."};
-let current = 0;
-let score = 0;
-let answers = [];
-let showConfetti = false;
 
-function startQuiz() {
-  document.getElementById('app').innerHTML = '<div class="start-screen">' +
-    '<h2>Hindu & Buddhist Kingdoms</h2>' +
-    '<p>Grade 4 Social Studies — CT1 Term 4</p>' +
-    '<div class="meta"><span>30 MCQ</span><span>20 Fill</span><span>5 Essay</span><span>100 pts</span></div>' +
-    '<p style="margin-top:12px;font-size:0.85rem;color:#9ca3af">Pass: 85 points (85%)</p>' +
-    '<button class="start-btn" onclick="begin()">Mulai Quiz!</button></div>';
-}
-startQuiz();
+  <!-- LANDING SCREEN -->
+  <div id="landing" style="display:none">
+    <h1 id="quiz-title-display">Loading...</h1>
+    <p id="landing-sub">55 Questions · 100 Points · Pass: 85%</p>
+    <p id="quiz-error" style="display:none;color:#dc2626;font-weight:600;max-width:400px;text-align:center"></p>
+    <button id="start-btn" onclick="startQuiz()">Start Quiz</button>
+  </div>
 
-function begin() {
-  document.getElementById('progressWrap').style.display = 'block';
-  showQuestion(0);
-}
+  <!-- QUIZ AREA -->
+  <div id="quiz-area" style="display:none">
+    <div id="progress-bar-container"><div id="progress-bar"></div></div>
+    <p id="progress-text"></p>
+    <img id="question-image" style="display:none; max-width:320px; margin:auto">
+    <p id="question-text"></p>
+    <div id="answer-area"></div>
+  </div>
 
-function showQuestion(idx) {
-  current = idx;
-  const q = QUESTIONS[idx];
-  const app = document.getElementById('app');
-  const total = QUESTIONS.length;
-  const answered = answers.filter((a,i) => i < idx).length;
-  const pct = Math.round((idx / total) * 100);
-  document.getElementById('progressFill').style.width = pct + '%';
-  document.getElementById('progressText').textContent = idx + ' / ' + total;
+  <!-- REVIEW AREA -->
+  <div id="review-area" style="display:none">
+    <h2 id="final-score"></h2>
+    <div id="review-list"></div>
+  </div>
 
-  let html = '<div class="card active">';
-  html += '<div class="chapter-tag">' + q.chapter + '</div>';
-  html += '<div class="question">' + (idx+1) + '. ' + q.q + '</div>';
+  <!-- CONFETTI LAYER (managed by launchConfetti()) -->
+  <div id="confetti-container"></div>
 
-  if (q.type === 'mc') {
-    const labels = ['A','B','C','D'];
-    html += '<ul class="options">';
-    q.options.forEach((opt, i) => {
-      html += '<li onclick="selectMC(' + i + ')" id="opt_' + idx + '_' + i + '"><span class="opt-label">' + labels[i] + '.</span>' + opt + '</li>';
-    });
-    html += '</ul>';
-    html += '<div class="answer-feedback" id="fb_' + idx + '"></div>';
-    html += '<button class="next-btn" id="nbtn_' + idx + '" onclick="nextQ()" disabled>Next</button>';
-  } else if (q.type === 'fill') {
-    html += '<input type="text" class="fill-input" id="fill_' + idx + '" placeholder="Type your answer..." onkeydown="if(event.key===\'Enter\') submitFill()">';
-    html += '<div class="answer-feedback" id="fb_' + idx + '"></div>';
-    html += '<button class="next-btn" id="nbtn_' + idx + '" onclick="submitFill()">Check Answer</button>';
-  } else {
-    html += '<textarea class="essay-textarea" id="essay_' + idx + '" placeholder="Write your answer here..."></textarea>';
-    html += '<button class="essay-submit" onclick="submitEssay()">Submit Answer (for review)</button>';
-  }
-
-  html += '</div>';
-  app.innerHTML = html;
-  window.scrollTo({top:0,behavior:'smooth'});
-}
-
-function selectMC(i) {
-  const q = QUESTIONS[current];
-  const labels = ['A','B','C','D'];
-  const opts = document.querySelectorAll('#opt_' + current + '_' + i + ', .options li');
-  document.querySelectorAll('.options li').forEach(el => el.style.pointerEvents = 'none');
-  const selected = document.getElementById('opt_' + current + '_' + i);
-  selected.classList.add('selected');
-  const correct = q.answer === labels[i];
-  if (correct) {
-    selected.classList.add('correct');
-    score += q.points;
-    showConfetti = true;
-  } else {
-    selected.classList.add('wrong');
-    shakeCard();
-    // Show correct answer
-    const correctIdx = labels.indexOf(q.answer);
-    document.getElementById('opt_' + current + '_' + correctIdx).classList.add('correct');
-  }
-  answers[current] = {type:'mc', selected: labels[i], correct, pts: correct ? q.points : 0};
-  document.getElementById('nbtn_' + current).disabled = false;
-  document.getElementById('nbtn_' + current).textContent = current < QUESTIONS.length - 1 ? 'Next' : 'See Results';
-  if (showConfetti) spawnConfetti();
-}
-
-function submitFill() {
-  const q = QUESTIONS[current];
-  const input = document.getElementById('fill_' + current);
-  const val = input.value.trim().toLowerCase();
-  const correct = val === q.answer.toLowerCase();
-  if (correct) {
-    input.classList.add('correct');
-    score += q.points;
-    showConfetti = true;
-  } else {
-    input.classList.add('wrong');
-    shakeCard();
-  }
-  answers[current] = {type:'fill', answer: val, correct, pts: correct ? q.points : 0};
-  const fb = document.getElementById('fb_' + current);
-  fb.style.display = 'block';
-  fb.className = 'answer-feedback show ' + (correct ? 'review-correct' : 'review-wrong');
-  fb.textContent = correct ? 'Correct! +' + q.points + ' pts' : 'Wrong! Correct answer: ' + q.answer;
-  document.getElementById('nbtn_' + current).disabled = false;
-  document.getElementById('nbtn_' + current).textContent = current < QUESTIONS.length - 1 ? 'Next' : 'See Results';
-  input.readOnly = true;
-  if (showConfetti) spawnConfetti();
-}
-
-function submitEssay() {
-  const val = document.getElementById('essay_' + current).value.trim();
-  answers[current] = {type:'essay', answer: val, correct: null, pts: 0};
-  document.getElementById('nbtn_' + current).disabled = false;
-  document.getElementById('nbtn_' + current).textContent = current < QUESTIONS.length - 1 ? 'Next' : 'See Results';
-}
-
-function nextQ() {
-  if (current < QUESTIONS.length - 1) {
-    showQuestion(current + 1);
-  } else {
-    showResults();
-  }
-}
-
-function showResults() {
-  document.getElementById('progressWrap').style.display = 'none';
-  const pct = Math.round((score / 100) * 100);
-  const passed = pct >= 85;
-  const app = document.getElementById('app');
-  app.innerHTML = '<div class="result-screen" style="display:block">' +
-    '<h2>' + (passed ? 'Great Job!' : 'Keep Trying!') + '</h2>' +
-    '<div class="score-big">' + score + '/100</div>' +
-    '<p style="color:' + (passed ? '#059669' : '#dc2626') + ';font-weight:700;font-size:1.1rem">' + pct + '% — ' + (passed ? 'PASSED!' : '85% to pass') + '</p>' +
-    '<button class="review-btn" onclick="showReview()">Review Answers</button> ' +
-    '<button class="review-btn" onclick="location.reload()">Try Again</button></div>';
-  window.scrollTo({top:0,behavior:'smooth'});
-}
-
-function showReview() {
-  const app = document.getElementById('app');
-  let html = '<div style="padding:16px"><h2 style="margin-bottom:16px;font-size:1.3rem">Answer Review</h2>';
-  QUESTIONS.forEach((q,i) => {
-    const a = answers[i];
-    const labels = ['A','B','C','D'];
-    html += '<div class="review-card">';
-    html += '<h3>' + (i+1) + '. [' + q.chapter + '] ' + q.q + '</h3>';
-    if (q.type === 'mc') {
-      const isCorrect = a && a.correct;
-      html += '<p>Your answer: <span class="' + (isCorrect ? 'review-correct' : 'review-wrong') + '">' + (a ? labels[a.selected] + '. ' + q.options[a.selected] : 'Not answered') + '</span></p>';
-      if (!isCorrect) html += '<p class="review-correct">Correct: ' + q.answer + '. ' + q.options[labels.indexOf(q.answer)] + '</p>';
-      html += '<p class="review-pts">' + (isCorrect ? '+2 pts' : '0 pts') + '</p>';
-    } else if (q.type === 'fill') {
-      const isCorrect = a && a.correct;
-      html += '<p>Your answer: <span class="' + (isCorrect ? 'review-correct' : 'review-wrong') + '">' + (a ? a.answer : 'Not answered') + '</span></p>';
-      if (!isCorrect) html += '<p class="review-correct">Correct: ' + q.answer + '</p>';
-      html += '<p class="review-pts">' + (isCorrect ? '+2 pts' : '0 pts') + '</p>';
-    } else {
-      html += '<p>Your answer:</p><p style="background:#f9fafb;padding:8px;border-radius:6px;font-size:0.85rem;margin-top:4px">' + (a && a.answer ? a.answer : 'Not answered') + '</p>';
-      html += '<p class="review-correct" style="margin-top:6px">Model answer: ' + (ESSAY_ANSWERS[i] || 'See your teacher') + '</p>';
-      html += '<p class="review-pts">Submit for review (0 pts)</p>';
-    }
-    html += '</div>';
-  });
-  html += '</div>';
-  app.innerHTML = html;
-  window.scrollTo({top:0,behavior:'smooth'});
-}
-
-function shakeCard() {
-  const card = document.querySelector('.card');
-  card.classList.add('shake');
-  setTimeout(() => card.classList.remove('shake'), 400);
-}
-
-function spawnConfetti() {
-  const colors = ['#4f46e5','#7c3aed','#f59e0b','#10b981','#f472b6'];
-  for (let i = 0; i < 12; i++) {
-    const p = document.createElement('div');
-    p.className = 'confetti-particle';
-    p.style.background = colors[Math.floor(Math.random()*colors.length)];
-    p.style.left = (40 + Math.random()*20) + '%';
-    p.style.top = '50%';
-    p.style.animationDelay = (Math.random()*0.5) + 's';
-    document.body.appendChild(p);
-    setTimeout(() => p.remove(), 1500);
-  }
-  showConfetti = false;
-}
-</script>
+  <script src="script.js"></script>
 </body>
 </html>
