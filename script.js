@@ -12,7 +12,7 @@ async function loadQuiz() {
   landingTitle.textContent = ui.loading || 'Memuat kuis...';
 
   try {
-    const res = await fetch('quiz_data.json');
+    const res = await fetch('quiz_data_v2.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
