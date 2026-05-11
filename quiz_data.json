@@ -1,67 +1,73 @@
 {
   "metadata": {
-    "subject": "Social Studies",
+    "subject": "PKn / IPS",
     "grade": "4",
-    "source_pdf": "Kei SS.pdf",
-    "generated_at": "2026-04-26"
+    "source_pdf": "PP.pdf",
+    "generated_at": "2026-05-11"
   },
   "ui_strings": {
-    "start_button": "Start Quiz",
-    "submit_button": "Submit",
-    "fill_placeholder": "Type your answer...",
-    "essay_placeholder": "Write your answer here...",
-    "loading": "Loading quiz...",
-    "error_load_failed": "Failed to load quiz. Please refresh the page.",
-    "progress_format": "Question {n} of {total}"
+    "start_button": "Mulai Kuis",
+    "submit_button": "Kirim",
+    "fill_placeholder": "Ketik jawabanmu...",
+    "essay_placeholder": "Tulis jawabanmu di sini...",
+    "loading": "Memuat kuis...",
+    "error_load_failed": "Gagal memuat kuis. Silakan refresh halaman.",
+    "progress_format": "Soal {n} dari {total}"
   },
-  "title": "26 April 2026",
+  "title": "11 Mei 2026",
   "questions": [
     {
       "id": 1,
       "type": "mc",
-      "text": "Where was the Kingdom of Kutai located?",
+      "text": "'Gotong Royong' adalah...",
       "image": null,
       "options": {
-        "A": "Central Java",
-        "B": "East Kalimantan",
-        "C": "West Java",
-        "D": "South Sulawesi"
+        "A": "Menghilangkan rasa saling percaya antarsesama",
+        "B": "Memaksakan pendapat sendiri kepada orang lain",
+        "C": "Kerja sama saling tolong-menolong dalam kehidupan bermasyarakat",
+        "D": "Membuang sampah di tempat sampah adalah pencemaran"
       },
-      "answer": "B",
+      "answer": "C",
       "points": 2
     },
     {
       "id": 2,
       "type": "mc",
-      "text": "Who was the first king of the Kingdom of Kutai?",
+      "text": "'Bencana Alam' adalah...",
       "image": null,
       "options": {
-        "A": "Purnawarman",
-        "B": "Mulawarman",
-        "C": "Ken Arok",
-        "D": "Hayam Wuruk"
+        "A": "Membuang sampah di tempat sampah adalah pencemaran",
+        "B": "Menghindari semua kegiatan sosial di lingkungan",
+        "C": "Kejadian alam yang menyebabkan kerusakan dan korban jiwa",
+        "D": "Membuat warga menjadi tidak peduli terhadap sesama"
       },
-      "answer": "B",
+      "answer": "C",
       "points": 2
     },
     {
       "id": 3,
-      "type": "fill",
-      "text": "The heritage left by the Kingdom of Kutai was related to the first king, namely ___.",
+      "type": "mc",
+      "text": "'Warga Masyarakat' adalah...",
       "image": null,
-      "answer": "Mulawarman",
+      "options": {
+        "A": "Menghindari semua kegiatan sosial di lingkungan",
+        "B": "Membuat masyarakat menjadi terpecah belah",
+        "C": "Mengutamakan kepentingan pribadi di atas kepentingan bersama",
+        "D": "Orang-orang yang tinggal di suatu wilayah dan saling berinteraksi"
+      },
+      "answer": "D",
       "points": 2
     },
     {
       "id": 4,
       "type": "mc",
-      "text": "Where was the Kingdom of Tarumanegara located?",
-      "image": "https://storage.imagerouter.io/2a9016c9-9b7f-4afc-93a7-f7f0c50d6298.webp",
+      "text": "'Bakti Sosial' adalah...",
+      "image": null,
       "options": {
-        "A": "East Kalimantan",
-        "B": "Central Java",
-        "C": "West Java",
-        "D": "East Java"
+        "A": "Membuat lingkungan menjadi sangat berbahaya",
+        "B": "Membuat semua orang menjadi sangat egois",
+        "C": "Kegiatan sosial yang dilakukan untuk membantu masyarakat tanpa mengharap balasan",
+        "D": "Menolak semua tawaran bantuan dari tetangga"
       },
       "answer": "C",
       "points": 2
@@ -69,115 +75,139 @@
     {
       "id": 5,
       "type": "mc",
-      "text": "Who was the famous king of the Kingdom of Tarumanegara?",
+      "text": "'Musyawarah' adalah...",
       "image": null,
       "options": {
-        "A": "Mulawarman",
-        "B": "Purnawarman",
-        "C": "Dharmawangsa",
-        "D": "Ken Arok"
+        "A": "Menjauhkan diri dari semua kegiatan masyarakat",
+        "B": "Menghilangkan rasa saling percaya antarsesama",
+        "C": "Proses pengambilan keputusan bersama melalui dialog dan berunding",
+        "D": "Membuat lingkungan menjadi sangat berbahaya"
       },
-      "answer": "B",
+      "answer": "C",
       "points": 2
     },
     {
       "id": 6,
       "type": "mc",
-      "text": "What is the heritage left by the Kingdom of Tarumanegara?",
+      "text": "'Toleransi' adalah...",
       "image": null,
       "options": {
-        "A": "Borobudur Temple",
-        "B": "Ciaruteun Inscription",
-        "C": "Prambanan Temple",
-        "D": "Trowulan Temple"
+        "A": "Mengurangi kualitas lingkungan hidup secara drastis",
+        "B": "Menghindari semua kegiatan sosial di lingkungan",
+        "C": "Membuang sampah di tempat sampah adalah pencemaran",
+        "D": "Sikap saling menghormati perbedaan antar sesama"
       },
-      "answer": "B",
+      "answer": "D",
       "points": 2
     },
     {
       "id": 7,
       "type": "mc",
-      "text": "What was written in the Prasasti Ciaruteun?",
+      "text": "'Pengungsi' adalah...",
       "image": null,
       "options": {
-        "A": "The history of the Kutai Kingdom",
-        "B": "Reports about the famous King Purnawarman",
-        "C": "The story of Gajah Mada",
-        "D": "The founding of Sriwijaya"
+        "A": "Menonton television seharian tanpa melakukan sesuatu",
+        "B": "Membuat semua orang menjadi sangat egois",
+        "C": "Menggunakan uang hanya untuk diri sendiri",
+        "D": "Orang yang meninggalkan tempat tinggalnya karena bencana"
+      },
+      "answer": "D",
+      "points": 2
+    },
+    {
+      "id": 8,
+      "type": "mc",
+      "text": "'Kebersamaan' adalah...",
+      "image": null,
+      "options": {
+        "A": "Membuat warga menjadi tidak peduli terhadap sesama",
+        "B": "Perasaan kebersamaan dan keakraban antarsesama",
+        "C": "Menolong orang hanya jika ada imbalan",
+        "D": "Menyebarkan berita bohong tentang orang lain"
       },
       "answer": "B",
       "points": 2
     },
     {
-      "id": 8,
-      "type": "fill",
-      "text": "The Kingdom of Tarumanegara was located in ___ Java.",
-      "image": null,
-      "answer": "West",
-      "points": 2
-    },
-    {
       "id": 9,
-      "type": "fill",
-      "text": "The famous king of the Kingdom of Tarumanegara was King ___.",
+      "type": "mc",
+      "text": "'Saling Membantu' adalah...",
       "image": null,
-      "answer": "Purnawarman",
+      "options": {
+        "A": "Menonton television seharian tanpa melakukan sesuatu",
+        "B": "Menolak semua tawaran bantuan dari tetangga",
+        "C": "Menghilangkan rasa saling percaya antarsesama",
+        "D": "Saling membantu satu sama lain untuk menyelesaikan pekerjaan"
+      },
+      "answer": "D",
       "points": 2
     },
     {
       "id": 10,
-      "type": "fill",
-      "text": "The heritage left by the Kingdom of Tarumanegara is called ___ inscription.",
+      "type": "mc",
+      "text": "'Kehidupan Bermasyarakat' adalah...",
       "image": null,
-      "answer": "Ciaruteun",
+      "options": {
+        "A": "Membuat semua orang menjadi sangat egois",
+        "B": "Menggunakan sumber daya alam secara berlebihan",
+        "C": "Keadaan dimana orang hidup bersama dalam masyarakat",
+        "D": "Menggunakan uang hanya untuk diri sendiri"
+      },
+      "answer": "C",
       "points": 2
     },
     {
       "id": 11,
-      "type": "fill",
-      "text": "In the year 650, the Kingdom of Tarumanegara was attacked and ___ by another kingdom.",
+      "type": "mc",
+      "text": "'Dana Bantuan' adalah...",
       "image": null,
-      "answer": "defeated",
+      "options": {
+        "A": "Menolong orang hanya jika ada imbalan",
+        "B": "Menghilangkan rasa saling percaya antarsesama",
+        "C": "Mengutamakan kepentingan pribadi di atas kepentingan bersama",
+        "D": "Uang atau barang yang diberikan untuk membantu korban bencana"
+      },
+      "answer": "D",
       "points": 2
     },
     {
       "id": 12,
       "type": "mc",
-      "text": "Where was the Hindu Kingdom of Mataram located?",
+      "text": "'Tradisi' adalah...",
       "image": null,
       "options": {
-        "A": "West Java",
-        "B": "East Java",
-        "C": "Central Java",
-        "D": "South Sumatra"
+        "A": "Menyelesaikan semua masalah tanpa bantuan siapapun",
+        "B": "Kebiasaan atau kegiatan yang dilakukan secara turun-temurun",
+        "C": "Menolak semua tawaran bantuan dari tetangga",
+        "D": "Membuat semua orang menjadi sangat egois"
       },
-      "answer": "C",
+      "answer": "B",
       "points": 2
     },
     {
       "id": 13,
       "type": "mc",
-      "text": "Who was the first king of the Hindu Kingdom of Mataram?",
+      "text": "'Partisipasi' adalah...",
       "image": null,
       "options": {
-        "A": "Samarotkapa",
-        "B": "Panjalu",
-        "C": "Sanjaya",
-        "D": "Purnawarman"
+        "A": "Membuat masyarakat menjadi terpecah belah",
+        "B": "Menonton television seharian tanpa melakukan sesuatu",
+        "C": "Menjauhkan diri dari semua kegiatan masyarakat",
+        "D": "Keterlibatan aktif dalam kegiatan masyarakat"
       },
-      "answer": "C",
+      "answer": "D",
       "points": 2
     },
     {
       "id": 14,
       "type": "mc",
-      "text": "What was the heritage built during the Hindu Mataram era?",
-      "image": "https://storage.imagerouter.io/841d1ac5-0bf3-4ac6-8767-9baa4f86b66d.webp",
+      "text": "'Kerja Sama' adalah...",
+      "image": null,
       "options": {
-        "A": "Borobudur Temple",
-        "B": "Sewu Temple",
-        "C": "Prambanan Temple",
-        "D": "Kalasan Temple"
+        "A": "Membuat masyarakat menjadi terpecah belah",
+        "B": "Menggunakan uang hanya untuk diri sendiri",
+        "C": "Bekerja sama untuk mencapai tujuan bersama",
+        "D": "Menghindari semua kegiatan sosial di lingkungan"
       },
       "answer": "C",
       "points": 2
@@ -185,13 +215,13 @@
     {
       "id": 15,
       "type": "mc",
-      "text": "The Hindu Kingdom of Mataram was divided into two kingdoms. What were they?",
+      "text": "'Masyarakat' adalah...",
       "image": null,
       "options": {
-        "A": "Kutai and Tarumanegara",
-        "B": "Kediri and Singasari",
-        "C": "Panjalu and Janggala",
-        "D": "Majapahit and Sriwijaya"
+        "A": "Menggunakan sumber daya alam secara berlebihan",
+        "B": "Mengurangi semangat kebersamaan antarsesama",
+        "C": "Sekelompok orang yang tinggal di suatu wilayah dan memiliki ikatan sosial",
+        "D": "Menyebabkan semua warga hidup dalam kemiskinan"
       },
       "answer": "C",
       "points": 2
@@ -199,442 +229,412 @@
     {
       "id": 16,
       "type": "mc",
-      "text": "Which kingdom conquered the Hindu Kingdom of Mataram in the 11th century?",
+      "text": "'Pencemaran Lingkungan' adalah...",
       "image": null,
       "options": {
-        "A": "Kediri Kingdom",
-        "B": "Singasari Kingdom",
-        "C": "Sonda Kingdom",
-        "D": "Sriwijaya Kingdom"
+        "A": "Membuat lingkungan menjadi sangat berbahaya",
+        "B": "Tercemarnya lingkungan oleh zat-zat berbahaya atau limbah",
+        "C": "Menggunakan uang hanya untuk diri sendiri",
+        "D": "Membuat warga menjadi tidak peduli terhadap sesama"
       },
-      "answer": "C",
+      "answer": "B",
       "points": 2
     },
     {
       "id": 17,
-      "type": "fill",
-      "text": "The Hindu Kingdom of Mataram was located in ___ Java.",
+      "type": "mc",
+      "text": "'Membersihkan Sungai' adalah...",
       "image": null,
-      "answer": "Central",
+      "options": {
+        "A": "Menerima bantuan hanya dari keluarga sendiri",
+        "B": "Membuat pertumbuhan ekonomi menjadi sangat lambat",
+        "C": "Menyebabkan perasaan saling tidak menghargai",
+        "D": "Membuang kotoran dan sampah di sungai agar bersih kembali"
+      },
+      "answer": "D",
       "points": 2
     },
     {
       "id": 18,
-      "type": "fill",
-      "text": "The first king of the Hindu Kingdom of Mataram was King ___.",
+      "type": "mc",
+      "text": "'Menanam Pohon' adalah...",
       "image": null,
-      "answer": "Sanjaya",
+      "options": {
+        "A": "Membuat warga menjadi tidak peduli terhadap sesama",
+        "B": "Membuat lingkungan menjadi sangat berbahaya",
+        "C": "Menyelesaikan semua masalah tanpa bantuan siapapun",
+        "D": "Memasukkan bakal pohon ke dalam tanah agar tumbuh menjadi pohon"
+      },
+      "answer": "D",
       "points": 2
     },
     {
       "id": 19,
-      "type": "fill",
-      "text": "The heritage built during the Hindu Mataram era was ___ Temple.",
+      "type": "mc",
+      "text": "'Sedekah' adalah...",
       "image": null,
-      "answer": "Prambanan",
+      "options": {
+        "A": "Menyebabkan semua warga hidup dalam kemiskinan",
+        "B": "Menyebabkan semua kegiatan menjadi sangat lambat",
+        "C": "Menggunakan uang hanya untuk diri sendiri",
+        "D": "Memberikan sesuatu kepada orang yang membutuhkan tanpa mengaharap balasan"
+      },
+      "answer": "D",
       "points": 2
     },
     {
       "id": 20,
       "type": "mc",
-      "text": "Where was the Kediri Kingdom located?",
+      "text": "'Bantu Memindai' adalah...",
       "image": null,
       "options": {
-        "A": "Central Java",
-        "B": "West Java",
-        "C": "East Java",
-        "D": "North Sumatra"
+        "A": "Menyebabkan perasaan saling tidak menghargai",
+        "B": "Membantu orang lain dalam melakukan sesuatu pekerjaan",
+        "C": "Menggunakan uang hanya untuk diri sendiri",
+        "D": "Menjauhkan diri dari semua kegiatan masyarakat"
       },
-      "answer": "C",
+      "answer": "B",
       "points": 2
     },
     {
       "id": 21,
       "type": "mc",
-      "text": "Who was the famous king of the Kediri Kingdom?",
+      "text": "'Petugas' adalah...",
       "image": null,
       "options": {
-        "A": "Ken Arok",
-        "B": "Kertajaya",
-        "C": "Hayam Wuruk",
-        "D": "Sanjaya"
+        "A": "Menghilangkan rasa saling percaya antarsesama",
+        "B": "Orang yang ditugaskan untuk menjalankan tugas tertentu",
+        "C": "Memaksakan pendapat sendiri kepada orang lain",
+        "D": "Menyebabkan semua warga hidup dalam kemiskinan"
       },
       "answer": "B",
       "points": 2
     },
     {
       "id": 22,
-      "type": "fill",
-      "text": "In the 11th century, the Kediri Kingdom became one of the two kingdoms from the division of the ___ Kingdom.",
+      "type": "mc",
+      "text": "'Jalur Alternatif' adalah...",
       "image": null,
-      "answer": "Mataram",
+      "options": {
+        "A": "Menyebarkan berita bohong tentang orang lain",
+        "B": "Mengurangi semangat kebersamaan antarsesama",
+        "C": "Jalan lain yang dapat digunakan ketika jalan utama terhalang",
+        "D": "Mengutamakan kepentingan pribadi di atas kepentingan bersama"
+      },
+      "answer": "C",
       "points": 2
     },
     {
       "id": 23,
       "type": "mc",
-      "text": "Which kingdom was one of the two kingdoms formed from the division of the Mataram Kingdom?",
+      "text": "'Sinoman' adalah...",
       "image": null,
       "options": {
-        "A": "Singasari Kingdom",
-        "B": "Kediri Kingdom",
-        "C": "Majapahit Kingdom",
-        "D": "Sriwijaya Kingdom"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 24,
-      "type": "fill",
-      "text": "The Kediri Kingdom was located in ___ Java.",
-      "image": null,
-      "answer": "East",
-      "points": 2
-    },
-    {
-      "id": 25,
-      "type": "fill",
-      "text": "The famous king of the Kediri Kingdom was King ___.",
-      "image": null,
-      "answer": "Kertajaya",
-      "points": 2
-    },
-    {
-      "id": 26,
-      "type": "mc",
-      "text": "Where was the Singasari Kingdom located?",
-      "image": null,
-      "options": {
-        "A": "Central Java",
-        "B": "West Java",
-        "C": "Part of East Java",
-        "D": "South Sumatra"
-      },
-      "answer": "C",
-      "points": 2
-    },
-    {
-      "id": 27,
-      "type": "mc",
-      "text": "Who was the famous king of the Singasari Kingdom?",
-      "image": null,
-      "options": {
-        "A": "Kertajaya",
-        "B": "Ken Arok",
-        "C": "Hayam Wuruk",
-        "D": "Samarotkapa"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 28,
-      "type": "mc",
-      "text": "How did the Singasari Kingdom end?",
-      "image": null,
-      "options": {
-        "A": "It was conquered by the Kediri Kingdom",
-        "B": "It was conquered by the Mongols",
-        "C": "It split into two kingdoms",
-        "D": "It merged with Sriwijaya"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 29,
-      "type": "fill",
-      "text": "The Singasari Kingdom was located in ___ Java.",
-      "image": null,
-      "answer": "East",
-      "points": 2
-    },
-    {
-      "id": 30,
-      "type": "fill",
-      "text": "The famous king of the Singasari Kingdom was King ___.",
-      "image": null,
-      "answer": "Ken Arok",
-      "points": 2
-    },
-    {
-      "id": 31,
-      "type": "mc",
-      "text": "Who was the famous king of the Majapahit Kingdom, and in what year did he rule?",
-      "image": null,
-      "options": {
-        "A": "Ken Arok, 1222",
-        "B": "Hayam Wuruk, 1350–1389",
-        "C": "Kertajaya, 1104",
-        "D": "Purnawarman, 650"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 32,
-      "type": "mc",
-      "text": "Who was the Prime Minister of the Majapahit Kingdom?",
-      "image": null,
-      "options": {
-        "A": "Ken Arok",
-        "B": "Gajah Mada",
-        "C": "Balaputendrawa",
-        "D": "Samarotkapa"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 33,
-      "type": "mc",
-      "text": "What is the Palapa Oath?",
-      "image": null,
-      "options": {
-        "A": "An oath to build Borobudur Temple",
-        "B": "An oath not to eat palapa until all Nusantara was united",
-        "C": "A treaty between Mataram and Kediri",
-        "D": "A promise to fight the Mongols"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 34,
-      "type": "mc",
-      "text": "The famous Prime Minister Gajah Mada made a promise called the Oath of ___, vowing to unite Nusantara.",
-      "image": null,
-      "options": {
-        "A": "Garuda",
-        "B": "Palapa",
-        "C": "Majapahit",
-        "D": "Sriwijaya"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 35,
-      "type": "mc",
-      "text": "During which king's reign did the Majapahit Kingdom reach its golden age?",
-      "image": null,
-      "options": {
-        "A": "Ken Arok",
-        "B": "Hayam Wuruk",
-        "C": "Dharmawangsa",
-        "D": "Kertajaya"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 36,
-      "type": "fill",
-      "text": "The famous king of Majapahit was King ___.",
-      "image": null,
-      "answer": "Hayam Wuruk",
-      "points": 2
-    },
-    {
-      "id": 37,
-      "type": "fill",
-      "text": "The Prime Minister of Majapahit was ___.",
-      "image": null,
-      "answer": "Gajah Mada",
-      "points": 2
-    },
-    {
-      "id": 38,
-      "type": "fill",
-      "text": "The Oath made by Gajah Mada was called the Oath of ___.",
-      "image": null,
-      "answer": "Palapa",
-      "points": 2
-    },
-    {
-      "id": 39,
-      "type": "essay",
-      "text": "Explain what the Prasasti Ciaruteun tells us about the Kingdom of Tarumanegara. Who was mentioned and what was described about him?",
-      "image": null,
-      "answer": "Model answer: The Prasasti Ciaruteun (Ciaruteun Inscription) reports about the famous King Purnawarman of the Tarumanegara Kingdom. The inscription describes his reign and achievements, serving as one of the oldest historical records from the Hindu period in Indonesia.",
-      "points": 0
-    },
-    {
-      "id": 40,
-      "type": "essay",
-      "text": "Describe what happened to the Kingdom of Tarumanegara in the year 650. Which kingdom attacked it and what was the outcome?",
-      "image": null,
-      "answer": "Model answer: In the year 650, the Kingdom of Tarumanegara was attacked and defeated by another kingdom. This marked the beginning of the decline of Tarumanegara as a major power in West Java.",
-      "points": 0
-    },
-    {
-      "id": 41,
-      "type": "essay",
-      "text": "How did the Hindu Kingdom of Mataram end, and what two kingdoms emerged from its division? Who ruled each kingdom?",
-      "image": null,
-      "answer": "Model answer: The Hindu Kingdom of Mataram was divided into two kingdoms: Panjalu (also known as Kediri) and Janggala. Panjalu was ruled by the Hindu dynasty while Janggala was under Buddhist influence. This division weakened Mataram and eventually led to the rise of other kingdoms.",
-      "points": 0
-    },
-    {
-      "id": 42,
-      "type": "essay",
-      "text": "Describe the role of Gajah Mada in the Majapahit Kingdom. What was the Palapa Oath and what did he vow to do?",
-      "image": null,
-      "answer": "Model answer: Gajah Mada was the famous Prime Minister (Mahapatih) of the Majapahit Kingdom under King Hayam Wuruk. He made the Palapa Oath, vowing not to eat palapa (a spice) until he had united all of Nusantara under Majapahit. His leadership helped expand Majapahit's power across the Indonesian archipelago.",
-      "points": 0
-    },
-    {
-      "id": 43,
-      "type": "essay",
-      "text": "How did the Singasari Kingdom end? Who was involved and what was the situation in Java after its fall?",
-      "image": null,
-      "answer": "Model answer: The Singasari Kingdom ended when it was conquered and destroyed by the Mongols in 1292. After its fall, Raden Wijaya (son-in-law of the last Singasari king) founded the Majapahit Kingdom, which later became the largest empire in Indonesian history.",
-      "points": 0
-    },
-    {
-      "id": 44,
-      "type": "mc",
-      "text": "Who was the famous king of the Buddhist Kingdom of Mataram?",
-      "image": null,
-      "options": {
-        "A": "Purnawarman",
-        "B": "Samarotkapa",
-        "C": "Ken Arok",
-        "D": "Hayam Wuruk"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 45,
-      "type": "mc",
-      "text": "Who was Pramodawardhani in the Buddhist Kingdom of Mataram?",
-      "image": null,
-      "options": {
-        "A": "The first king of Mataram",
-        "B": "The queen who was later replaced by her brother",
-        "C": "The founder of Borobudur Temple",
-        "D": "The Prime Minister of Majapahit"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 46,
-      "type": "mc",
-      "text": "What famous temples were built during the Buddhist Kingdom of Mataram?",
-      "image": "https://storage.imagerouter.io/b53ab24c-aaa7-4b90-a9f3-bc51c1e27c7b.webp",
-      "options": {
-        "A": "Prambanan and Borobudur",
-        "B": "Borobudur, Sewu, Mendut, and Plaosan",
-        "C": "Kalasan and Sari",
-        "D": "Candi Penataran and Belahan"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 47,
-      "type": "mc",
-      "text": "How did the Buddhist Kingdom of Mataram begin?",
-      "image": null,
-      "options": {
-        "A": "It was founded by King Sanjaya",
-        "B": "It was founded by King Samarotkapa who came from the south",
-        "C": "It was established by Gajah Mada",
-        "D": "It split from the Majapahit Kingdom"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 48,
-      "type": "fill",
-      "text": "The famous king of the Buddhist Kingdom of Mataram was King ___.",
-      "image": null,
-      "answer": "Samarotkapa",
-      "points": 2
-    },
-    {
-      "id": 49,
-      "type": "mc",
-      "text": "Where was the Sriwijaya Kingdom located?",
-      "image": null,
-      "options": {
-        "A": "Central Java",
-        "B": "West Java",
-        "C": "East Java",
-        "D": "South Sumatra"
+        "A": "Meningkatkan rasa individualisme di lingkungan",
+        "B": "Membuat pertumbuhan ekonomi menjadi sangat lambat",
+        "C": "Menjauhkan diri dari semua kegiatan masyarakat",
+        "D": "Tradisi kerja sama dalam pengajian di masyarakat Jawa"
       },
       "answer": "D",
       "points": 2
     },
     {
-      "id": 50,
+      "id": 24,
       "type": "mc",
-      "text": "Who was the king who brought the Sriwijaya Kingdom to its golden age?",
+      "text": "'Gotong Royong' adalah...",
       "image": null,
       "options": {
-        "A": "Hayam Wuruk",
-        "B": "Purnawarman",
-        "C": "Balaputendrawa",
-        "D": "Samarotkapa"
+        "A": "Menonton television seharian tanpa melakukan sesuatu",
+        "B": "Menolak semua tawaran bantuan dari tetangga",
+        "C": "Membuat masyarakat menjadi terpecah belah",
+        "D": "Kerja sama saling tolong-menolong dalam kehidupan bermasyarakat"
+      },
+      "answer": "D",
+      "points": 2
+    },
+    {
+      "id": 25,
+      "type": "mc",
+      "text": "'Bencana Alam' adalah...",
+      "image": null,
+      "options": {
+        "A": "Menghindari semua kegiatan sosial di lingkungan",
+        "B": "Kejadian alam yang menyebabkan kerusakan dan korban jiwa",
+        "C": "Menerima bantuan hanya dari keluarga sendiri",
+        "D": "Mengurangi semangat kebersamaan antarsesama"
+      },
+      "answer": "B",
+      "points": 2
+    },
+    {
+      "id": 26,
+      "type": "mc",
+      "text": "'Warga Masyarakat' adalah...",
+      "image": null,
+      "options": {
+        "A": "Orang-orang yang tinggal di suatu wilayah dan saling berinteraksi",
+        "B": "Membuat masyarakat menjadi terpecah belah",
+        "C": "Membuat lingkungan menjadi sangat berbahaya",
+        "D": "Menggunakan uang hanya untuk diri sendiri"
+      },
+      "answer": "A",
+      "points": 2
+    },
+    {
+      "id": 27,
+      "type": "mc",
+      "text": "'Bakti Sosial' adalah...",
+      "image": null,
+      "options": {
+        "A": "Menggunakan sumber daya alam secara berlebihan",
+        "B": "Menolong orang hanya jika ada imbalan",
+        "C": "Kegiatan sosial yang dilakukan untuk membantu masyarakat tanpa mengharap balasan",
+        "D": "Membuat semua orang menjadi sangat egois"
       },
       "answer": "C",
       "points": 2
     },
     {
-      "id": 51,
+      "id": 28,
       "type": "mc",
-      "text": "What caused the collapse of the Sriwijaya Kingdom?",
+      "text": "'Musyawarah' adalah...",
       "image": null,
       "options": {
-        "A": "Mongol invasion in 1292",
-        "B": "Attack by Majapahit in 1377",
-        "C": "Division into Panjalu and Janggala",
-        "D": "Earthquake and tsunami"
+        "A": "Menolak semua tawaran bantuan dari tetangga",
+        "B": "Menyebabkan ketidakharmonisan dalam lingkungan",
+        "C": "Menghindari semua kegiatan sosial di lingkungan",
+        "D": "Proses pengambilan keputusan bersama melalui dialog dan berunding"
       },
-      "answer": "B",
+      "answer": "D",
       "points": 2
+    },
+    {
+      "id": 29,
+      "type": "mc",
+      "text": "'Toleransi' adalah...",
+      "image": null,
+      "options": {
+        "A": "Menolak semua tawaran bantuan dari tetangga",
+        "B": "Memaksakan pendapat sendiri kepada orang lain",
+        "C": "Menyebabkan perasaan saling tidak menghargai",
+        "D": "Sikap saling menghormati perbedaan antar sesama"
+      },
+      "answer": "D",
+      "points": 2
+    },
+    {
+      "id": 30,
+      "type": "mc",
+      "text": "'Pengungsi' adalah...",
+      "image": null,
+      "options": {
+        "A": "Orang yang meninggalkan tempat tinggalnya karena bencana",
+        "B": "Menjauhkan diri dari semua kegiatan masyarakat",
+        "C": "Menyebabkan perasaan saling tidak menghargai",
+        "D": "Menonton television seharian tanpa melakukan sesuatu"
+      },
+      "answer": "A",
+      "points": 2
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "text": "Sikap saling membantu tanpa mengharap balasan disebut _____",
+      "image": null,
+      "answer": "gotong royong",
+      "points": 2
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "text": "Kegiatan kerja sama membersihkan lingkungan sekolah disebut _____",
+      "image": null,
+      "answer": "bakti sosial",
+      "points": 2
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "text": "Membantu korban _____ adalah contoh gotong royong yang tulus",
+      "image": null,
+      "answer": "bencana alam",
+      "points": 2
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "text": "Rasa _____ antarwarga tercipta melalui kegiatan kerja sama",
+      "image": null,
+      "answer": "kebersamaan",
+      "points": 2
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "text": "_____ adalah tradisi bekerja sama menyelesaikan pekerjaan di lingkungan",
+      "image": null,
+      "answer": "gotong royong",
+      "points": 2
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "text": "Kejadian alam yang menyebabkan kerusakan disebut _____",
+      "image": null,
+      "answer": "bencana alam",
+      "points": 2
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "text": "Orang yang menjadi bagian dari suatu kelompok sosial disebut _____",
+      "image": null,
+      "answer": "warga masyarakat",
+      "points": 2
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "text": "Saling _____ adalah kunci kehidupan bermasyarakat yang harmonis",
+      "image": null,
+      "answer": "membantu",
+      "points": 2
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "text": "_____ adalah proses pengambilan keputusan bersama melalui musyawarah",
+      "image": null,
+      "answer": "musyawarah",
+      "points": 2
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "text": "Ketika terjadi _____ , warga bisa saling membantu korban",
+      "image": null,
+      "answer": "bencana",
+      "points": 2
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "text": "_____ adalah kegiatan sosial yang bermanfaat bagi lingkungan sekitar",
+      "image": null,
+      "answer": "bakti sosial",
+      "points": 2
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "text": "Toleransi dan _____ adalah ciri khas kehidupan bermasyarakat Indonesia",
+      "image": null,
+      "answer": "gotong royong",
+      "points": 2
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "text": "Dana atau barang yang disumbangkan untuk korban bencana disebut _____",
+      "image": null,
+      "answer": "bantuan",
+      "points": 2
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "text": "_____ tercipta ketika masyarakat bekerja sama menyelesaikan masalah",
+      "image": null,
+      "answer": "kebersamaan",
+      "points": 2
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "text": "Sikap saling _____ dalam kehidupan bermasyarakat sangat penting",
+      "image": null,
+      "answer": "menghargai",
+      "points": 2
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "text": "Tradisi _____ di Indonesia menunjukkan budaya saling membantu",
+      "image": null,
+      "answer": "gotong royong",
+      "points": 2
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "text": "Orang yang membutuhkan bantuan saat bencana disebut _____",
+      "image": null,
+      "answer": "pengungsi",
+      "points": 2
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "text": "_____ adalah bentuk partisipasi masyarakat dalam kegiatan sosial",
+      "image": null,
+      "answer": "gotong royong",
+      "points": 2
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "text": "Masyarakat yang aktif menciptakan lingkungan harmonis melalui _____",
+      "image": null,
+      "answer": "kebersamaan",
+      "points": 2
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "text": "Proses berunding untuk mencapai kesepakatan disebut _____",
+      "image": null,
+      "answer": "musyawarah",
+      "points": 2
+    },
+    {
+      "id": 51,
+      "type": "essay",
+      "text": "Jelaskan mengapa sikap gotong royong penting dalam kehidupan bermasyarakat Indonesia!",
+      "image": null,
+      "answer": "Gotong royong penting karena memperkuat rasa kebersamaan, membangun keharmonisan antarwarga, menyelesaikan masalah bersama, dan mempererat hubungan sosial di tengah keberagaman suku dan budaya.",
+      "points": 0
     },
     {
       "id": 52,
-      "type": "mc",
-      "text": "What is the heritage left by the Sriwijaya Kingdom?",
+      "type": "essay",
+      "text": "Apa yang dapat kamu lakukan sebagai siswa untuk ikut serta dalam kegiatan bakti sosial di lingkungan sekolah?",
       "image": null,
-      "options": {
-        "A": "Prambanan Temple",
-        "B": "Borobudur Temple",
-        "C": "Kalasan Temple",
-        "D": "Muaro Jambi Temple"
-      },
-      "answer": "B",
-      "points": 2
+      "answer": "Sebagai siswa, saya dapat mengikuti kegiatan bakti sosial seperti kerja bakti membersihkan lingkungan sekolah, membantu teman yang membutuhkan, dan berpartisipasi dalam program donasi.",
+      "points": 0
     },
     {
       "id": 53,
-      "type": "fill",
-      "text": "The Sriwijaya Kingdom was located in ___ Sumatra.",
+      "type": "essay",
+      "text": "Bagaimana warga masyarakat dapat menunjukkan sikap saling membantu saat terjadi bencana alam di daerah mereka?",
       "image": null,
-      "answer": "South",
-      "points": 2
+      "answer": "Warga dapat membantu dengan mengungsikan korban ke tempat aman, memberikan makanan dan minuman, membantu evakuasi, dan berpartisipasi dalam proses pemulihan lingkungan.",
+      "points": 0
     },
     {
       "id": 54,
-      "type": "fill",
-      "text": "The king who brought the Sriwijaya Kingdom to its golden age was King ___.",
+      "type": "essay",
+      "text": "Menurutmu, apa saja tantangan dalam menjaga tradisi gotong royong di era modern seperti saat ini? Jelaskan!",
       "image": null,
-      "answer": "Balaputendrawa",
-      "points": 2
+      "answer": "Tantangannya meliputi: gaya hidup individualistik yang mengutamakan kepentingan pribadi, kemajuan teknologi yang mengurangi interaksi langsung, dan kesibukan yang menyulitkan masyarakat untuk meluangkan waktu bagi kegiatan kolektif.",
+      "points": 0
     },
     {
       "id": 55,
-      "type": "fill",
-      "text": "The heritage left by the Sriwijaya Kingdom that still stands today is ___ Temple.",
+      "type": "essay",
+      "text": "Jelaskan hubungan antara toleransi dan gotong royong dalam kehidupan bermasyarakat yang beragam!",
       "image": null,
-      "answer": "Borobudur",
-      "points": 2
+      "answer": "Toleransi dan gotong royong saling berkaitan karena dalam masyarakat yang beragam, gotong royong hanya dapat berjalan jika ada toleransi yang baik antarwarga yang berbeda suku, agama, dan budaya.",
+      "points": 0
     }
   ]
 }
