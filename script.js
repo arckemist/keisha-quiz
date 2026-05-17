@@ -1,3 +1,4 @@
+/* ── script.js ── */
 let questions = [];
 let current = 0;
 let score = 0;
@@ -95,14 +96,13 @@ function renderQuestion() {
     inp.id = 'fill-input';
     inp.type = 'text';
     inp.placeholder = ui.fill_placeholder || 'Type your answer...';
-    inp.addEventListener('input', () => {
-      const val = inp.value.trim();
-      answerArea.querySelector('.submit-btn').disabled = val.length === 0;
-    });
     const btn = document.createElement('button');
     btn.className = 'submit-btn';
     btn.textContent = ui.submit_button || 'Submit';
     btn.disabled = true;
+    inp.addEventListener('input', () => {
+      btn.disabled = inp.value.trim().length === 0;
+    });
     btn.onclick = () => submitFill(inp.value.trim());
     answerArea.appendChild(inp);
     answerArea.appendChild(btn);
@@ -116,7 +116,7 @@ function renderQuestion() {
     charCount.style.fontSize = '0.8rem';
     charCount.style.color = '#666';
     charCount.style.marginBottom = '8px';
-    charCount.textContent = `Minimum 30 characters`;
+    charCount.textContent = 'Minimum 30 characters';
 
     const btn = document.createElement('button');
     btn.className = 'submit-btn';
@@ -179,7 +179,7 @@ function advance() {
 
 function showReview() {
   document.getElementById('quiz-area').style.display    = 'none';
-  document.getElementById('review-area').style.display  = 'block';
+  document.getElementById('review-area').style.display = 'block';
   const passed = score >= 85;
   const metaLine = metadata.subject
     ? ` — ${metadata.subject} · Grade ${metadata.grade || '?'}`
@@ -204,6 +204,7 @@ function showReview() {
   });
 }
 
+/* ── Confetti: 30 particles, 3s, dependency-free DOM implementation ── */
 function launchConfetti() {
   const container = document.getElementById('confetti-container');
   if (!container) return;

@@ -2,7 +2,7 @@
   "metadata": {
     "subject": "Mathematics",
     "grade": "4",
-    "source_pdf": "Math 4B Workbook.pdf",
+    "source_pdf": "kei.pdf",
     "generated_at": "2026-05-17"
   },
   "ui_strings": {
@@ -17,574 +17,624 @@
   "title": "17 May 2026",
   "questions": [
     {
-      "id": 1,
       "type": "mc",
-      "text": "A table shows types of vehicles passing a town centre. If the table shows 5 vans and 3 lorries, how many more vans than lorries passed?<br><em>(Based on a table showing vehicles: Cars, Motorcycles, Vans, Lorries, Bicycles)</em>",
+      "text": "A rectangle 10cm by 8cm has a 6cm by 3cm rectangle cut from one corner. What is the area of the remaining cardboard?",
+      "image": null,
       "options": {
-        "A": "2",
-        "B": "8",
-        "C": "5",
-        "D": "3"
+        "A": "62 cm\u00b2",
+        "B": "50 cm\u00b2",
+        "C": "68 cm\u00b2",
+        "D": "74 cm\u00b2"
       },
       "answer": "A",
-      "points": 2
+      "points": 2,
+      "id": 1
     },
     {
-      "id": 2,
       "type": "mc",
-      "text": "A table shows the heights of 9 pupils. Ethan is listed with a height of 142 cm in the table. Prema weighs 34 kg. Who is the tallest?<br><em>(Based on a table of pupils' heights and masses)</em>",
+      "text": "What is a composite figure?",
+      "image": null,
       "options": {
-        "A": "Prema",
-        "B": "Ismail",
-        "C": "Ethan",
-        "D": "Lin Lin"
-      },
-      "answer": "C",
-      "points": 2
-    },
-    {
-      "id": 3,
-      "type": "mc",
-      "text": "A table shows the number of boys and girls travelling to school by bus or MRT. If there are 12 girls total and 8 boys travel by bus, how many more girls than boys are there in total?<br><em>(Based on a table of boys and girls travelling by bus or MRT)</em>",
-      "options": {
-        "A": "12",
-        "B": "8",
-        "C": "20",
-        "D": "4"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 4,
-      "type": "mc",
-      "text": "A line graph shows the mass of newspapers collected over 5 weeks. The class collected 60 kg in the 2nd week and 100 kg in the 1st week. What was the mass collected in the 2nd week?<br><em>(Based on: Old Newspapers Collected Over 5 Weeks \u2014 bar/line graph)</em>",
-      "options": {
-        "A": "40 kg",
-        "B": "100 kg",
-        "C": "60 kg",
-        "D": "80 kg"
-      },
-      "answer": "C",
-      "points": 2
-    },
-    {
-      "id": 5,
-      "type": "mc",
-      "text": "A line graph shows health checkups conducted over 6 months (Jan to Jun). Which month had the most health checkups?<br><em>(Based on: Health Checkups Conducted Over 6 Months \u2014 line graph)</em>",
-      "options": {
-        "A": "March",
-        "B": "June",
-        "C": "January",
-        "D": "April"
+        "A": "A figure made up of two or more shapes joined together",
+        "B": "A figure with curved edges only",
+        "C": "A figure made up of two or more shapes joined together",
+        "D": "A figure with no equal sides"
       },
       "answer": "A",
-      "points": 2
+      "points": 2,
+      "id": 2
     },
     {
-      "id": 6,
       "type": "mc",
-      "text": "A line graph shows temperature recorded over a 12-hour period in Hong Kong. The temperature at 10 a.m. was 28\u00b0C and at 2 p.m. was 34\u00b0C. What was the temperature recorded at 10 a.m.?<br><em>(Based on: Temperature in Hong Kong \u2014 6am to 6pm line graph)</em>",
+      "text": "To find the area of a composite figure made by cutting a shape from a larger shape, you should:",
+      "image": null,
       "options": {
-        "A": "30\u00b0C",
-        "B": "28\u00b0C",
-        "C": "34\u00b0C",
-        "D": "26\u00b0C"
+        "A": "Multiply the perimeter by 2",
+        "B": "Add all side lengths together",
+        "C": "Subtract the area of the cut-out from the larger shape",
+        "D": "Subtract the area of the cut-out from the larger shape"
+      },
+      "answer": "C",
+      "points": 2,
+      "id": 3
+    },
+    {
+      "type": "mc",
+      "text": "A rectangle has perimeter 32cm and breadth 7cm. What is its length?",
+      "image": null,
+      "options": {
+        "A": "18 cm",
+        "B": "9 cm",
+        "C": "16 cm",
+        "D": "25 cm"
       },
       "answer": "B",
-      "points": 2
+      "points": 2,
+      "id": 4
     },
     {
-      "id": 7,
       "type": "mc",
-      "text": "A line graph shows the hours of bicycle rental from March to July. June had 6,000 hours and July had 5,500 hours. Which month had the most hours of bicycle rental?<br><em>(Based on: Hours of Bicycle Rental Over 5 Months \u2014 line graph)</em>",
+      "text": "A square has side 8cm. What is its area?",
+      "image": null,
       "options": {
-        "A": "June",
-        "B": "May",
-        "C": "July",
-        "D": "March"
-      },
-      "answer": "A",
-      "points": 2
-    },
-    {
-      "id": 8,
-      "type": "mc",
-      "text": "A line graph shows the temperature of an object heated over 5 minutes. The temperature in the 2nd minute was 80\u00b0C and in the 4th minute was 140\u00b0C. What was the temperature in the 2nd minute?<br><em>(Based on: Temperature of Object heated over 5 minutes \u2014 line graph)</em>",
-      "options": {
-        "A": "100\u00b0C",
-        "B": "60\u00b0C",
-        "C": "80\u00b0C",
-        "D": "140\u00b0C"
+        "A": "8 cm\u00b2",
+        "B": "16 cm\u00b2",
+        "C": "64 cm\u00b2",
+        "D": "64 cm\u00b2"
       },
       "answer": "C",
-      "points": 2
+      "points": 2,
+      "id": 5
     },
     {
-      "id": 9,
       "type": "mc",
-      "text": "A table shows recyclables collected by four classes. Class 4A collected 48 kg, Class 4B collected 36 kg, Class 4C collected 42 kg, and Class 4D collected 30 kg. How much did class 4B collect?<br><em>(Based on: Recyclables collected by four classes \u2014 table)</em>",
+      "text": "What is the perimeter of a rectangle 12cm by 9cm?",
+      "image": null,
       "options": {
-        "A": "30 kg",
-        "B": "42 kg",
-        "C": "36 kg",
-        "D": "48 kg"
-      },
-      "answer": "C",
-      "points": 2
-    },
-    {
-      "id": 10,
-      "type": "mc",
-      "text": "A table shows pupils' scores and the number of pupils who obtained each score. If 8 pupils obtained a score of 10 and 5 pupils obtained a score of 15, how many pupils obtained a score of 10?<br><em>(Based on: Score vs Number of Pupils table)</em>",
-      "options": {
-        "A": "8 pupils",
-        "B": "13 pupils",
-        "C": "5 pupils",
-        "D": "3 pupils"
+        "A": "42 cm",
+        "B": "21 cm",
+        "C": "42 cm",
+        "D": "108 cm"
       },
       "answer": "A",
-      "points": 2
+      "points": 2,
+      "id": 6
     },
     {
-      "id": 11,
       "type": "mc",
-      "text": "A line graph shows earnings at Mrs Isa's fruit stall from January to May. She earned $1,000 in January, $2,000 in February, $1,500 in March, $1,500 in April, and $3,000 in May. How much did she earn in March?<br><em>(Based on: Earnings at Mrs Isa's Fruit Stall \u2014 line graph)</em>",
+      "text": "A path 2m wide surrounds a rectangle field 25m long and 20m wide. What is the outer length of the whole figure including the path?",
+      "image": null,
       "options": {
-        "A": "$1,000",
-        "B": "$3,000",
-        "C": "$2,000",
-        "D": "$1,500"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 12,
-      "type": "mc",
-      "text": "A bar graph shows movie DVD sales over 5 days. Wednesday had 60 DVDs, Thursday had 80 DVDs, Friday had 40 DVDs, Saturday had 100 DVDs, and Sunday had 120 DVDs. Which day had the most DVD sales?<br><em>(Based on: Movie DVD Sales Over 5 Days \u2014 bar graph)</em>",
-      "options": {
-        "A": "Saturday",
-        "B": "Wednesday",
-        "C": "Thursday",
-        "D": "Sunday"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 13,
-      "type": "mc",
-      "text": "A line graph shows the number of books loaned out by a school library over four days. If the graph shows 200 books on Monday, 250 on Tuesday, 300 on Wednesday, and 200 on Thursday, on which day were the most books loaned?<br><em>(Based on: Library books loaned over four days \u2014 line graph)</em>",
-      "options": {
-        "A": "Monday",
-        "B": "Wednesday",
-        "C": "Tuesday",
-        "D": "Thursday"
+        "A": "27 m",
+        "B": "29 m",
+        "C": "29 m",
+        "D": "45 m"
       },
       "answer": "B",
-      "points": 2
+      "points": 2,
+      "id": 7
     },
     {
-      "id": 14,
       "type": "mc",
-      "text": "The table shows types of vehicles: Cars (20), Motorcycles (15), Vans (8), Lorries (5), Bicycles (12). How many vehicles passed the town centre in total?<br><em>(Based on: Vehicles passing town centre between 9.30 a.m. and 9.45 a.m. on Sunday)</em>",
+      "text": "The area of a rectangle is 48 cm\u00b2 and its length is 8cm. What is its breadth?",
+      "image": null,
       "options": {
-        "A": "60",
-        "B": "55",
-        "C": "50",
-        "D": "48"
-      },
-      "answer": "A",
-      "points": 2
-    },
-    {
-      "id": 15,
-      "type": "mc",
-      "text": "A line graph shows the temperature in Hong Kong over 12 hours. The highest temperature was 34\u00b0C at 2 p.m. and the lowest was 22\u00b0C at 6 a.m. What was the difference between the highest and lowest temperatures?<br><em>(Based on: Temperature in Hong Kong line graph)</em>",
-      "options": {
-        "A": "10\u00b0C",
-        "B": "8\u00b0C",
-        "C": "6\u00b0C",
-        "D": "12\u00b0C"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 16,
-      "type": "mc",
-      "text": "Express 6:40 a.m. using the 24-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 Express times using 24-hour clock)</em>",
-      "options": {
-        "A": "1640",
-        "B": "0620",
-        "C": "0640",
-        "D": "1840"
-      },
-      "answer": "C",
-      "points": 2
-    },
-    {
-      "id": 17,
-      "type": "mc",
-      "text": "Express 10:05 p.m. using the 24-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 Express times using 24-hour clock)</em>",
-      "options": {
-        "A": "2105",
-        "B": "2205",
-        "C": "1005",
-        "D": "2005"
+        "A": "56 cm",
+        "B": "6 cm",
+        "C": "6 cm",
+        "D": "8 cm"
       },
       "answer": "B",
-      "points": 2
+      "points": 2,
+      "id": 8
     },
     {
-      "id": 18,
       "type": "mc",
-      "text": "Express 0925 using the 12-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 Express times using 12-hour clock)</em>",
+      "text": "A big square has side 12cm. A small square with side 4cm is cut out. What is the area of the shaded remaining part?",
+      "image": null,
       "options": {
-        "A": "21:25",
-        "B": "21:25 a.m.",
-        "C": "9:25 p.m.",
-        "D": "9:25 a.m."
+        "A": "8 cm\u00b2",
+        "B": "128 cm\u00b2",
+        "C": "128 cm\u00b2",
+        "D": "144 cm\u00b2"
       },
-      "answer": "D",
-      "points": 2
+      "answer": "B",
+      "points": 2,
+      "id": 9
     },
     {
-      "id": 19,
       "type": "mc",
-      "text": "Express 2050 using the 12-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 Express times using 12-hour clock)</em>",
+      "text": "What is the first step to find the area of a path surrounding a rectangle?",
+      "image": null,
       "options": {
-        "A": "9:50 p.m.",
-        "B": "8:50 a.m.",
-        "C": "8:50 p.m.",
-        "D": "20:50"
+        "A": "Add all outer sides together",
+        "B": "Find the area of the outer rectangle",
+        "C": "Find the perimeter of the inner rectangle",
+        "D": "Find the area of the outer rectangle"
+      },
+      "answer": "B",
+      "points": 2,
+      "id": 10
+    },
+    {
+      "type": "mc",
+      "text": "Which type of graph is best for showing how something changes over time?",
+      "image": null,
+      "options": {
+        "A": "Pie chart",
+        "B": "Bar graph",
+        "C": "Line graph",
+        "D": "Line graph"
       },
       "answer": "C",
-      "points": 2
+      "points": 2,
+      "id": 11
     },
     {
-      "id": 20,
       "type": "mc",
-      "text": "A mathematics competition started at 13:30 and ended at 17:05. How long did the competition last?<br><em>(Based on: Chapter 15 Review \u2014 time duration calculations)</em>",
+      "text": "Which type of graph is best for comparing quantities of different categories?",
+      "image": null,
       "options": {
-        "A": "3 hours 25 minutes",
-        "B": "4 hours 35 minutes",
-        "C": "2 hours 35 minutes",
-        "D": "3 hours 35 minutes"
+        "A": "Bar graph",
+        "B": "Table",
+        "C": "Line graph",
+        "D": "Bar graph"
       },
-      "answer": "D",
-      "points": 2
+      "answer": "A",
+      "points": 2,
+      "id": 12
     },
     {
-      "id": 21,
       "type": "mc",
-      "text": "A football match started at 19:15 and lasted 1 hour 30 minutes. What time did the match end?<br><em>(Based on: Chapter 15 Review \u2014 end time calculations)</em>",
+      "text": "A table shows favourite subjects: Mathematics 6 pupils, English 2 pupils, Science 1 pupil. What is the most popular subject?",
+      "image": null,
+      "options": {
+        "A": "Mathematics",
+        "B": "English",
+        "C": "Mathematics",
+        "D": "Science"
+      },
+      "answer": "A",
+      "points": 2,
+      "id": 13
+    },
+    {
+      "type": "mc",
+      "text": "What does one tally mark (|) represent in a tally table?",
+      "image": null,
+      "options": {
+        "A": "Two items",
+        "B": "One item counted",
+        "C": "Ten items",
+        "D": "Five items"
+      },
+      "answer": "B",
+      "points": 2,
+      "id": 14
+    },
+    {
+      "type": "mc",
+      "text": "A line graph shows temperature at different times of day. At 6am it was 16\u00b0C and at 3pm it was 24\u00b0C. What was the temperature difference?",
+      "image": null,
+      "options": {
+        "A": "8\u00b0C",
+        "B": "40\u00b0C",
+        "C": "12\u00b0C",
+        "D": "4\u00b0C"
+      },
+      "answer": "A",
+      "points": 2,
+      "id": 15
+    },
+    {
+      "type": "mc",
+      "text": "A line graph shows water leaking from a pail. At 0 minutes the volume was 300ml, at 20 minutes it was 200ml. How much water leaked in 20 minutes?",
+      "image": null,
+      "options": {
+        "A": "150 ml",
+        "B": "100 ml",
+        "C": "200 ml",
+        "D": "100 ml"
+      },
+      "answer": "B",
+      "points": 2,
+      "id": 16
+    },
+    {
+      "type": "mc",
+      "text": "Which situation is NOT suitable for a line graph?",
+      "image": null,
+      "options": {
+        "A": "Recording speed of a runner over time",
+        "B": "Showing temperature changes during a day",
+        "C": "Comparing favourite colours of students",
+        "D": "Comparing favourite colours of students"
+      },
+      "answer": "C",
+      "points": 2,
+      "id": 17
+    },
+    {
+      "type": "mc",
+      "text": "A table shows Primary 1 with 160 boys and 220 girls. What is the total number of pupils in Primary 1?",
+      "image": null,
+      "options": {
+        "A": "380 pupils",
+        "B": "380",
+        "C": "480",
+        "D": "160"
+      },
+      "answer": "A",
+      "points": 2,
+      "id": 18
+    },
+    {
+      "type": "mc",
+      "text": "In a bar graph showing favourite foods, the bar for fried noodles is tallest. What does this tell us?",
+      "image": null,
+      "options": {
+        "A": "Fewest pupils chose fried noodles",
+        "B": "Fried noodles cost the most",
+        "C": "Most pupils chose fried noodles",
+        "D": "Most pupils chose burgers"
+      },
+      "answer": "C",
+      "points": 2,
+      "id": 19
+    },
+    {
+      "type": "mc",
+      "text": "A line graph shows Kalpana's savings over 6 months. In July she saved $20 and in December she saved $60. How much more did she save in December?",
+      "image": null,
+      "options": {
+        "A": "$40",
+        "B": "$40",
+        "C": "$30",
+        "D": "$80"
+      },
+      "answer": "A",
+      "points": 2,
+      "id": 20
+    },
+    {
+      "type": "mc",
+      "text": "How many seconds are in 1 minute?",
+      "image": null,
+      "options": {
+        "A": "60 seconds",
+        "B": "120 seconds",
+        "C": "60 seconds",
+        "D": "30 seconds"
+      },
+      "answer": "A",
+      "points": 2,
+      "id": 21
+    },
+    {
+      "type": "mc",
+      "text": "What time is 24-hour format 14:30 in 12-hour clock?",
+      "image": null,
+      "options": {
+        "A": "14:30",
+        "B": "2:30 p.m.",
+        "C": "4:30 p.m.",
+        "D": "2:30 a.m."
+      },
+      "answer": "B",
+      "points": 2,
+      "id": 22
+    },
+    {
+      "type": "mc",
+      "text": "What time is 6:45 a.m. in 24-hour clock format?",
+      "image": null,
       "options": {
         "A": "18:45",
-        "B": "21:45",
-        "C": "19:45",
-        "D": "20:45"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 22,
-      "type": "mc",
-      "text": "A lesson at a club ended at 10:35. The lesson lasted 2 hours 25 minutes. What time did the lesson start?<br><em>(Based on: Chapter 15 Review \u2014 start time calculations)</em>",
-      "options": {
-        "A": "08:05",
-        "B": "08:15",
-        "C": "07:10",
-        "D": "08:10"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 23,
-      "type": "mc",
-      "text": "Nurul left her house at 18:00 to go to a musical. She took 50 minutes to reach the theatre and was 10 minutes early. What time did the musical start?<br><em>(Based on: Chapter 15 Review \u2014 musical start time problem)</em>",
-      "options": {
-        "A": "19:00",
-        "B": "19:10",
-        "C": "19:20",
-        "D": "18:50"
-      },
-      "answer": "A",
-      "points": 2
-    },
-    {
-      "id": 24,
-      "type": "mc",
-      "text": "A concert started at 9:30 p.m. on Friday and lasted 2 hours 45 minutes. What time did the concert end? Express your answer using the 24-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 24-hour clock end time)</em>",
-      "options": {
-        "A": "12:15 on Friday",
-        "B": "12:15 on Saturday",
-        "C": "00:15 on Saturday",
-        "D": "00:15 on Friday"
+        "B": "06:15",
+        "C": "06:45",
+        "D": "06:45"
       },
       "answer": "C",
-      "points": 2
+      "points": 2,
+      "id": 23
     },
     {
-      "id": 25,
       "type": "mc",
-      "text": "Mrs Krishnan finished baking a pie at 12:25 p.m. She baked for 1 hour 30 minutes. What time did she start baking? Express your answer using the 24-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 baking start time in 24-hour clock)</em>",
+      "text": "A movie starts at 7:30 p.m. and lasts 2 hours 25 minutes. What time does it end?",
+      "image": null,
       "options": {
-        "A": "10:35",
-        "B": "11:55",
-        "C": "09:55",
-        "D": "10:55"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 26,
-      "type": "mc",
-      "text": "Jenny celebrated her birthday on 12 October at 17:45. Her sister celebrated her birthday 18 hours later. What is the date and time of her sister's birthday celebration?<br><em>(Based on: Chapter 15 Review \u2014 18-hour later calculation)</em>",
-      "options": {
-        "A": "13 October at 17:45",
-        "B": "12 October at 11:45",
-        "C": "13 October at 11:45",
-        "D": "11 October at 11:45"
-      },
-      "answer": "C",
-      "points": 2
-    },
-    {
-      "id": 27,
-      "type": "mc",
-      "text": "Gail walks from her house to the bus stop. She leaves at 06:52 and reaches at 07:15. How long does she take to walk from her house to the bus stop?<br><em>(Based on: Chapter 15 Practice \u2014 walking time calculation)</em>",
-      "options": {
-        "A": "33 minutes",
-        "B": "13 minutes",
-        "C": "15 minutes",
-        "D": "23 minutes"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 28,
-      "type": "mc",
-      "text": "A movie lasted 2 hours 51 minutes and ended at 00:36 the next day. What time did the movie start?<br><em>(Based on: Chapter 15 Practice \u2014 movie start time)</em>",
-      "options": {
-        "A": "22:45",
-        "B": "23:45",
-        "C": "20:45",
-        "D": "21:45"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 29,
-      "type": "mc",
-      "text": "A New Year party started at 22:30 on Friday and ended at 01:15 the next day. How long was the party?<br><em>(Based on: Chapter 15 Practice \u2014 party duration)</em>",
-      "options": {
-        "A": "2 hours 45 minutes",
-        "B": "3 hours 15 minutes",
-        "C": "1 hour 45 minutes",
-        "D": "2 hours 15 minutes"
-      },
-      "answer": "A",
-      "points": 2
-    },
-    {
-      "id": 30,
-      "type": "mc",
-      "text": "Rafi walked from Town A to Town E. He left Town A at 09:00 and reached Town B at 10:00, Town C at 10:42, and Town D at 11:56. How long did he take to walk from Town A to Town B?<br><em>(Based on: Chapter 15 Practice \u2014 walking between towns)</em>",
-      "options": {
-        "A": "42 minutes",
-        "B": "1 hour",
-        "C": "1 hour 42 minutes",
-        "D": "56 minutes"
+        "A": "10:55 p.m.",
+        "B": "9:55 p.m.",
+        "C": "9:55 p.m.",
+        "D": "9:55 a.m."
       },
       "answer": "B",
-      "points": 2
+      "points": 2,
+      "id": 24
     },
     {
-      "id": 31,
-      "type": "fill",
-      "text": "A table shows Class 4A collected 48 kg of recyclables and Class 4D collected 30 kg. Class 4D needs to collect _____ kg more to match Class 4A.",
-      "answer": "18",
-      "points": 2
+      "type": "mc",
+      "text": "The 24-hour clock does NOT use which notation?",
+      "image": null,
+      "options": {
+        "A": "00:00",
+        "B": "a.m. and p.m.",
+        "C": "a.m. and p.m.",
+        "D": "24:00"
+      },
+      "answer": "B",
+      "points": 2,
+      "id": 25
     },
     {
-      "id": 32,
-      "type": "fill",
-      "text": "The line graph shows that Mrs Isa earned $1,500 in March and $1,500 in April. The two months where she earned the same amount were _____ and _____.",
-      "answer": "March and April",
-      "points": 2
+      "type": "mc",
+      "text": "A train departs at 15:10 and arrives at 18:25. How long was the journey?",
+      "image": null,
+      "options": {
+        "A": "3 hours 15 minutes",
+        "B": "2 hours 45 minutes",
+        "C": "3 hours 5 minutes",
+        "D": "3 hours 25 minutes"
+      },
+      "answer": "A",
+      "points": 2,
+      "id": 26
     },
     {
-      "id": 33,
-      "type": "fill",
-      "text": "A line graph shows the total mass of newspapers collected in the 1st week was 100 kg and in the 3rd week was 80 kg. The total mass collected over the 3rd week was _____ kg.",
-      "answer": "80",
-      "points": 2
+      "type": "mc",
+      "text": "What is 10:35 p.m. in 24-hour clock format?",
+      "image": null,
+      "options": {
+        "A": "22:35",
+        "B": "22:35",
+        "C": "10:35",
+        "D": "20:35"
+      },
+      "answer": "A",
+      "points": 2,
+      "id": 27
     },
     {
-      "id": 34,
-      "type": "fill",
-      "text": "The table shows pupils' scores. The most common score was 10 (obtained by 8 pupils). The least common score was _____ (obtained by 3 pupils).",
-      "answer": "5",
-      "points": 2
+      "type": "mc",
+      "text": "Convert 20:50 to 12-hour clock format.",
+      "image": null,
+      "options": {
+        "A": "20:50",
+        "B": "10:50 p.m.",
+        "C": "8:50 p.m.",
+        "D": "8:50 p.m."
+      },
+      "answer": "C",
+      "points": 2,
+      "id": 28
     },
     {
-      "id": 35,
-      "type": "fill",
-      "text": "The line graph shows bicycle rental hours in March was 3,000 and in April was 4,000. The increase from March to April was _____ hours.",
-      "answer": "1000",
-      "points": 2
+      "type": "mc",
+      "text": "Candice slept at 22:55 and woke up at 08:30. How long did she sleep?",
+      "image": null,
+      "options": {
+        "A": "8 hours 25 minutes",
+        "B": "9 hours 35 minutes",
+        "C": "10 hours 35 minutes",
+        "D": "9 hours"
+      },
+      "answer": "B",
+      "points": 2,
+      "id": 29
     },
     {
-      "id": 36,
-      "type": "fill",
-      "text": "A bar graph shows DVD sales: Wed 60, Thu 80, Fri 40, Sat 100, Sun 120. The total DVD sales for the whole week were _____ DVDs.",
-      "answer": "400",
-      "points": 2
+      "type": "mc",
+      "text": "John's test started at 11:45 and ended at 13:35. How long was his test?",
+      "image": null,
+      "options": {
+        "A": "2 hours 10 minutes",
+        "B": "1 hour 50 minutes",
+        "C": "2 hours",
+        "D": "1 hour 10 minutes"
+      },
+      "answer": "B",
+      "points": 2,
+      "id": 30
     },
     {
-      "id": 37,
       "type": "fill",
-      "text": "The line graph shows health checkups in March was 55 and in May was 35. The difference in the number of checkups between March and May was _____.",
-      "answer": "20",
-      "points": 2
+      "text": "A composite figure is made up of two or more _____ joined together.",
+      "image": null,
+      "answer": "shapes",
+      "points": 2,
+      "id": 31
     },
     {
-      "id": 38,
       "type": "fill",
-      "text": "The table shows vehicles passing a town centre: 5 vans and 3 lorries. There were _____ more vans than lorries.",
-      "answer": "2",
-      "points": 2
+      "text": "Area of remaining cardboard = Area of big cardboard minus area of _____ rectangle.",
+      "image": null,
+      "answer": "cut-out",
+      "points": 2,
+      "id": 32
     },
     {
-      "id": 39,
       "type": "fill",
-      "text": "The line graph shows the temperature of an object in the 3rd minute was 100\u00b0C and in the 5th minute was 180\u00b0C. The increase in temperature from the 3rd to the 5th minute was _____ \u00b0C.",
-      "answer": "80",
-      "points": 2
+      "text": "The perimeter of a square with side 7cm is _____ cm.",
+      "image": null,
+      "answer": "28",
+      "points": 2,
+      "id": 33
     },
     {
-      "id": 40,
       "type": "fill",
-      "text": "Mrs Isa's earnings from January to May were $1,000, $2,000, $1,500, $1,500, and $3,000 respectively. She earned twice as much in May as she did in _____, because $3,000 is twice $1,500.",
-      "answer": "March",
-      "points": 2
-    },
-    {
-      "id": 41,
-      "type": "fill",
-      "text": "Express 3:15 p.m. using the 24-hour clock: _____.",
-      "answer": "15:15",
-      "points": 2
-    },
-    {
-      "id": 42,
-      "type": "fill",
-      "text": "Express 2330 using the 12-hour clock: _____.",
-      "answer": "11:30 p.m.",
-      "points": 2
-    },
-    {
-      "id": 43,
-      "type": "fill",
-      "text": "Rafi left Town A at 09:00 and reached Town B at 10:00. He took _____ hour(s) to walk from Town A to Town B.",
-      "answer": "1",
-      "points": 2
-    },
-    {
-      "id": 44,
-      "type": "fill",
-      "text": "A mathematics test began at 11:35 and lasted 55 minutes. Joy finished the test at _____: _____ (24-hour clock).",
-      "answer": "12:30",
-      "points": 2
-    },
-    {
-      "id": 45,
-      "type": "fill",
-      "text": "Gail left her house at 06:52 and reached the bus stop at 07:15. She took _____ minutes to walk from her house to the bus stop.",
-      "answer": "23",
-      "points": 2
-    },
-    {
-      "id": 46,
-      "type": "fill",
-      "text": "A movie started at 21:45 and ended at 00:36 the next day. The movie lasted _____ hours _____ minutes.",
-      "answer": "2 hours 51 minutes",
-      "points": 2
-    },
-    {
-      "id": 47,
-      "type": "fill",
-      "text": "The heritage trail schedule shows: Asian Civilisations Museum from 10:00 to 10:50, then Bus ride to The Arts House from 10:50 to _____, and The Arts House from _____ to 12:00.",
-      "answer": "12:00",
-      "points": 2
-    },
-    {
-      "id": 48,
-      "type": "fill",
-      "text": "A dental clinic is open from 09:30 to 13:00 in the morning and from 14:30 to 17:30 in the afternoon, and from 19:00 to 21:00 in the evening. The clinic is open for a total of _____ hours on a weekday.",
+      "text": "If a rectangle has length 10cm and total area 80cm\u00b2, its breadth is _____ cm.",
+      "image": null,
       "answer": "8",
-      "points": 2
+      "points": 2,
+      "id": 34
     },
     {
-      "id": 49,
       "type": "fill",
-      "text": "Rafi walked from Town C (10:42) to Town D (11:56). The time taken from Town C to Town D was _____ hours _____ minutes.",
-      "answer": "1 hour 14 minutes",
-      "points": 2
+      "text": "Area of shaded part = Area of bigger square minus area of _____ square.",
+      "image": null,
+      "answer": "smaller",
+      "points": 2,
+      "id": 35
     },
     {
-      "id": 50,
       "type": "fill",
-      "text": "Jenny's birthday was on 12 October at 17:45. Her sister's celebration was 18 hours later, which was on _____ October at _____: _____.",
-      "answer": "13 October at 11:45",
-      "points": 2
+      "text": "To find the perimeter of a composite figure, add all the _____ sides together.",
+      "image": null,
+      "answer": "outer",
+      "points": 2,
+      "id": 36
     },
     {
-      "id": 51,
-      "type": "essay",
-      "text": "The bar graph shows movie DVD sales over 5 days: Wednesday 60, Thursday 80, Friday 40, Saturday 100, Sunday 120. Which line graph correctly shows this data? Explain why the other line graph is incorrect.",
+      "type": "fill",
+      "text": "A rectangle measures 15cm by 12cm. Its area is _____ cm\u00b2.",
       "image": null,
-      "answer": "The correct line graph should show a sharp rise from Friday (40) to Sunday (120) with a dip on Friday. The incorrect graph would show a different pattern or wrong order of days.",
-      "points": 0
+      "answer": "180",
+      "points": 2,
+      "id": 37
     },
     {
-      "id": 52,
-      "type": "essay",
-      "text": "The line graph shows Mrs Isa's earnings from January to May as $1,000, $2,000, $1,500, $1,500, and $3,000. During which 1-month interval was the increase in earnings the greatest? Explain how you found your answer.",
+      "type": "fill",
+      "text": "The _____ of a surrounding path is found by subtracting the inner rectangle from the outer rectangle.",
       "image": null,
-      "answer": "The greatest increase was from April to May, when earnings rose from $1,500 to $3,000, an increase of $1,500. This is larger than all other month-to-month changes.",
-      "points": 0
+      "answer": "area",
+      "points": 2,
+      "id": 38
     },
     {
-      "id": 53,
-      "type": "essay",
-      "text": "A concert started at 9:30 p.m. on Friday and lasted 2 hours 45 minutes. Show how to find the concert end time using the 24-hour clock, and give the final answer.",
+      "type": "fill",
+      "text": "When a small square is cut from a bigger square, the area of the remaining shape becomes _____ than the original.",
       "image": null,
-      "answer": "Starting at 9:30 p.m. = 21:30. Adding 2 hours gives 23:30, then adding 45 minutes gives 00:15 the next day (Saturday). So the concert ended at 00:15 on Saturday, expressed as 00:15.",
-      "points": 0
+      "answer": "smaller",
+      "points": 2,
+      "id": 39
     },
     {
-      "id": 54,
-      "type": "essay",
-      "text": "Rafi walked from Town A to Town E. He left at 09:00, reached Town B at 10:00, Town C at 10:42, Town D at 11:56, and Town E at 18:11. He took 7 hours 15 minutes to walk from Town D to Town E. Show how to calculate the time taken for each segment: A\u2192B, B\u2192C, C\u2192D.",
+      "type": "fill",
+      "text": "Data can be presented using a _____ or a bar graph.",
       "image": null,
-      "answer": "A to B: 10:00 \u2212 09:00 = 1 hour. B to C: 10:42 \u2212 10:00 = 42 minutes. C to D: 11:56 \u2212 10:42 = 1 hour 14 minutes.",
-      "points": 0
+      "answer": "table",
+      "points": 2,
+      "id": 40
     },
     {
-      "id": 55,
-      "type": "essay",
-      "text": "A New Year party started at 22:30 on Friday and ended at 01:15 the next day. Show all the steps to find how long the party lasted. Explain why you need to add 24 hours to 01:15 before subtracting.",
+      "type": "fill",
+      "text": "A line graph is useful for showing how data changes over _____.",
       "image": null,
-      "answer": "First convert 01:15 (Saturday morning) to 24-hour format past midnight of Friday: 01:15 + 24 hours = 25:15. Then subtract the start time: 25:15 \u2212 22:30 = 2 hours 45 minutes. The party lasted 2 hours 45 minutes.",
-      "points": 0
+      "answer": "time",
+      "points": 2,
+      "id": 41
+    },
+    {
+      "type": "fill",
+      "text": "When comparing quantities of different categories, a _____ graph is more suitable.",
+      "image": null,
+      "answer": "bar",
+      "points": 2,
+      "id": 42
+    },
+    {
+      "type": "fill",
+      "text": "A tally mark represents _____ item(s).",
+      "image": null,
+      "answer": "one",
+      "points": 2,
+      "id": 43
+    },
+    {
+      "type": "fill",
+      "text": "The height of a bar in a bar graph represents the _____ of the category.",
+      "image": null,
+      "answer": "quantity",
+      "points": 2,
+      "id": 44
+    },
+    {
+      "type": "fill",
+      "text": "The highest point on a line graph shows the _____ value recorded.",
+      "image": null,
+      "answer": "maximum",
+      "points": 2,
+      "id": 45
+    },
+    {
+      "type": "fill",
+      "text": "_____ is a unit of measurement for time.",
+      "image": null,
+      "answer": "Seconds",
+      "points": 2,
+      "id": 46
+    },
+    {
+      "type": "fill",
+      "text": "In the 24-hour clock, midnight is written as _____.",
+      "image": null,
+      "answer": "00:00",
+      "points": 2,
+      "id": 47
+    },
+    {
+      "type": "fill",
+      "text": "To convert p.m. time to 24-hour clock, add _____ to the hour.",
+      "image": null,
+      "answer": "12",
+      "points": 2,
+      "id": 48
+    },
+    {
+      "type": "fill",
+      "text": "14:30 in 24-hour clock is the same as _____ p.m.",
+      "image": null,
+      "answer": "2:30",
+      "points": 2,
+      "id": 49
+    },
+    {
+      "type": "fill",
+      "text": "The second hand of a clock takes _____ seconds to go around the clock face once.",
+      "image": null,
+      "answer": "60",
+      "points": 2,
+      "id": 50
+    },
+    {
+      "type": "essay",
+      "text": "Mario has a rectangular garden measuring 12m by 9m. He wants to put a pebble path 1m wide around the border of his garden. Draw a diagram and explain how to find the total area covered by the pebbles.",
+      "image": null,
+      "answer": "First find the outer rectangle dimensions: length = 12 + 1 + 1 = 14m, breadth = 9 + 1 + 1 = 11m. Outer area = 14 \u00d7 11 = 154 m\u00b2. Inner area (garden alone) = 12 \u00d7 9 = 108 m\u00b2. Path area = 154 \u2212 108 = 46 m\u00b2.",
+      "points": 0,
+      "id": 51
+    },
+    {
+      "type": "essay",
+      "text": "The school had a picnic. The table shows food brought by pupils: Burger 4 pupils, Chicken Nugget 8 pupils, Fried Noodle 6 pupils, Salad 2 pupils, Others 5 pupils. Present this data in a bar graph and explain which food was most popular and by how much.",
+      "image": null,
+      "answer": "Draw a bar graph with food types on the horizontal axis and number of pupils on the vertical axis. Chicken Nugget bar should be tallest (8 pupils). Most popular: Chicken Nugget with 8 pupils. Least popular: Salad with 2 pupils. Difference = 8 \u2212 2 = 6 pupils.",
+      "points": 0,
+      "id": 52
+    },
+    {
+      "type": "essay",
+      "text": "A plane departs Singapore at 22:50 on Wednesday and lands in Bali at 01:20 on Thursday. How long was the flight? Did the plane arrive on the same day or the next day? Explain your reasoning.",
+      "image": null,
+      "answer": "The flight lasted 2 hours 30 minutes. The plane departed on Wednesday night and arrived on Thursday early morning, so it arrived the next day. From 22:50 to midnight (24:00) is 1 hour 10 minutes. From 00:00 to 01:20 is 1 hour 20 minutes. Total: 1h 10m + 1h 20m = 2h 30m.",
+      "points": 0,
+      "id": 53
+    },
+    {
+      "type": "essay",
+      "text": "Shirley took the MRT at Sembawang Station and reached Newton Station 26 minutes later. She arrived at Newton Station at 11:20. At what time did she board the train at Sembawang Station? Show your working.",
+      "image": null,
+      "answer": "To find the departure time, subtract 26 minutes from 11:20. 11:20 minus 20 minutes = 11:00. Then minus 6 more minutes = 10:54. Shirley boarded the train at 10:54 a.m.",
+      "points": 0,
+      "id": 54
+    },
+    {
+      "type": "essay",
+      "text": "Remy started his Science practice paper at 8 a.m. He spent 2 minutes on each of 30 multiple-choice questions, and 3 minutes on each of 14 open-ended questions. At what time did he complete the paper? Show your working.",
+      "image": null,
+      "answer": "MCQ time: 30 \u00d7 2 = 60 minutes. Open-ended time: 14 \u00d7 3 = 42 minutes. Total time: 60 + 42 = 102 minutes = 1 hour 42 minutes. Starting at 8:00 a.m., adding 1 hour 42 minutes: 8:00 + 1h 42m = 9:42 a.m. Remy completed the paper at 9:42 a.m.",
+      "points": 0,
+      "id": 55
     }
   ]
 }
