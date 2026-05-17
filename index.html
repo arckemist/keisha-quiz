@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +8,13 @@
 </head>
 <body>
 
-  <!-- LANDING SCREEN -->
   <div id="landing" style="display:none">
     <h1 id="quiz-title-display">Loading...</h1>
     <p id="landing-sub">55 Questions · 100 Points · Pass: 85%</p>
     <p id="quiz-error" style="display:none;color:#dc2626;font-weight:600;max-width:400px;text-align:center"></p>
-    <button id="start-btn" onclick="startQuiz()">Mulai Kuis</button>
+    <button id="start-btn" onclick="startQuiz()">Start Quiz</button>
   </div>
 
-  <!-- QUIZ AREA -->
   <div id="quiz-area" style="display:none">
     <div id="progress-bar-container"><div id="progress-bar"></div></div>
     <p id="progress-text"></p>
@@ -25,13 +23,11 @@
     <div id="answer-area"></div>
   </div>
 
-  <!-- REVIEW AREA -->
   <div id="review-area" style="display:none">
     <h2 id="final-score"></h2>
     <div id="review-list"></div>
   </div>
 
-  <!-- CONFETTI LAYER -->
   <div id="confetti-container"></div>
 
   <script src="script.js"></script>

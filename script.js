@@ -1,4 +1,3 @@
-/* ── script.js ── */
 let questions = [];
 let current = 0;
 let score = 0;
@@ -9,10 +8,10 @@ let metadata = {};
 async function loadQuiz() {
   const landingTitle = document.getElementById('quiz-title-display');
   const landingSub   = document.getElementById('landing-sub');
-  landingTitle.textContent = ui.loading || 'Memuat kuis...';
+  landingTitle.textContent = ui.loading || 'Loading quiz...';
 
   try {
-    const res = await fetch('quiz_data_v2.json');
+    const res = await fetch('quiz_data.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
@@ -21,29 +20,30 @@ async function loadQuiz() {
 
     document.getElementById('quiz-title').textContent = data.title;
     landingTitle.textContent = data.title;
-    landingSub.textContent   = `${data.questions.length} Soal · 100 Poin · Lulus: 85%`;
+    landingSub.textContent   = `${data.questions.length} Questions · 100 Points · Pass: 85%`;
     questions = data.questions;
 
     const startBtn = document.getElementById('start-btn');
     if (startBtn && ui.start_button) startBtn.textContent = ui.start_button;
 
-    document.getElementById('landing').style.display    = 'flex';
-    document.getElementById('quiz-area').style.display  = 'none';
-    document.getElementById('review-area').style.display = 'none';
-    document.getElementById('quiz-error').style.display  = 'none';
+    document.getElementById('landing').style.display = 'flex';
+    document.getElementById('quiz-area').style.display    = 'none';
+    document.getElementById('review-area').style.display  = 'none';
+    document.getElementById('quiz-error').style.display   = 'none';
   } catch (err) {
     console.error('loadQuiz failed:', err);
-    document.getElementById('landing').style.display    = 'flex';
-    document.getElementById('quiz-area').style.display  = 'none';
+    const landing = document.getElementById('landing');
+    landing.style.display = 'flex';
+    document.getElementById('quiz-area').style.display    = 'none';
     const errEl = document.getElementById('quiz-error');
-    errEl.textContent = ui.error_load_failed || 'Gagal memuat kuis. Silakan refresh halaman.';
+    errEl.textContent = ui.error_load_failed || 'Failed to load quiz. Please refresh the page.';
     errEl.style.display = 'block';
   }
 }
 
 function showLanding() {
   document.getElementById('landing').style.display    = 'flex';
-  document.getElementById('quiz-area').style.display  = 'none';
+  document.getElementById('quiz-area').style.display   = 'none';
   document.getElementById('review-area').style.display = 'none';
 }
 
@@ -52,7 +52,7 @@ function startQuiz() {
   score = 0;
   answers = {};
   document.getElementById('landing').style.display    = 'none';
-  document.getElementById('quiz-area').style.display  = 'block';
+  document.getElementById('quiz-area').style.display   = 'block';
   document.getElementById('review-area').style.display = 'none';
   renderQuestion();
 }
@@ -64,7 +64,7 @@ function renderQuestion() {
 
   const pct = (current / total) * 100;
   document.getElementById('progress-bar').style.width = `${pct}%`;
-  const fmt = ui.progress_format || 'Soal {n} dari {total}';
+  const fmt = ui.progress_format || 'Question {n} of {total}';
   document.getElementById('progress-text').textContent =
     fmt.replace('{n}', dispN).replace('{total}', total);
 
@@ -94,13 +94,14 @@ function renderQuestion() {
     const inp = document.createElement('input');
     inp.id = 'fill-input';
     inp.type = 'text';
-    inp.placeholder = ui.fill_placeholder || 'Ketik jawabanmu...';
+    inp.placeholder = ui.fill_placeholder || 'Type your answer...';
     inp.addEventListener('input', () => {
-      answerArea.querySelector('.submit-btn').disabled = inp.value.trim().length === 0;
+      const val = inp.value.trim();
+      answerArea.querySelector('.submit-btn').disabled = val.length === 0;
     });
     const btn = document.createElement('button');
     btn.className = 'submit-btn';
-    btn.textContent = ui.submit_button || 'Kirim';
+    btn.textContent = ui.submit_button || 'Submit';
     btn.disabled = true;
     btn.onclick = () => submitFill(inp.value.trim());
     answerArea.appendChild(inp);
@@ -109,21 +110,21 @@ function renderQuestion() {
   } else if (q.type === 'essay') {
     const ta = document.createElement('textarea');
     ta.id = 'essay-input';
-    ta.placeholder = ui.essay_placeholder || 'Tulis jawabanmu di sini...';
+    ta.placeholder = ui.essay_placeholder || 'Write your answer here...';
     const charCount = document.createElement('div');
     charCount.id = 'char-count';
     charCount.style.fontSize = '0.8rem';
     charCount.style.color = '#666';
     charCount.style.marginBottom = '8px';
-    charCount.textContent = 'Minimum 30 karakter';
+    charCount.textContent = `Minimum 30 characters`;
 
     const btn = document.createElement('button');
     btn.className = 'submit-btn';
-    btn.textContent = ui.submit_button || 'Kirim';
+    btn.textContent = ui.submit_button || 'Submit';
     btn.disabled = true;
     ta.addEventListener('input', () => {
       const len = ta.value.trim().length;
-      charCount.textContent = `${len}/30 karakter`;
+      charCount.textContent = `${len}/30 characters`;
       btn.disabled = len < 30;
     });
     btn.onclick = () => submitEssay(ta.value.trim());
@@ -181,10 +182,10 @@ function showReview() {
   document.getElementById('review-area').style.display  = 'block';
   const passed = score >= 85;
   const metaLine = metadata.subject
-    ? ` — ${metadata.subject} · Kelas ${metadata.grade || '?'}`
+    ? ` — ${metadata.subject} · Grade ${metadata.grade || '?'}`
     : '';
   document.getElementById('final-score').textContent =
-    `Skor: ${score}/100${metaLine} — ${passed ? 'LULUS' : 'Belum Lulus'}`;
+    `Score: ${score}/100${metaLine} — ${passed ? 'PASSED' : 'Not yet'}`;
 
   const list = document.getElementById('review-list');
   list.innerHTML = '';
@@ -197,13 +198,12 @@ function showReview() {
     const div = document.createElement('div');
     div.className = 'review-item ' + status;
     div.innerHTML = `<strong>Q${dispN} [${q.type.toUpperCase()}]:</strong> ${q.text}<br>
-      <em>Jawabanmu:</em> ${a.chosen ?? '—'}<br>
-      <em>Jawaban benar:</em> ${q.answer}`;
+      <em>Your answer:</em> ${a.chosen ?? '—'}<br>
+      <em>Model answer:</em> ${q.answer}`;
     list.appendChild(div);
   });
 }
 
-/* ── Confetti: 30 particles, 3s, dependency-free DOM implementation ── */
 function launchConfetti() {
   const container = document.getElementById('confetti-container');
   if (!container) return;

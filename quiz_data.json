@@ -1,45 +1,43 @@
 {
   "metadata": {
-    "subject": "PKn / IPS",
+    "subject": "Mathematics",
     "grade": "4",
-    "source_pdf": "PP.pdf",
-    "generated_at": "2026-05-11"
+    "source_pdf": "Math 4B Workbook.pdf",
+    "generated_at": "2026-05-17"
   },
   "ui_strings": {
-    "start_button": "Mulai Kuis",
-    "submit_button": "Kirim",
-    "fill_placeholder": "Ketik jawabanmu...",
-    "essay_placeholder": "Tulis jawabanmu di sini...",
-    "loading": "Memuat kuis...",
-    "error_load_failed": "Gagal memuat kuis. Silakan refresh halaman.",
-    "progress_format": "Soal {n} dari {total}"
+    "start_button": "Start Quiz",
+    "submit_button": "Submit",
+    "fill_placeholder": "Type your answer...",
+    "essay_placeholder": "Write your answer here...",
+    "loading": "Loading quiz...",
+    "error_load_failed": "Failed to load quiz. Please refresh the page.",
+    "progress_format": "Question {n} of {total}"
   },
-  "title": "11 Mei 2026",
+  "title": "17 May 2026",
   "questions": [
     {
       "id": 1,
       "type": "mc",
-      "text": "'Gotong Royong' adalah...",
-      "image": null,
+      "text": "A table shows types of vehicles passing a town centre. If the table shows 5 vans and 3 lorries, how many more vans than lorries passed?<br><em>(Based on a table showing vehicles: Cars, Motorcycles, Vans, Lorries, Bicycles)</em>",
       "options": {
-        "A": "Menghilangkan rasa saling percaya antarsesama",
-        "B": "Memaksakan pendapat sendiri kepada orang lain",
-        "C": "Kerja sama saling tolong-menolong dalam kehidupan bermasyarakat",
-        "D": "Membuang sampah di tempat sampah adalah pencemaran"
+        "A": "2",
+        "B": "8",
+        "C": "5",
+        "D": "3"
       },
-      "answer": "C",
+      "answer": "A",
       "points": 2
     },
     {
       "id": 2,
       "type": "mc",
-      "text": "'Bencana Alam' adalah...",
-      "image": null,
+      "text": "A table shows the heights of 9 pupils. Ethan is listed with a height of 142 cm in the table. Prema weighs 34 kg. Who is the tallest?<br><em>(Based on a table of pupils' heights and masses)</em>",
       "options": {
-        "A": "Membuang sampah di tempat sampah adalah pencemaran",
-        "B": "Menghindari semua kegiatan sosial di lingkungan",
-        "C": "Kejadian alam yang menyebabkan kerusakan dan korban jiwa",
-        "D": "Membuat warga menjadi tidak peduli terhadap sesama"
+        "A": "Prema",
+        "B": "Ismail",
+        "C": "Ethan",
+        "D": "Lin Lin"
       },
       "answer": "C",
       "points": 2
@@ -47,13 +45,12 @@
     {
       "id": 3,
       "type": "mc",
-      "text": "'Warga Masyarakat' adalah...",
-      "image": null,
+      "text": "A table shows the number of boys and girls travelling to school by bus or MRT. If there are 12 girls total and 8 boys travel by bus, how many more girls than boys are there in total?<br><em>(Based on a table of boys and girls travelling by bus or MRT)</em>",
       "options": {
-        "A": "Menghindari semua kegiatan sosial di lingkungan",
-        "B": "Membuat masyarakat menjadi terpecah belah",
-        "C": "Mengutamakan kepentingan pribadi di atas kepentingan bersama",
-        "D": "Orang-orang yang tinggal di suatu wilayah dan saling berinteraksi"
+        "A": "12",
+        "B": "8",
+        "C": "20",
+        "D": "4"
       },
       "answer": "D",
       "points": 2
@@ -61,13 +58,12 @@
     {
       "id": 4,
       "type": "mc",
-      "text": "'Bakti Sosial' adalah...",
-      "image": null,
+      "text": "A line graph shows the mass of newspapers collected over 5 weeks. The class collected 60 kg in the 2nd week and 100 kg in the 1st week. What was the mass collected in the 2nd week?<br><em>(Based on: Old Newspapers Collected Over 5 Weeks \u2014 bar/line graph)</em>",
       "options": {
-        "A": "Membuat lingkungan menjadi sangat berbahaya",
-        "B": "Membuat semua orang menjadi sangat egois",
-        "C": "Kegiatan sosial yang dilakukan untuk membantu masyarakat tanpa mengharap balasan",
-        "D": "Menolak semua tawaran bantuan dari tetangga"
+        "A": "40 kg",
+        "B": "100 kg",
+        "C": "60 kg",
+        "D": "80 kg"
       },
       "answer": "C",
       "points": 2
@@ -75,97 +71,90 @@
     {
       "id": 5,
       "type": "mc",
-      "text": "'Musyawarah' adalah...",
-      "image": null,
+      "text": "A line graph shows health checkups conducted over 6 months (Jan to Jun). Which month had the most health checkups?<br><em>(Based on: Health Checkups Conducted Over 6 Months \u2014 line graph)</em>",
       "options": {
-        "A": "Menjauhkan diri dari semua kegiatan masyarakat",
-        "B": "Menghilangkan rasa saling percaya antarsesama",
-        "C": "Proses pengambilan keputusan bersama melalui dialog dan berunding",
-        "D": "Membuat lingkungan menjadi sangat berbahaya"
+        "A": "March",
+        "B": "June",
+        "C": "January",
+        "D": "April"
       },
-      "answer": "C",
+      "answer": "A",
       "points": 2
     },
     {
       "id": 6,
       "type": "mc",
-      "text": "'Toleransi' adalah...",
-      "image": null,
+      "text": "A line graph shows temperature recorded over a 12-hour period in Hong Kong. The temperature at 10 a.m. was 28\u00b0C and at 2 p.m. was 34\u00b0C. What was the temperature recorded at 10 a.m.?<br><em>(Based on: Temperature in Hong Kong \u2014 6am to 6pm line graph)</em>",
       "options": {
-        "A": "Mengurangi kualitas lingkungan hidup secara drastis",
-        "B": "Menghindari semua kegiatan sosial di lingkungan",
-        "C": "Membuang sampah di tempat sampah adalah pencemaran",
-        "D": "Sikap saling menghormati perbedaan antar sesama"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 7,
-      "type": "mc",
-      "text": "'Pengungsi' adalah...",
-      "image": null,
-      "options": {
-        "A": "Menonton television seharian tanpa melakukan sesuatu",
-        "B": "Membuat semua orang menjadi sangat egois",
-        "C": "Menggunakan uang hanya untuk diri sendiri",
-        "D": "Orang yang meninggalkan tempat tinggalnya karena bencana"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 8,
-      "type": "mc",
-      "text": "'Kebersamaan' adalah...",
-      "image": null,
-      "options": {
-        "A": "Membuat warga menjadi tidak peduli terhadap sesama",
-        "B": "Perasaan kebersamaan dan keakraban antarsesama",
-        "C": "Menolong orang hanya jika ada imbalan",
-        "D": "Menyebarkan berita bohong tentang orang lain"
+        "A": "30\u00b0C",
+        "B": "28\u00b0C",
+        "C": "34\u00b0C",
+        "D": "26\u00b0C"
       },
       "answer": "B",
       "points": 2
     },
     {
-      "id": 9,
+      "id": 7,
       "type": "mc",
-      "text": "'Saling Membantu' adalah...",
-      "image": null,
+      "text": "A line graph shows the hours of bicycle rental from March to July. June had 6,000 hours and July had 5,500 hours. Which month had the most hours of bicycle rental?<br><em>(Based on: Hours of Bicycle Rental Over 5 Months \u2014 line graph)</em>",
       "options": {
-        "A": "Menonton television seharian tanpa melakukan sesuatu",
-        "B": "Menolak semua tawaran bantuan dari tetangga",
-        "C": "Menghilangkan rasa saling percaya antarsesama",
-        "D": "Saling membantu satu sama lain untuk menyelesaikan pekerjaan"
+        "A": "June",
+        "B": "May",
+        "C": "July",
+        "D": "March"
       },
-      "answer": "D",
+      "answer": "A",
       "points": 2
     },
     {
-      "id": 10,
+      "id": 8,
       "type": "mc",
-      "text": "'Kehidupan Bermasyarakat' adalah...",
-      "image": null,
+      "text": "A line graph shows the temperature of an object heated over 5 minutes. The temperature in the 2nd minute was 80\u00b0C and in the 4th minute was 140\u00b0C. What was the temperature in the 2nd minute?<br><em>(Based on: Temperature of Object heated over 5 minutes \u2014 line graph)</em>",
       "options": {
-        "A": "Membuat semua orang menjadi sangat egois",
-        "B": "Menggunakan sumber daya alam secara berlebihan",
-        "C": "Keadaan dimana orang hidup bersama dalam masyarakat",
-        "D": "Menggunakan uang hanya untuk diri sendiri"
+        "A": "100\u00b0C",
+        "B": "60\u00b0C",
+        "C": "80\u00b0C",
+        "D": "140\u00b0C"
       },
       "answer": "C",
       "points": 2
     },
     {
+      "id": 9,
+      "type": "mc",
+      "text": "A table shows recyclables collected by four classes. Class 4A collected 48 kg, Class 4B collected 36 kg, Class 4C collected 42 kg, and Class 4D collected 30 kg. How much did class 4B collect?<br><em>(Based on: Recyclables collected by four classes \u2014 table)</em>",
+      "options": {
+        "A": "30 kg",
+        "B": "42 kg",
+        "C": "36 kg",
+        "D": "48 kg"
+      },
+      "answer": "C",
+      "points": 2
+    },
+    {
+      "id": 10,
+      "type": "mc",
+      "text": "A table shows pupils' scores and the number of pupils who obtained each score. If 8 pupils obtained a score of 10 and 5 pupils obtained a score of 15, how many pupils obtained a score of 10?<br><em>(Based on: Score vs Number of Pupils table)</em>",
+      "options": {
+        "A": "8 pupils",
+        "B": "13 pupils",
+        "C": "5 pupils",
+        "D": "3 pupils"
+      },
+      "answer": "A",
+      "points": 2
+    },
+    {
       "id": 11,
       "type": "mc",
-      "text": "'Dana Bantuan' adalah...",
-      "image": null,
+      "text": "A line graph shows earnings at Mrs Isa's fruit stall from January to May. She earned $1,000 in January, $2,000 in February, $1,500 in March, $1,500 in April, and $3,000 in May. How much did she earn in March?<br><em>(Based on: Earnings at Mrs Isa's Fruit Stall \u2014 line graph)</em>",
       "options": {
-        "A": "Menolong orang hanya jika ada imbalan",
-        "B": "Menghilangkan rasa saling percaya antarsesama",
-        "C": "Mengutamakan kepentingan pribadi di atas kepentingan bersama",
-        "D": "Uang atau barang yang diberikan untuk membantu korban bencana"
+        "A": "$1,000",
+        "B": "$3,000",
+        "C": "$2,000",
+        "D": "$1,500"
       },
       "answer": "D",
       "points": 2
@@ -173,97 +162,90 @@
     {
       "id": 12,
       "type": "mc",
-      "text": "'Tradisi' adalah...",
-      "image": null,
+      "text": "A bar graph shows movie DVD sales over 5 days. Wednesday had 60 DVDs, Thursday had 80 DVDs, Friday had 40 DVDs, Saturday had 100 DVDs, and Sunday had 120 DVDs. Which day had the most DVD sales?<br><em>(Based on: Movie DVD Sales Over 5 Days \u2014 bar graph)</em>",
       "options": {
-        "A": "Menyelesaikan semua masalah tanpa bantuan siapapun",
-        "B": "Kebiasaan atau kegiatan yang dilakukan secara turun-temurun",
-        "C": "Menolak semua tawaran bantuan dari tetangga",
-        "D": "Membuat semua orang menjadi sangat egois"
+        "A": "Saturday",
+        "B": "Wednesday",
+        "C": "Thursday",
+        "D": "Sunday"
       },
-      "answer": "B",
+      "answer": "D",
       "points": 2
     },
     {
       "id": 13,
       "type": "mc",
-      "text": "'Partisipasi' adalah...",
-      "image": null,
+      "text": "A line graph shows the number of books loaned out by a school library over four days. If the graph shows 200 books on Monday, 250 on Tuesday, 300 on Wednesday, and 200 on Thursday, on which day were the most books loaned?<br><em>(Based on: Library books loaned over four days \u2014 line graph)</em>",
       "options": {
-        "A": "Membuat masyarakat menjadi terpecah belah",
-        "B": "Menonton television seharian tanpa melakukan sesuatu",
-        "C": "Menjauhkan diri dari semua kegiatan masyarakat",
-        "D": "Keterlibatan aktif dalam kegiatan masyarakat"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 14,
-      "type": "mc",
-      "text": "'Kerja Sama' adalah...",
-      "image": null,
-      "options": {
-        "A": "Membuat masyarakat menjadi terpecah belah",
-        "B": "Menggunakan uang hanya untuk diri sendiri",
-        "C": "Bekerja sama untuk mencapai tujuan bersama",
-        "D": "Menghindari semua kegiatan sosial di lingkungan"
-      },
-      "answer": "C",
-      "points": 2
-    },
-    {
-      "id": 15,
-      "type": "mc",
-      "text": "'Masyarakat' adalah...",
-      "image": null,
-      "options": {
-        "A": "Menggunakan sumber daya alam secara berlebihan",
-        "B": "Mengurangi semangat kebersamaan antarsesama",
-        "C": "Sekelompok orang yang tinggal di suatu wilayah dan memiliki ikatan sosial",
-        "D": "Menyebabkan semua warga hidup dalam kemiskinan"
-      },
-      "answer": "C",
-      "points": 2
-    },
-    {
-      "id": 16,
-      "type": "mc",
-      "text": "'Pencemaran Lingkungan' adalah...",
-      "image": null,
-      "options": {
-        "A": "Membuat lingkungan menjadi sangat berbahaya",
-        "B": "Tercemarnya lingkungan oleh zat-zat berbahaya atau limbah",
-        "C": "Menggunakan uang hanya untuk diri sendiri",
-        "D": "Membuat warga menjadi tidak peduli terhadap sesama"
+        "A": "Monday",
+        "B": "Wednesday",
+        "C": "Tuesday",
+        "D": "Thursday"
       },
       "answer": "B",
       "points": 2
     },
     {
-      "id": 17,
+      "id": 14,
       "type": "mc",
-      "text": "'Membersihkan Sungai' adalah...",
-      "image": null,
+      "text": "The table shows types of vehicles: Cars (20), Motorcycles (15), Vans (8), Lorries (5), Bicycles (12). How many vehicles passed the town centre in total?<br><em>(Based on: Vehicles passing town centre between 9.30 a.m. and 9.45 a.m. on Sunday)</em>",
       "options": {
-        "A": "Menerima bantuan hanya dari keluarga sendiri",
-        "B": "Membuat pertumbuhan ekonomi menjadi sangat lambat",
-        "C": "Menyebabkan perasaan saling tidak menghargai",
-        "D": "Membuang kotoran dan sampah di sungai agar bersih kembali"
+        "A": "60",
+        "B": "55",
+        "C": "50",
+        "D": "48"
+      },
+      "answer": "A",
+      "points": 2
+    },
+    {
+      "id": 15,
+      "type": "mc",
+      "text": "A line graph shows the temperature in Hong Kong over 12 hours. The highest temperature was 34\u00b0C at 2 p.m. and the lowest was 22\u00b0C at 6 a.m. What was the difference between the highest and lowest temperatures?<br><em>(Based on: Temperature in Hong Kong line graph)</em>",
+      "options": {
+        "A": "10\u00b0C",
+        "B": "8\u00b0C",
+        "C": "6\u00b0C",
+        "D": "12\u00b0C"
       },
       "answer": "D",
       "points": 2
     },
     {
+      "id": 16,
+      "type": "mc",
+      "text": "Express 6:40 a.m. using the 24-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 Express times using 24-hour clock)</em>",
+      "options": {
+        "A": "1640",
+        "B": "0620",
+        "C": "0640",
+        "D": "1840"
+      },
+      "answer": "C",
+      "points": 2
+    },
+    {
+      "id": 17,
+      "type": "mc",
+      "text": "Express 10:05 p.m. using the 24-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 Express times using 24-hour clock)</em>",
+      "options": {
+        "A": "2105",
+        "B": "2205",
+        "C": "1005",
+        "D": "2005"
+      },
+      "answer": "B",
+      "points": 2
+    },
+    {
       "id": 18,
       "type": "mc",
-      "text": "'Menanam Pohon' adalah...",
-      "image": null,
+      "text": "Express 0925 using the 12-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 Express times using 12-hour clock)</em>",
       "options": {
-        "A": "Membuat warga menjadi tidak peduli terhadap sesama",
-        "B": "Membuat lingkungan menjadi sangat berbahaya",
-        "C": "Menyelesaikan semua masalah tanpa bantuan siapapun",
-        "D": "Memasukkan bakal pohon ke dalam tanah agar tumbuh menjadi pohon"
+        "A": "21:25",
+        "B": "21:25 a.m.",
+        "C": "9:25 p.m.",
+        "D": "9:25 a.m."
       },
       "answer": "D",
       "points": 2
@@ -271,139 +253,129 @@
     {
       "id": 19,
       "type": "mc",
-      "text": "'Sedekah' adalah...",
-      "image": null,
+      "text": "Express 2050 using the 12-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 Express times using 12-hour clock)</em>",
       "options": {
-        "A": "Menyebabkan semua warga hidup dalam kemiskinan",
-        "B": "Menyebabkan semua kegiatan menjadi sangat lambat",
-        "C": "Menggunakan uang hanya untuk diri sendiri",
-        "D": "Memberikan sesuatu kepada orang yang membutuhkan tanpa mengaharap balasan"
+        "A": "9:50 p.m.",
+        "B": "8:50 a.m.",
+        "C": "8:50 p.m.",
+        "D": "20:50"
       },
-      "answer": "D",
+      "answer": "C",
       "points": 2
     },
     {
       "id": 20,
       "type": "mc",
-      "text": "'Bantu Memindai' adalah...",
-      "image": null,
+      "text": "A mathematics competition started at 13:30 and ended at 17:05. How long did the competition last?<br><em>(Based on: Chapter 15 Review \u2014 time duration calculations)</em>",
       "options": {
-        "A": "Menyebabkan perasaan saling tidak menghargai",
-        "B": "Membantu orang lain dalam melakukan sesuatu pekerjaan",
-        "C": "Menggunakan uang hanya untuk diri sendiri",
-        "D": "Menjauhkan diri dari semua kegiatan masyarakat"
+        "A": "3 hours 25 minutes",
+        "B": "4 hours 35 minutes",
+        "C": "2 hours 35 minutes",
+        "D": "3 hours 35 minutes"
       },
-      "answer": "B",
+      "answer": "D",
       "points": 2
     },
     {
       "id": 21,
       "type": "mc",
-      "text": "'Petugas' adalah...",
-      "image": null,
+      "text": "A football match started at 19:15 and lasted 1 hour 30 minutes. What time did the match end?<br><em>(Based on: Chapter 15 Review \u2014 end time calculations)</em>",
       "options": {
-        "A": "Menghilangkan rasa saling percaya antarsesama",
-        "B": "Orang yang ditugaskan untuk menjalankan tugas tertentu",
-        "C": "Memaksakan pendapat sendiri kepada orang lain",
-        "D": "Menyebabkan semua warga hidup dalam kemiskinan"
+        "A": "18:45",
+        "B": "21:45",
+        "C": "19:45",
+        "D": "20:45"
       },
-      "answer": "B",
+      "answer": "D",
       "points": 2
     },
     {
       "id": 22,
       "type": "mc",
-      "text": "'Jalur Alternatif' adalah...",
-      "image": null,
+      "text": "A lesson at a club ended at 10:35. The lesson lasted 2 hours 25 minutes. What time did the lesson start?<br><em>(Based on: Chapter 15 Review \u2014 start time calculations)</em>",
       "options": {
-        "A": "Menyebarkan berita bohong tentang orang lain",
-        "B": "Mengurangi semangat kebersamaan antarsesama",
-        "C": "Jalan lain yang dapat digunakan ketika jalan utama terhalang",
-        "D": "Mengutamakan kepentingan pribadi di atas kepentingan bersama"
+        "A": "08:05",
+        "B": "08:15",
+        "C": "07:10",
+        "D": "08:10"
       },
-      "answer": "C",
+      "answer": "D",
       "points": 2
     },
     {
       "id": 23,
       "type": "mc",
-      "text": "'Sinoman' adalah...",
-      "image": null,
+      "text": "Nurul left her house at 18:00 to go to a musical. She took 50 minutes to reach the theatre and was 10 minutes early. What time did the musical start?<br><em>(Based on: Chapter 15 Review \u2014 musical start time problem)</em>",
       "options": {
-        "A": "Meningkatkan rasa individualisme di lingkungan",
-        "B": "Membuat pertumbuhan ekonomi menjadi sangat lambat",
-        "C": "Menjauhkan diri dari semua kegiatan masyarakat",
-        "D": "Tradisi kerja sama dalam pengajian di masyarakat Jawa"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 24,
-      "type": "mc",
-      "text": "'Gotong Royong' adalah...",
-      "image": null,
-      "options": {
-        "A": "Menonton television seharian tanpa melakukan sesuatu",
-        "B": "Menolak semua tawaran bantuan dari tetangga",
-        "C": "Membuat masyarakat menjadi terpecah belah",
-        "D": "Kerja sama saling tolong-menolong dalam kehidupan bermasyarakat"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 25,
-      "type": "mc",
-      "text": "'Bencana Alam' adalah...",
-      "image": null,
-      "options": {
-        "A": "Menghindari semua kegiatan sosial di lingkungan",
-        "B": "Kejadian alam yang menyebabkan kerusakan dan korban jiwa",
-        "C": "Menerima bantuan hanya dari keluarga sendiri",
-        "D": "Mengurangi semangat kebersamaan antarsesama"
-      },
-      "answer": "B",
-      "points": 2
-    },
-    {
-      "id": 26,
-      "type": "mc",
-      "text": "'Warga Masyarakat' adalah...",
-      "image": null,
-      "options": {
-        "A": "Orang-orang yang tinggal di suatu wilayah dan saling berinteraksi",
-        "B": "Membuat masyarakat menjadi terpecah belah",
-        "C": "Membuat lingkungan menjadi sangat berbahaya",
-        "D": "Menggunakan uang hanya untuk diri sendiri"
+        "A": "19:00",
+        "B": "19:10",
+        "C": "19:20",
+        "D": "18:50"
       },
       "answer": "A",
       "points": 2
     },
     {
-      "id": 27,
+      "id": 24,
       "type": "mc",
-      "text": "'Bakti Sosial' adalah...",
-      "image": null,
+      "text": "A concert started at 9:30 p.m. on Friday and lasted 2 hours 45 minutes. What time did the concert end? Express your answer using the 24-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 24-hour clock end time)</em>",
       "options": {
-        "A": "Menggunakan sumber daya alam secara berlebihan",
-        "B": "Menolong orang hanya jika ada imbalan",
-        "C": "Kegiatan sosial yang dilakukan untuk membantu masyarakat tanpa mengharap balasan",
-        "D": "Membuat semua orang menjadi sangat egois"
+        "A": "12:15 on Friday",
+        "B": "12:15 on Saturday",
+        "C": "00:15 on Saturday",
+        "D": "00:15 on Friday"
       },
       "answer": "C",
       "points": 2
     },
     {
+      "id": 25,
+      "type": "mc",
+      "text": "Mrs Krishnan finished baking a pie at 12:25 p.m. She baked for 1 hour 30 minutes. What time did she start baking? Express your answer using the 24-hour clock.<br><em>(Based on: Chapter 15 Review \u2014 baking start time in 24-hour clock)</em>",
+      "options": {
+        "A": "10:35",
+        "B": "11:55",
+        "C": "09:55",
+        "D": "10:55"
+      },
+      "answer": "D",
+      "points": 2
+    },
+    {
+      "id": 26,
+      "type": "mc",
+      "text": "Jenny celebrated her birthday on 12 October at 17:45. Her sister celebrated her birthday 18 hours later. What is the date and time of her sister's birthday celebration?<br><em>(Based on: Chapter 15 Review \u2014 18-hour later calculation)</em>",
+      "options": {
+        "A": "13 October at 17:45",
+        "B": "12 October at 11:45",
+        "C": "13 October at 11:45",
+        "D": "11 October at 11:45"
+      },
+      "answer": "C",
+      "points": 2
+    },
+    {
+      "id": 27,
+      "type": "mc",
+      "text": "Gail walks from her house to the bus stop. She leaves at 06:52 and reaches at 07:15. How long does she take to walk from her house to the bus stop?<br><em>(Based on: Chapter 15 Practice \u2014 walking time calculation)</em>",
+      "options": {
+        "A": "33 minutes",
+        "B": "13 minutes",
+        "C": "15 minutes",
+        "D": "23 minutes"
+      },
+      "answer": "D",
+      "points": 2
+    },
+    {
       "id": 28,
       "type": "mc",
-      "text": "'Musyawarah' adalah...",
-      "image": null,
+      "text": "A movie lasted 2 hours 51 minutes and ended at 00:36 the next day. What time did the movie start?<br><em>(Based on: Chapter 15 Practice \u2014 movie start time)</em>",
       "options": {
-        "A": "Menolak semua tawaran bantuan dari tetangga",
-        "B": "Menyebabkan ketidakharmonisan dalam lingkungan",
-        "C": "Menghindari semua kegiatan sosial di lingkungan",
-        "D": "Proses pengambilan keputusan bersama melalui dialog dan berunding"
+        "A": "22:45",
+        "B": "23:45",
+        "C": "20:45",
+        "D": "21:45"
       },
       "answer": "D",
       "points": 2
@@ -411,229 +383,207 @@
     {
       "id": 29,
       "type": "mc",
-      "text": "'Toleransi' adalah...",
-      "image": null,
+      "text": "A New Year party started at 22:30 on Friday and ended at 01:15 the next day. How long was the party?<br><em>(Based on: Chapter 15 Practice \u2014 party duration)</em>",
       "options": {
-        "A": "Menolak semua tawaran bantuan dari tetangga",
-        "B": "Memaksakan pendapat sendiri kepada orang lain",
-        "C": "Menyebabkan perasaan saling tidak menghargai",
-        "D": "Sikap saling menghormati perbedaan antar sesama"
-      },
-      "answer": "D",
-      "points": 2
-    },
-    {
-      "id": 30,
-      "type": "mc",
-      "text": "'Pengungsi' adalah...",
-      "image": null,
-      "options": {
-        "A": "Orang yang meninggalkan tempat tinggalnya karena bencana",
-        "B": "Menjauhkan diri dari semua kegiatan masyarakat",
-        "C": "Menyebabkan perasaan saling tidak menghargai",
-        "D": "Menonton television seharian tanpa melakukan sesuatu"
+        "A": "2 hours 45 minutes",
+        "B": "3 hours 15 minutes",
+        "C": "1 hour 45 minutes",
+        "D": "2 hours 15 minutes"
       },
       "answer": "A",
       "points": 2
     },
     {
+      "id": 30,
+      "type": "mc",
+      "text": "Rafi walked from Town A to Town E. He left Town A at 09:00 and reached Town B at 10:00, Town C at 10:42, and Town D at 11:56. How long did he take to walk from Town A to Town B?<br><em>(Based on: Chapter 15 Practice \u2014 walking between towns)</em>",
+      "options": {
+        "A": "42 minutes",
+        "B": "1 hour",
+        "C": "1 hour 42 minutes",
+        "D": "56 minutes"
+      },
+      "answer": "B",
+      "points": 2
+    },
+    {
       "id": 31,
       "type": "fill",
-      "text": "Sikap saling membantu tanpa mengharap balasan disebut _____",
-      "image": null,
-      "answer": "gotong royong",
+      "text": "A table shows Class 4A collected 48 kg of recyclables and Class 4D collected 30 kg. Class 4D needs to collect _____ kg more to match Class 4A.",
+      "answer": "18",
       "points": 2
     },
     {
       "id": 32,
       "type": "fill",
-      "text": "Kegiatan kerja sama membersihkan lingkungan sekolah disebut _____",
-      "image": null,
-      "answer": "bakti sosial",
+      "text": "The line graph shows that Mrs Isa earned $1,500 in March and $1,500 in April. The two months where she earned the same amount were _____ and _____.",
+      "answer": "March and April",
       "points": 2
     },
     {
       "id": 33,
       "type": "fill",
-      "text": "Membantu korban _____ adalah contoh gotong royong yang tulus",
-      "image": null,
-      "answer": "bencana alam",
+      "text": "A line graph shows the total mass of newspapers collected in the 1st week was 100 kg and in the 3rd week was 80 kg. The total mass collected over the 3rd week was _____ kg.",
+      "answer": "80",
       "points": 2
     },
     {
       "id": 34,
       "type": "fill",
-      "text": "Rasa _____ antarwarga tercipta melalui kegiatan kerja sama",
-      "image": null,
-      "answer": "kebersamaan",
+      "text": "The table shows pupils' scores. The most common score was 10 (obtained by 8 pupils). The least common score was _____ (obtained by 3 pupils).",
+      "answer": "5",
       "points": 2
     },
     {
       "id": 35,
       "type": "fill",
-      "text": "_____ adalah tradisi bekerja sama menyelesaikan pekerjaan di lingkungan",
-      "image": null,
-      "answer": "gotong royong",
+      "text": "The line graph shows bicycle rental hours in March was 3,000 and in April was 4,000. The increase from March to April was _____ hours.",
+      "answer": "1000",
       "points": 2
     },
     {
       "id": 36,
       "type": "fill",
-      "text": "Kejadian alam yang menyebabkan kerusakan disebut _____",
-      "image": null,
-      "answer": "bencana alam",
+      "text": "A bar graph shows DVD sales: Wed 60, Thu 80, Fri 40, Sat 100, Sun 120. The total DVD sales for the whole week were _____ DVDs.",
+      "answer": "400",
       "points": 2
     },
     {
       "id": 37,
       "type": "fill",
-      "text": "Orang yang menjadi bagian dari suatu kelompok sosial disebut _____",
-      "image": null,
-      "answer": "warga masyarakat",
+      "text": "The line graph shows health checkups in March was 55 and in May was 35. The difference in the number of checkups between March and May was _____.",
+      "answer": "20",
       "points": 2
     },
     {
       "id": 38,
       "type": "fill",
-      "text": "Saling _____ adalah kunci kehidupan bermasyarakat yang harmonis",
-      "image": null,
-      "answer": "membantu",
+      "text": "The table shows vehicles passing a town centre: 5 vans and 3 lorries. There were _____ more vans than lorries.",
+      "answer": "2",
       "points": 2
     },
     {
       "id": 39,
       "type": "fill",
-      "text": "_____ adalah proses pengambilan keputusan bersama melalui musyawarah",
-      "image": null,
-      "answer": "musyawarah",
+      "text": "The line graph shows the temperature of an object in the 3rd minute was 100\u00b0C and in the 5th minute was 180\u00b0C. The increase in temperature from the 3rd to the 5th minute was _____ \u00b0C.",
+      "answer": "80",
       "points": 2
     },
     {
       "id": 40,
       "type": "fill",
-      "text": "Ketika terjadi _____ , warga bisa saling membantu korban",
-      "image": null,
-      "answer": "bencana",
+      "text": "Mrs Isa's earnings from January to May were $1,000, $2,000, $1,500, $1,500, and $3,000 respectively. She earned twice as much in May as she did in _____, because $3,000 is twice $1,500.",
+      "answer": "March",
       "points": 2
     },
     {
       "id": 41,
       "type": "fill",
-      "text": "_____ adalah kegiatan sosial yang bermanfaat bagi lingkungan sekitar",
-      "image": null,
-      "answer": "bakti sosial",
+      "text": "Express 3:15 p.m. using the 24-hour clock: _____.",
+      "answer": "15:15",
       "points": 2
     },
     {
       "id": 42,
       "type": "fill",
-      "text": "Toleransi dan _____ adalah ciri khas kehidupan bermasyarakat Indonesia",
-      "image": null,
-      "answer": "gotong royong",
+      "text": "Express 2330 using the 12-hour clock: _____.",
+      "answer": "11:30 p.m.",
       "points": 2
     },
     {
       "id": 43,
       "type": "fill",
-      "text": "Dana atau barang yang disumbangkan untuk korban bencana disebut _____",
-      "image": null,
-      "answer": "bantuan",
+      "text": "Rafi left Town A at 09:00 and reached Town B at 10:00. He took _____ hour(s) to walk from Town A to Town B.",
+      "answer": "1",
       "points": 2
     },
     {
       "id": 44,
       "type": "fill",
-      "text": "_____ tercipta ketika masyarakat bekerja sama menyelesaikan masalah",
-      "image": null,
-      "answer": "kebersamaan",
+      "text": "A mathematics test began at 11:35 and lasted 55 minutes. Joy finished the test at _____: _____ (24-hour clock).",
+      "answer": "12:30",
       "points": 2
     },
     {
       "id": 45,
       "type": "fill",
-      "text": "Sikap saling _____ dalam kehidupan bermasyarakat sangat penting",
-      "image": null,
-      "answer": "menghargai",
+      "text": "Gail left her house at 06:52 and reached the bus stop at 07:15. She took _____ minutes to walk from her house to the bus stop.",
+      "answer": "23",
       "points": 2
     },
     {
       "id": 46,
       "type": "fill",
-      "text": "Tradisi _____ di Indonesia menunjukkan budaya saling membantu",
-      "image": null,
-      "answer": "gotong royong",
+      "text": "A movie started at 21:45 and ended at 00:36 the next day. The movie lasted _____ hours _____ minutes.",
+      "answer": "2 hours 51 minutes",
       "points": 2
     },
     {
       "id": 47,
       "type": "fill",
-      "text": "Orang yang membutuhkan bantuan saat bencana disebut _____",
-      "image": null,
-      "answer": "pengungsi",
+      "text": "The heritage trail schedule shows: Asian Civilisations Museum from 10:00 to 10:50, then Bus ride to The Arts House from 10:50 to _____, and The Arts House from _____ to 12:00.",
+      "answer": "12:00",
       "points": 2
     },
     {
       "id": 48,
       "type": "fill",
-      "text": "_____ adalah bentuk partisipasi masyarakat dalam kegiatan sosial",
-      "image": null,
-      "answer": "gotong royong",
+      "text": "A dental clinic is open from 09:30 to 13:00 in the morning and from 14:30 to 17:30 in the afternoon, and from 19:00 to 21:00 in the evening. The clinic is open for a total of _____ hours on a weekday.",
+      "answer": "8",
       "points": 2
     },
     {
       "id": 49,
       "type": "fill",
-      "text": "Masyarakat yang aktif menciptakan lingkungan harmonis melalui _____",
-      "image": null,
-      "answer": "kebersamaan",
+      "text": "Rafi walked from Town C (10:42) to Town D (11:56). The time taken from Town C to Town D was _____ hours _____ minutes.",
+      "answer": "1 hour 14 minutes",
       "points": 2
     },
     {
       "id": 50,
       "type": "fill",
-      "text": "Proses berunding untuk mencapai kesepakatan disebut _____",
-      "image": null,
-      "answer": "musyawarah",
+      "text": "Jenny's birthday was on 12 October at 17:45. Her sister's celebration was 18 hours later, which was on _____ October at _____: _____.",
+      "answer": "13 October at 11:45",
       "points": 2
     },
     {
       "id": 51,
       "type": "essay",
-      "text": "Jelaskan mengapa sikap gotong royong penting dalam kehidupan bermasyarakat Indonesia!",
+      "text": "The bar graph shows movie DVD sales over 5 days: Wednesday 60, Thursday 80, Friday 40, Saturday 100, Sunday 120. Which line graph correctly shows this data? Explain why the other line graph is incorrect.",
       "image": null,
-      "answer": "Gotong royong penting karena memperkuat rasa kebersamaan, membangun keharmonisan antarwarga, menyelesaikan masalah bersama, dan mempererat hubungan sosial di tengah keberagaman suku dan budaya.",
+      "answer": "The correct line graph should show a sharp rise from Friday (40) to Sunday (120) with a dip on Friday. The incorrect graph would show a different pattern or wrong order of days.",
       "points": 0
     },
     {
       "id": 52,
       "type": "essay",
-      "text": "Apa yang dapat kamu lakukan sebagai siswa untuk ikut serta dalam kegiatan bakti sosial di lingkungan sekolah?",
+      "text": "The line graph shows Mrs Isa's earnings from January to May as $1,000, $2,000, $1,500, $1,500, and $3,000. During which 1-month interval was the increase in earnings the greatest? Explain how you found your answer.",
       "image": null,
-      "answer": "Sebagai siswa, saya dapat mengikuti kegiatan bakti sosial seperti kerja bakti membersihkan lingkungan sekolah, membantu teman yang membutuhkan, dan berpartisipasi dalam program donasi.",
+      "answer": "The greatest increase was from April to May, when earnings rose from $1,500 to $3,000, an increase of $1,500. This is larger than all other month-to-month changes.",
       "points": 0
     },
     {
       "id": 53,
       "type": "essay",
-      "text": "Bagaimana warga masyarakat dapat menunjukkan sikap saling membantu saat terjadi bencana alam di daerah mereka?",
+      "text": "A concert started at 9:30 p.m. on Friday and lasted 2 hours 45 minutes. Show how to find the concert end time using the 24-hour clock, and give the final answer.",
       "image": null,
-      "answer": "Warga dapat membantu dengan mengungsikan korban ke tempat aman, memberikan makanan dan minuman, membantu evakuasi, dan berpartisipasi dalam proses pemulihan lingkungan.",
+      "answer": "Starting at 9:30 p.m. = 21:30. Adding 2 hours gives 23:30, then adding 45 minutes gives 00:15 the next day (Saturday). So the concert ended at 00:15 on Saturday, expressed as 00:15.",
       "points": 0
     },
     {
       "id": 54,
       "type": "essay",
-      "text": "Menurutmu, apa saja tantangan dalam menjaga tradisi gotong royong di era modern seperti saat ini? Jelaskan!",
+      "text": "Rafi walked from Town A to Town E. He left at 09:00, reached Town B at 10:00, Town C at 10:42, Town D at 11:56, and Town E at 18:11. He took 7 hours 15 minutes to walk from Town D to Town E. Show how to calculate the time taken for each segment: A\u2192B, B\u2192C, C\u2192D.",
       "image": null,
-      "answer": "Tantangannya meliputi: gaya hidup individualistik yang mengutamakan kepentingan pribadi, kemajuan teknologi yang mengurangi interaksi langsung, dan kesibukan yang menyulitkan masyarakat untuk meluangkan waktu bagi kegiatan kolektif.",
+      "answer": "A to B: 10:00 \u2212 09:00 = 1 hour. B to C: 10:42 \u2212 10:00 = 42 minutes. C to D: 11:56 \u2212 10:42 = 1 hour 14 minutes.",
       "points": 0
     },
     {
       "id": 55,
       "type": "essay",
-      "text": "Jelaskan hubungan antara toleransi dan gotong royong dalam kehidupan bermasyarakat yang beragam!",
+      "text": "A New Year party started at 22:30 on Friday and ended at 01:15 the next day. Show all the steps to find how long the party lasted. Explain why you need to add 24 hours to 01:15 before subtracting.",
       "image": null,
-      "answer": "Toleransi dan gotong royong saling berkaitan karena dalam masyarakat yang beragam, gotong royong hanya dapat berjalan jika ada toleransi yang baik antarwarga yang berbeda suku, agama, dan budaya.",
+      "answer": "First convert 01:15 (Saturday morning) to 24-hour format past midnight of Friday: 01:15 + 24 hours = 25:15. Then subtract the start time: 25:15 \u2212 22:30 = 2 hours 45 minutes. The party lasted 2 hours 45 minutes.",
       "points": 0
     }
   ]
