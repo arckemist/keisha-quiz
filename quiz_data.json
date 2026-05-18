@@ -14,7 +14,7 @@
         "C": "How long a sound lasts",
         "D": "How loud or soft a sound is"
       },
-      "answer": "How loud or soft a sound is",
+      "answer": "A",
       "points": 2
     },
     {
@@ -26,7 +26,7 @@
         "C": "Ultrasound",
         "D": "Infrasound"
       },
-      "answer": "Ultrasound",
+      "answer": "A",
       "points": 2
     },
     {
@@ -50,7 +50,7 @@
         "C": "A soft sound",
         "D": "A loud sound"
       },
-      "answer": "A loud sound",
+      "answer": "A",
       "points": 2
     },
     {
@@ -68,7 +68,7 @@
         "C": "Interprets them as sound",
         "D": "Ignores them"
       },
-      "answer": "Interprets them as sound",
+      "answer": "A",
       "points": 2
     },
     {
@@ -92,7 +92,7 @@
         "C": "Condensation",
         "D": "Evaporation"
       },
-      "answer": "Vibration",
+      "answer": "A",
       "points": 2
     },
     {
@@ -104,7 +104,7 @@
         "C": "No sound",
         "D": "High-pitched sound"
       },
-      "answer": "High-pitched sound",
+      "answer": "A",
       "points": 2
     },
     {
@@ -128,7 +128,7 @@
         "C": "As a water wave",
         "D": "As heat"
       },
-      "answer": "As a sound wave",
+      "answer": "A",
       "points": 2
     },
     {
@@ -140,7 +140,7 @@
         "C": "Electrical signals",
         "D": "Sound signals"
       },
-      "answer": "Electrical signals",
+      "answer": "A",
       "points": 2
     },
     {
@@ -152,7 +152,7 @@
         "C": "Our eyes",
         "D": "Our mouth"
       },
-      "answer": "Our ears",
+      "answer": "A",
       "points": 2
     },
     {
@@ -170,7 +170,7 @@
         "C": "It vibrates",
         "D": "It cracks"
       },
-      "answer": "It vibrates",
+      "answer": "A",
       "points": 2
     },
     {
@@ -206,7 +206,7 @@
         "C": "A baby inside a mother's womb",
         "D": "The taste of food"
       },
-      "answer": "A baby inside a mother's womb",
+      "answer": "A",
       "points": 2
     },
     {
@@ -224,7 +224,7 @@
         "C": "Amount of energy used to make it",
         "D": "The color of the object"
       },
-      "answer": "Amount of energy used to make it",
+      "answer": "A",
       "points": 2
     },
     {
@@ -236,7 +236,7 @@
         "C": "A quick back and forth movement",
         "D": "A slow spinning motion"
       },
-      "answer": "A quick back and forth movement",
+      "answer": "A",
       "points": 2
     },
     {
@@ -248,7 +248,7 @@
         "C": "Higher pitch",
         "D": "Lower pitch"
       },
-      "answer": "Lower pitch",
+      "answer": "A",
       "points": 2
     },
     {
@@ -260,7 +260,7 @@
         "C": "The pitch of the sound they produce",
         "D": "The taste of sound"
       },
-      "answer": "The pitch of the sound they produce",
+      "answer": "A",
       "points": 2
     },
     {
@@ -272,7 +272,7 @@
         "C": "Lower pitched",
         "D": "Softer"
       },
-      "answer": "Softer",
+      "answer": "A",
       "points": 2
     },
     {
@@ -290,7 +290,7 @@
         "C": "A high-pitched sound",
         "D": "A loud sound"
       },
-      "answer": "A soft sound",
+      "answer": "A",
       "points": 2
     },
     {
@@ -302,7 +302,7 @@
         "C": "Too high for human ears to hear",
         "D": "Too low for human ears to hear"
       },
-      "answer": "Too high for human ears to hear",
+      "answer": "A",
       "points": 2
     },
     {
@@ -314,7 +314,7 @@
         "C": "Lower pitch",
         "D": "Louder pitch"
       },
-      "answer": "Higher pitch",
+      "answer": "A",
       "points": 2
     },
     {
@@ -338,7 +338,7 @@
         "C": "Softer",
         "D": "Lower pitched"
       },
-      "answer": "Louder",
+      "answer": "A",
       "points": 2
     },
     {
@@ -350,7 +350,7 @@
         "C": "Higher pitch",
         "D": "Loud sound"
       },
-      "answer": "Higher pitch",
+      "answer": "A",
       "points": 2
     },
     {
@@ -362,7 +362,7 @@
         "C": "Place where a sound is produced",
         "D": "End of the sound"
       },
-      "answer": "Place where a sound is produced",
+      "answer": "A",
       "points": 2
     },
     {
@@ -422,7 +422,7 @@
         "C": "Low-pitched sound",
         "D": "High-pitched sound"
       },
-      "answer": "Low-pitched sound",
+      "answer": "A",
       "points": 2
     },
     {
@@ -434,7 +434,7 @@
         "C": "In one straight line",
         "D": "Only up"
       },
-      "answer": "All directions",
+      "answer": "A",
       "points": 2
     },
     {
@@ -446,7 +446,7 @@
         "C": "The weight of the object",
         "D": "How quickly the object vibrates"
       },
-      "answer": "How quickly the object vibrates",
+      "answer": "A",
       "points": 2
     },
     {
@@ -458,7 +458,7 @@
         "C": "Drum skins",
         "D": "Bells"
       },
-      "answer": "Strings of different lengths and thickness",
+      "answer": "A",
       "points": 2
     },
     {
@@ -470,7 +470,7 @@
         "C": "Xylophone",
         "D": "Drum"
       },
-      "answer": "Xylophone",
+      "answer": "A",
       "points": 2
     },
     {
@@ -482,7 +482,7 @@
         "C": "Higher pitch",
         "D": "No pitch"
       },
-      "answer": "Higher pitch",
+      "answer": "A",
       "points": 2
     },
     {
@@ -500,7 +500,7 @@
         "C": "Lower pitch",
         "D": "Higher pitch"
       },
-      "answer": "Higher pitch",
+      "answer": "A",
       "points": 2
     },
     {
@@ -512,7 +512,7 @@
         "C": "A lower pitch",
         "D": "A louder sound"
       },
-      "answer": "A softer sound",
+      "answer": "A",
       "points": 2
     },
     {
@@ -524,7 +524,7 @@
         "C": "No sound",
         "D": "A louder sound"
       },
-      "answer": "A louder sound",
+      "answer": "A",
       "points": 2
     }
   ]
