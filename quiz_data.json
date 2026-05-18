@@ -1,640 +1,531 @@
 {
-  "metadata": {
-    "subject": "Mathematics",
-    "grade": "4",
-    "source_pdf": "kei.pdf",
-    "generated_at": "2026-05-17"
-  },
-  "ui_strings": {
-    "start_button": "Start Quiz",
-    "submit_button": "Submit",
-    "fill_placeholder": "Type your answer...",
-    "essay_placeholder": "Write your answer here...",
-    "loading": "Loading quiz...",
-    "error_load_failed": "Failed to load quiz. Please refresh the page.",
-    "progress_format": "Question {n} of {total}"
-  },
-  "title": "17 May 2026",
+  "title": "Keisha P4 Science \u2014 Properties of Sound",
+  "date": "19 May 2026",
+  "totalPoints": 100,
+  "passingScore": 85,
+  "timeMinutes": 45,
   "questions": [
     {
-      "type": "mc",
-      "text": "A rectangle 10cm by 8cm has a 6cm by 3cm rectangle cut from one corner. What is the area of the remaining cardboard?",
-      "image": null,
-      "options": {
-        "A": "62 cm\u00b2",
-        "B": "50 cm\u00b2",
-        "C": "68 cm\u00b2",
-        "D": "74 cm\u00b2"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 1
+      "type": "multiple_choice",
+      "text": "What is loudness?",
+      "options": [
+        "How fast sound travels",
+        "How high or low a sound is",
+        "How long a sound lasts",
+        "How loud or soft a sound is"
+      ],
+      "answer": "How loud or soft a sound is",
+      "points": 2
     },
     {
-      "type": "mc",
-      "text": "What is a composite figure?",
-      "image": null,
-      "options": {
-        "A": "A figure made up of two or more shapes joined together",
-        "B": "A figure with curved edges only",
-        "C": "A figure made up of two or more shapes joined together",
-        "D": "A figure with no equal sides"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 2
+      "type": "multiple_choice",
+      "text": "What type of sound do doctors use to see inside the body?",
+      "options": [
+        "Hypersound",
+        "Microwave",
+        "Ultrasound",
+        "Infrasound"
+      ],
+      "answer": "Ultrasound",
+      "points": 2
     },
     {
-      "type": "mc",
-      "text": "To find the area of a composite figure made by cutting a shape from a larger shape, you should:",
-      "image": null,
-      "options": {
-        "A": "Multiply the perimeter by 2",
-        "B": "Add all side lengths together",
-        "C": "Subtract the area of the cut-out from the larger shape",
-        "D": "Subtract the area of the cut-out from the larger shape"
-      },
-      "answer": "C",
-      "points": 2,
-      "id": 3
+      "type": "fill_in_the_blank",
+      "text": "Ultrasound images can show organs such as the ___liver___ and heart.",
+      "answer": "",
+      "points": 2
     },
     {
-      "type": "mc",
-      "text": "A rectangle has perimeter 32cm and breadth 7cm. What is its length?",
-      "image": null,
-      "options": {
-        "A": "18 cm",
-        "B": "9 cm",
-        "C": "16 cm",
-        "D": "25 cm"
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 4
+      "type": "fill_in_the_blank",
+      "text": "An object vibrating quickly produces a ___high___ pitch. (low or high)",
+      "answer": "",
+      "points": 2
     },
     {
-      "type": "mc",
-      "text": "A square has side 8cm. What is its area?",
-      "image": null,
-      "options": {
-        "A": "8 cm\u00b2",
-        "B": "16 cm\u00b2",
-        "C": "64 cm\u00b2",
-        "D": "64 cm\u00b2"
-      },
-      "answer": "C",
-      "points": 2,
-      "id": 5
+      "type": "multiple_choice",
+      "text": "Thunder is an example of:",
+      "options": [
+        "A low-pitched sound",
+        "A high-pitched sound",
+        "A soft sound",
+        "A loud sound"
+      ],
+      "answer": "A loud sound",
+      "points": 2
     },
     {
-      "type": "mc",
-      "text": "What is the perimeter of a rectangle 12cm by 9cm?",
-      "image": null,
-      "options": {
-        "A": "42 cm",
-        "B": "21 cm",
-        "C": "42 cm",
-        "D": "108 cm"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 6
+      "type": "fill_in_the_blank",
+      "text": "The quick back and forth movement of an object is called ___vibration___.",
+      "answer": "",
+      "points": 2
     },
     {
-      "type": "mc",
-      "text": "A path 2m wide surrounds a rectangle field 25m long and 20m wide. What is the outer length of the whole figure including the path?",
-      "image": null,
-      "options": {
-        "A": "27 m",
-        "B": "29 m",
-        "C": "29 m",
-        "D": "45 m"
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 7
+      "type": "multiple_choice",
+      "text": "What does our brain do with electrical signals from our ears?",
+      "options": [
+        "Stores them as pictures",
+        "Sends them to our stomach",
+        "Interprets them as sound",
+        "Ignores them"
+      ],
+      "answer": "Interprets them as sound",
+      "points": 2
     },
     {
-      "type": "mc",
-      "text": "The area of a rectangle is 48 cm\u00b2 and its length is 8cm. What is its breadth?",
-      "image": null,
-      "options": {
-        "A": "56 cm",
-        "B": "6 cm",
-        "C": "6 cm",
-        "D": "8 cm"
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 8
-    },
-    {
-      "type": "mc",
-      "text": "A big square has side 12cm. A small square with side 4cm is cut out. What is the area of the shaded remaining part?",
-      "image": null,
-      "options": {
-        "A": "8 cm\u00b2",
-        "B": "128 cm\u00b2",
-        "C": "128 cm\u00b2",
-        "D": "144 cm\u00b2"
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 9
-    },
-    {
-      "type": "mc",
-      "text": "What is the first step to find the area of a path surrounding a rectangle?",
-      "image": null,
-      "options": {
-        "A": "Add all outer sides together",
-        "B": "Find the area of the outer rectangle",
-        "C": "Find the perimeter of the inner rectangle",
-        "D": "Find the area of the outer rectangle"
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 10
-    },
-    {
-      "type": "mc",
-      "text": "Which type of graph is best for showing how something changes over time?",
-      "image": null,
-      "options": {
-        "A": "Pie chart",
-        "B": "Bar graph",
-        "C": "Line graph",
-        "D": "Line graph"
-      },
-      "answer": "C",
-      "points": 2,
-      "id": 11
-    },
-    {
-      "type": "mc",
-      "text": "Which type of graph is best for comparing quantities of different categories?",
-      "image": null,
-      "options": {
-        "A": "Bar graph",
-        "B": "Table",
-        "C": "Line graph",
-        "D": "Bar graph"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 12
-    },
-    {
-      "type": "mc",
-      "text": "A table shows favourite subjects: Mathematics 6 pupils, English 2 pupils, Science 1 pupil. What is the most popular subject?",
-      "image": null,
-      "options": {
-        "A": "Mathematics",
-        "B": "English",
-        "C": "Mathematics",
-        "D": "Science"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 13
-    },
-    {
-      "type": "mc",
-      "text": "What does one tally mark (|) represent in a tally table?",
-      "image": null,
-      "options": {
-        "A": "Two items",
-        "B": "One item counted",
-        "C": "Ten items",
-        "D": "Five items"
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 14
-    },
-    {
-      "type": "mc",
-      "text": "A line graph shows temperature at different times of day. At 6am it was 16\u00b0C and at 3pm it was 24\u00b0C. What was the temperature difference?",
-      "image": null,
-      "options": {
-        "A": "8\u00b0C",
-        "B": "40\u00b0C",
-        "C": "12\u00b0C",
-        "D": "4\u00b0C"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 15
-    },
-    {
-      "type": "mc",
-      "text": "A line graph shows water leaking from a pail. At 0 minutes the volume was 300ml, at 20 minutes it was 200ml. How much water leaked in 20 minutes?",
-      "image": null,
-      "options": {
-        "A": "150 ml",
-        "B": "100 ml",
-        "C": "200 ml",
-        "D": "100 ml"
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 16
-    },
-    {
-      "type": "mc",
-      "text": "Which situation is NOT suitable for a line graph?",
-      "image": null,
-      "options": {
-        "A": "Recording speed of a runner over time",
-        "B": "Showing temperature changes during a day",
-        "C": "Comparing favourite colours of students",
-        "D": "Comparing favourite colours of students"
-      },
-      "answer": "C",
-      "points": 2,
-      "id": 17
-    },
-    {
-      "type": "mc",
-      "text": "A table shows Primary 1 with 160 boys and 220 girls. What is the total number of pupils in Primary 1?",
-      "image": null,
-      "options": {
-        "A": "380 pupils",
-        "B": "380",
-        "C": "480",
-        "D": "160"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 18
-    },
-    {
-      "type": "mc",
-      "text": "In a bar graph showing favourite foods, the bar for fried noodles is tallest. What does this tell us?",
-      "image": null,
-      "options": {
-        "A": "Fewest pupils chose fried noodles",
-        "B": "Fried noodles cost the most",
-        "C": "Most pupils chose fried noodles",
-        "D": "Most pupils chose burgers"
-      },
-      "answer": "C",
-      "points": 2,
-      "id": 19
-    },
-    {
-      "type": "mc",
-      "text": "A line graph shows Kalpana's savings over 6 months. In July she saved $20 and in December she saved $60. How much more did she save in December?",
-      "image": null,
-      "options": {
-        "A": "$40",
-        "B": "$40",
-        "C": "$30",
-        "D": "$80"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 20
-    },
-    {
-      "type": "mc",
-      "text": "How many seconds are in 1 minute?",
-      "image": null,
-      "options": {
-        "A": "60 seconds",
-        "B": "120 seconds",
-        "C": "60 seconds",
-        "D": "30 seconds"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 21
-    },
-    {
-      "type": "mc",
-      "text": "What time is 24-hour format 14:30 in 12-hour clock?",
-      "image": null,
-      "options": {
-        "A": "14:30",
-        "B": "2:30 p.m.",
-        "C": "4:30 p.m.",
-        "D": "2:30 a.m."
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 22
-    },
-    {
-      "type": "mc",
-      "text": "What time is 6:45 a.m. in 24-hour clock format?",
-      "image": null,
-      "options": {
-        "A": "18:45",
-        "B": "06:15",
-        "C": "06:45",
-        "D": "06:45"
-      },
-      "answer": "C",
-      "points": 2,
-      "id": 23
-    },
-    {
-      "type": "mc",
-      "text": "A movie starts at 7:30 p.m. and lasts 2 hours 25 minutes. What time does it end?",
-      "image": null,
-      "options": {
-        "A": "10:55 p.m.",
-        "B": "9:55 p.m.",
-        "C": "9:55 p.m.",
-        "D": "9:55 a.m."
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 24
-    },
-    {
-      "type": "mc",
-      "text": "The 24-hour clock does NOT use which notation?",
-      "image": null,
-      "options": {
-        "A": "00:00",
-        "B": "a.m. and p.m.",
-        "C": "a.m. and p.m.",
-        "D": "24:00"
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 25
-    },
-    {
-      "type": "mc",
-      "text": "A train departs at 15:10 and arrives at 18:25. How long was the journey?",
-      "image": null,
-      "options": {
-        "A": "3 hours 15 minutes",
-        "B": "2 hours 45 minutes",
-        "C": "3 hours 5 minutes",
-        "D": "3 hours 25 minutes"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 26
-    },
-    {
-      "type": "mc",
-      "text": "What is 10:35 p.m. in 24-hour clock format?",
-      "image": null,
-      "options": {
-        "A": "22:35",
-        "B": "22:35",
-        "C": "10:35",
-        "D": "20:35"
-      },
-      "answer": "A",
-      "points": 2,
-      "id": 27
-    },
-    {
-      "type": "mc",
-      "text": "Convert 20:50 to 12-hour clock format.",
-      "image": null,
-      "options": {
-        "A": "20:50",
-        "B": "10:50 p.m.",
-        "C": "8:50 p.m.",
-        "D": "8:50 p.m."
-      },
-      "answer": "C",
-      "points": 2,
-      "id": 28
-    },
-    {
-      "type": "mc",
-      "text": "Candice slept at 22:55 and woke up at 08:30. How long did she sleep?",
-      "image": null,
-      "options": {
-        "A": "8 hours 25 minutes",
-        "B": "9 hours 35 minutes",
-        "C": "10 hours 35 minutes",
-        "D": "9 hours"
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 29
-    },
-    {
-      "type": "mc",
-      "text": "John's test started at 11:45 and ended at 13:35. How long was his test?",
-      "image": null,
-      "options": {
-        "A": "2 hours 10 minutes",
-        "B": "1 hour 50 minutes",
-        "C": "2 hours",
-        "D": "1 hour 10 minutes"
-      },
-      "answer": "B",
-      "points": 2,
-      "id": 30
-    },
-    {
-      "type": "fill",
-      "text": "A composite figure is made up of two or more _____ joined together.",
-      "image": null,
-      "answer": "shapes",
-      "points": 2,
-      "id": 31
-    },
-    {
-      "type": "fill",
-      "text": "Area of remaining cardboard = Area of big cardboard minus area of _____ rectangle.",
-      "image": null,
-      "answer": "cut-out",
-      "points": 2,
-      "id": 32
-    },
-    {
-      "type": "fill",
-      "text": "The perimeter of a square with side 7cm is _____ cm.",
-      "image": null,
-      "answer": "28",
-      "points": 2,
-      "id": 33
-    },
-    {
-      "type": "fill",
-      "text": "If a rectangle has length 10cm and total area 80cm\u00b2, its breadth is _____ cm.",
-      "image": null,
-      "answer": "8",
-      "points": 2,
-      "id": 34
-    },
-    {
-      "type": "fill",
-      "text": "Area of shaded part = Area of bigger square minus area of _____ square.",
-      "image": null,
-      "answer": "smaller",
-      "points": 2,
-      "id": 35
-    },
-    {
-      "type": "fill",
-      "text": "To find the perimeter of a composite figure, add all the _____ sides together.",
-      "image": null,
-      "answer": "outer",
-      "points": 2,
-      "id": 36
-    },
-    {
-      "type": "fill",
-      "text": "A rectangle measures 15cm by 12cm. Its area is _____ cm\u00b2.",
-      "image": null,
-      "answer": "180",
-      "points": 2,
-      "id": 37
-    },
-    {
-      "type": "fill",
-      "text": "The _____ of a surrounding path is found by subtracting the inner rectangle from the outer rectangle.",
-      "image": null,
-      "answer": "area",
-      "points": 2,
-      "id": 38
-    },
-    {
-      "type": "fill",
-      "text": "When a small square is cut from a bigger square, the area of the remaining shape becomes _____ than the original.",
-      "image": null,
-      "answer": "smaller",
-      "points": 2,
-      "id": 39
-    },
-    {
-      "type": "fill",
-      "text": "Data can be presented using a _____ or a bar graph.",
-      "image": null,
-      "answer": "table",
-      "points": 2,
-      "id": 40
-    },
-    {
-      "type": "fill",
-      "text": "A line graph is useful for showing how data changes over _____.",
-      "image": null,
-      "answer": "time",
-      "points": 2,
-      "id": 41
-    },
-    {
-      "type": "fill",
-      "text": "When comparing quantities of different categories, a _____ graph is more suitable.",
-      "image": null,
-      "answer": "bar",
-      "points": 2,
-      "id": 42
-    },
-    {
-      "type": "fill",
-      "text": "A tally mark represents _____ item(s).",
-      "image": null,
-      "answer": "one",
-      "points": 2,
-      "id": 43
-    },
-    {
-      "type": "fill",
-      "text": "The height of a bar in a bar graph represents the _____ of the category.",
-      "image": null,
-      "answer": "quantity",
-      "points": 2,
-      "id": 44
-    },
-    {
-      "type": "fill",
-      "text": "The highest point on a line graph shows the _____ value recorded.",
-      "image": null,
-      "answer": "maximum",
-      "points": 2,
-      "id": 45
-    },
-    {
-      "type": "fill",
-      "text": "_____ is a unit of measurement for time.",
-      "image": null,
-      "answer": "Seconds",
-      "points": 2,
-      "id": 46
-    },
-    {
-      "type": "fill",
-      "text": "In the 24-hour clock, midnight is written as _____.",
-      "image": null,
-      "answer": "00:00",
-      "points": 2,
-      "id": 47
-    },
-    {
-      "type": "fill",
-      "text": "To convert p.m. time to 24-hour clock, add _____ to the hour.",
-      "image": null,
-      "answer": "12",
-      "points": 2,
-      "id": 48
-    },
-    {
-      "type": "fill",
-      "text": "14:30 in 24-hour clock is the same as _____ p.m.",
-      "image": null,
-      "answer": "2:30",
-      "points": 2,
-      "id": 49
-    },
-    {
-      "type": "fill",
-      "text": "The second hand of a clock takes _____ seconds to go around the clock face once.",
-      "image": null,
-      "answer": "60",
-      "points": 2,
-      "id": 50
+      "type": "fill_in_the_blank",
+      "text": "When more ___energy___ is used to make a sound, it is louder.",
+      "answer": "",
+      "points": 2
     },
     {
       "type": "essay",
-      "text": "Mario has a rectangular garden measuring 12m by 9m. He wants to put a pebble path 1m wide around the border of his garden. Draw a diagram and explain how to find the total area covered by the pebbles.",
-      "image": null,
-      "answer": "First find the outer rectangle dimensions: length = 12 + 1 + 1 = 14m, breadth = 9 + 1 + 1 = 11m. Outer area = 14 \u00d7 11 = 154 m\u00b2. Inner area (garden alone) = 12 \u00d7 9 = 108 m\u00b2. Path area = 154 \u2212 108 = 46 m\u00b2.",
-      "points": 0,
-      "id": 51
+      "text": "Explain how we hear a sound from a drum being hit. Start from the drum being hit to the brain hearing the sound.",
+      "answer": "",
+      "points": 5
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The drum skin moving up and down quickly is an example of:",
+      "options": [
+        "Vibration",
+        "Reflection",
+        "Condensation",
+        "Evaporation"
+      ],
+      "answer": "Vibration",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "When you ring a bell, it vibrates quickly and produces:",
+      "options": [
+        "Loud sound",
+        "Low-pitched sound",
+        "No sound",
+        "High-pitched sound"
+      ],
+      "answer": "High-pitched sound",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "A ___shorter___ bar produces a higher pitch than a longer bar.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "The ___thickness___ of a string also affects the pitch.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "How does sound travel through air?",
+      "options": [
+        "As a light wave",
+        "As a sound wave",
+        "As a water wave",
+        "As heat"
+      ],
+      "answer": "As a sound wave",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "When vibrations reach our ears, they are changed into:",
+      "options": [
+        "Light signals",
+        "Food signals",
+        "Electrical signals",
+        "Sound signals"
+      ],
+      "answer": "Electrical signals",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What do we use to hear sounds?",
+      "options": [
+        "Our nose",
+        "Our ears",
+        "Our eyes",
+        "Our mouth"
+      ],
+      "answer": "Our ears",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "Doctors use ___ultrasound___ to see inside a patient's body.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What happens when you tap a drum skin?",
+      "options": [
+        "It floats",
+        "It melts",
+        "It vibrates",
+        "It cracks"
+      ],
+      "answer": "It vibrates",
+      "points": 2
     },
     {
       "type": "essay",
-      "text": "The school had a picnic. The table shows food brought by pupils: Burger 4 pupils, Chicken Nugget 8 pupils, Fried Noodle 6 pupils, Salad 2 pupils, Others 5 pupils. Present this data in a bar graph and explain which food was most popular and by how much.",
-      "image": null,
-      "answer": "Draw a bar graph with food types on the horizontal axis and number of pupils on the vertical axis. Chicken Nugget bar should be tallest (8 pupils). Most popular: Chicken Nugget with 8 pupils. Least popular: Salad with 2 pupils. Difference = 8 \u2212 2 = 6 pupils.",
-      "points": 0,
-      "id": 52
+      "text": "Name 3 factors that affect the pitch of a sound produced by a string instrument. Explain how ONE of them works.",
+      "answer": "",
+      "points": 5
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "When a string is pulled tightly, it is more ___taut___ and produces a higher pitch.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "Ultrasound has a very ___high___ pitch that human ears cannot hear.",
+      "answer": "",
+      "points": 2
     },
     {
       "type": "essay",
-      "text": "A plane departs Singapore at 22:50 on Wednesday and lands in Bali at 01:20 on Thursday. How long was the flight? Did the plane arrive on the same day or the next day? Explain your reasoning.",
-      "image": null,
-      "answer": "The flight lasted 2 hours 30 minutes. The plane departed on Wednesday night and arrived on Thursday early morning, so it arrived the next day. From 22:50 to midnight (24:00) is 1 hour 10 minutes. From 00:00 to 01:20 is 1 hour 20 minutes. Total: 1h 10m + 1h 20m = 2h 30m.",
-      "points": 0,
-      "id": 53
+      "text": "A drum produces a low-pitched sound and a bell produces a high-pitched sound. Explain why they are different using the word 'vibration'.",
+      "answer": "",
+      "points": 5
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Ultrasound can be used to see:",
+      "options": [
+        "The color of organs",
+        "The outside of the body",
+        "A baby inside a mother's womb",
+        "The taste of food"
+      ],
+      "answer": "A baby inside a mother's womb",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "The place where a sound is produced is called the ___source___ of sound.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What affects the loudness of a sound?",
+      "options": [
+        "The size of the room",
+        "The temperature",
+        "Amount of energy used to make it",
+        "The color of the object"
+      ],
+      "answer": "Amount of energy used to make it",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What is a vibration?",
+      "options": [
+        "A straight line movement",
+        "A stopping motion",
+        "A quick back and forth movement",
+        "A slow spinning motion"
+      ],
+      "answer": "A quick back and forth movement",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "A longer string on a guitar produces what kind of pitch?",
+      "options": [
+        "Louder pitch",
+        "No sound",
+        "Higher pitch",
+        "Lower pitch"
+      ],
+      "answer": "Lower pitch",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Materials and sizes of objects affect:",
+      "options": [
+        "The temperature of sound",
+        "The color of the sound",
+        "The pitch of the sound they produce",
+        "The taste of sound"
+      ],
+      "answer": "The pitch of the sound they produce",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "If you tap an object gently, the sound is usually:",
+      "options": [
+        "Higher pitched",
+        "Louder",
+        "Lower pitched",
+        "Softer"
+      ],
+      "answer": "Softer",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "An object vibrating slowly produces a ___low___ pitch. (low or high)",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "A whisper is an example of:",
+      "options": [
+        "A soft sound",
+        "A musical sound",
+        "A high-pitched sound",
+        "A loud sound"
+      ],
+      "answer": "A soft sound",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Ultrasound has a pitch that is:",
+      "options": [
+        "Exactly at human hearing range",
+        "A type of music",
+        "Too high for human ears to hear",
+        "Too low for human ears to hear"
+      ],
+      "answer": "Too high for human ears to hear",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "A short bar on a xylophone produces what kind of pitch?",
+      "options": [
+        "Higher pitch",
+        "No pitch",
+        "Lower pitch",
+        "Louder pitch"
+      ],
+      "answer": "Higher pitch",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "A ___thinner___ string produces a higher pitch than a thicker string.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "When less energy is used, the sound is ___softer___. (louder or softer)",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "When you blow harder into a whistle, the sound is:",
+      "options": [
+        "Louder",
+        "Higher pitched",
+        "Softer",
+        "Lower pitched"
+      ],
+      "answer": "Louder",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "A shorter air column in a pan flute produces:",
+      "options": [
+        "No pitch",
+        "Lower pitch",
+        "Higher pitch",
+        "Loud sound"
+      ],
+      "answer": "Higher pitch",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "The source of sound is the:",
+      "options": [
+        "Person who hears the sound",
+        "Path the sound takes",
+        "Place where a sound is produced",
+        "End of the sound"
+      ],
+      "answer": "Place where a sound is produced",
+      "points": 2
     },
     {
       "type": "essay",
-      "text": "Shirley took the MRT at Sembawang Station and reached Newton Station 26 minutes later. She arrived at Newton Station at 11:20. At what time did she board the train at Sembawang Station? Show your working.",
-      "image": null,
-      "answer": "To find the departure time, subtract 26 minutes from 11:20. 11:20 minus 20 minutes = 11:00. Then minus 6 more minutes = 10:54. Shirley boarded the train at 10:54 a.m.",
-      "points": 0,
-      "id": 54
+      "text": "Explain 2 factors that affect how loud or soft a sound is.",
+      "answer": "",
+      "points": 5
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "Sound travels through air as invisible ___waves___.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "The ___length___ of a string affects the pitch of the sound it produces.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "___Soft___ sounds include whispers. (Loud or Soft)",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "When sound waves reach our ears, vibrations are changed to ___electrical signals___ and sent to the brain.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "___Distance___ from the source of sound affects how loud or soft it sounds.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "Sound is produced when an object ___vibrates___.",
+      "answer": "",
+      "points": 2
     },
     {
       "type": "essay",
-      "text": "Remy started his Science practice paper at 8 a.m. He spent 2 minutes on each of 30 multiple-choice questions, and 3 minutes on each of 14 open-ended questions. At what time did he complete the paper? Show your working.",
-      "image": null,
-      "answer": "MCQ time: 30 \u00d7 2 = 60 minutes. Open-ended time: 14 \u00d7 3 = 42 minutes. Total time: 60 + 42 = 102 minutes = 1 hour 42 minutes. Starting at 8:00 a.m., adding 1 hour 42 minutes: 8:00 + 1h 42m = 9:42 a.m. Remy completed the paper at 9:42 a.m.",
-      "points": 0,
-      "id": 55
+      "text": "Why can we not hear ultrasound but machines can use it to take pictures inside our body?",
+      "answer": "",
+      "points": 5
+    },
+    {
+      "type": "multiple_choice",
+      "text": "When you hit a drum, it vibrates slowly and produces:",
+      "options": [
+        "Quiet sound",
+        "No sound",
+        "Low-pitched sound",
+        "High-pitched sound"
+      ],
+      "answer": "Low-pitched sound",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Sound waves travel away from the source in:",
+      "options": [
+        "All directions",
+        "Only down",
+        "In one straight line",
+        "Only up"
+      ],
+      "answer": "All directions",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "What determines the pitch of a sound?",
+      "options": [
+        "The color of the object",
+        "The temperature of the object",
+        "The weight of the object",
+        "How quickly the object vibrates"
+      ],
+      "answer": "How quickly the object vibrates",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "A harp makes different pitches using:",
+      "options": [
+        "Keys",
+        "Strings of different lengths and thickness",
+        "Drum skins",
+        "Bells"
+      ],
+      "answer": "Strings of different lengths and thickness",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Which instrument uses bars of different lengths to make different pitches?",
+      "options": [
+        "Trumpet",
+        "Flute",
+        "Xylophone",
+        "Drum"
+      ],
+      "answer": "Xylophone",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "A thinner string produces what pitch compared to a thicker string?",
+      "options": [
+        "Same pitch",
+        "Lower pitch",
+        "Higher pitch",
+        "No pitch"
+      ],
+      "answer": "Higher pitch",
+      "points": 2
+    },
+    {
+      "type": "fill_in_the_blank",
+      "text": "A ___longer___ air column produces a lower pitch than a shorter air column.",
+      "answer": "",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "When a string is pulled more tightly, it produces:",
+      "options": [
+        "No sound",
+        "Softer sound",
+        "Lower pitch",
+        "Higher pitch"
+      ],
+      "answer": "Higher pitch",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "When we are FAR from the source of sound, we hear:",
+      "options": [
+        "A softer sound",
+        "A higher pitch",
+        "A lower pitch",
+        "A louder sound"
+      ],
+      "answer": "A softer sound",
+      "points": 2
+    },
+    {
+      "type": "multiple_choice",
+      "text": "When we are CLOSE to the source of sound, we hear:",
+      "options": [
+        "A softer sound",
+        "A lower pitch",
+        "No sound",
+        "A louder sound"
+      ],
+      "answer": "A louder sound",
+      "points": 2
     }
   ]
 }
