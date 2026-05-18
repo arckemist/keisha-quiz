@@ -6,73 +6,73 @@
   "timeMinutes": 45,
   "questions": [
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "What is loudness?",
-      "options": [
-        "How fast sound travels",
-        "How high or low a sound is",
-        "How long a sound lasts",
-        "How loud or soft a sound is"
-      ],
+      "options": {
+        "A": "How fast sound travels",
+        "B": "How high or low a sound is",
+        "C": "How long a sound lasts",
+        "D": "How loud or soft a sound is"
+      },
       "answer": "How loud or soft a sound is",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "What type of sound do doctors use to see inside the body?",
-      "options": [
-        "Hypersound",
-        "Microwave",
-        "Ultrasound",
-        "Infrasound"
-      ],
+      "options": {
+        "A": "Hypersound",
+        "B": "Microwave",
+        "C": "Ultrasound",
+        "D": "Infrasound"
+      },
       "answer": "Ultrasound",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "Ultrasound images can show organs such as the ___liver___ and heart.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "An object vibrating quickly produces a ___high___ pitch. (low or high)",
       "answer": "",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "Thunder is an example of:",
-      "options": [
-        "A low-pitched sound",
-        "A high-pitched sound",
-        "A soft sound",
-        "A loud sound"
-      ],
+      "options": {
+        "A": "A low-pitched sound",
+        "B": "A high-pitched sound",
+        "C": "A soft sound",
+        "D": "A loud sound"
+      },
       "answer": "A loud sound",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "The quick back and forth movement of an object is called ___vibration___.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "What does our brain do with electrical signals from our ears?",
-      "options": [
-        "Stores them as pictures",
-        "Sends them to our stomach",
-        "Interprets them as sound",
-        "Ignores them"
-      ],
+      "options": {
+        "A": "Stores them as pictures",
+        "B": "Sends them to our stomach",
+        "C": "Interprets them as sound",
+        "D": "Ignores them"
+      },
       "answer": "Interprets them as sound",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "When more ___energy___ is used to make a sound, it is louder.",
       "answer": "",
       "points": 2
@@ -84,92 +84,92 @@
       "points": 5
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "The drum skin moving up and down quickly is an example of:",
-      "options": [
-        "Vibration",
-        "Reflection",
-        "Condensation",
-        "Evaporation"
-      ],
+      "options": {
+        "A": "Vibration",
+        "B": "Reflection",
+        "C": "Condensation",
+        "D": "Evaporation"
+      },
       "answer": "Vibration",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "When you ring a bell, it vibrates quickly and produces:",
-      "options": [
-        "Loud sound",
-        "Low-pitched sound",
-        "No sound",
-        "High-pitched sound"
-      ],
+      "options": {
+        "A": "Loud sound",
+        "B": "Low-pitched sound",
+        "C": "No sound",
+        "D": "High-pitched sound"
+      },
       "answer": "High-pitched sound",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "A ___shorter___ bar produces a higher pitch than a longer bar.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "The ___thickness___ of a string also affects the pitch.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "How does sound travel through air?",
-      "options": [
-        "As a light wave",
-        "As a sound wave",
-        "As a water wave",
-        "As heat"
-      ],
+      "options": {
+        "A": "As a light wave",
+        "B": "As a sound wave",
+        "C": "As a water wave",
+        "D": "As heat"
+      },
       "answer": "As a sound wave",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "When vibrations reach our ears, they are changed into:",
-      "options": [
-        "Light signals",
-        "Food signals",
-        "Electrical signals",
-        "Sound signals"
-      ],
+      "options": {
+        "A": "Light signals",
+        "B": "Food signals",
+        "C": "Electrical signals",
+        "D": "Sound signals"
+      },
       "answer": "Electrical signals",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "What do we use to hear sounds?",
-      "options": [
-        "Our nose",
-        "Our ears",
-        "Our eyes",
-        "Our mouth"
-      ],
+      "options": {
+        "A": "Our nose",
+        "B": "Our ears",
+        "C": "Our eyes",
+        "D": "Our mouth"
+      },
       "answer": "Our ears",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "Doctors use ___ultrasound___ to see inside a patient's body.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "What happens when you tap a drum skin?",
-      "options": [
-        "It floats",
-        "It melts",
-        "It vibrates",
-        "It cracks"
-      ],
+      "options": {
+        "A": "It floats",
+        "B": "It melts",
+        "C": "It vibrates",
+        "D": "It cracks"
+      },
       "answer": "It vibrates",
       "points": 2
     },
@@ -180,13 +180,13 @@
       "points": 5
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "When a string is pulled tightly, it is more ___taut___ and produces a higher pitch.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "Ultrasound has a very ___high___ pitch that human ears cannot hear.",
       "answer": "",
       "points": 2
@@ -198,170 +198,170 @@
       "points": 5
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "Ultrasound can be used to see:",
-      "options": [
-        "The color of organs",
-        "The outside of the body",
-        "A baby inside a mother's womb",
-        "The taste of food"
-      ],
+      "options": {
+        "A": "The color of organs",
+        "B": "The outside of the body",
+        "C": "A baby inside a mother's womb",
+        "D": "The taste of food"
+      },
       "answer": "A baby inside a mother's womb",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "The place where a sound is produced is called the ___source___ of sound.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "What affects the loudness of a sound?",
-      "options": [
-        "The size of the room",
-        "The temperature",
-        "Amount of energy used to make it",
-        "The color of the object"
-      ],
+      "options": {
+        "A": "The size of the room",
+        "B": "The temperature",
+        "C": "Amount of energy used to make it",
+        "D": "The color of the object"
+      },
       "answer": "Amount of energy used to make it",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "What is a vibration?",
-      "options": [
-        "A straight line movement",
-        "A stopping motion",
-        "A quick back and forth movement",
-        "A slow spinning motion"
-      ],
+      "options": {
+        "A": "A straight line movement",
+        "B": "A stopping motion",
+        "C": "A quick back and forth movement",
+        "D": "A slow spinning motion"
+      },
       "answer": "A quick back and forth movement",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "A longer string on a guitar produces what kind of pitch?",
-      "options": [
-        "Louder pitch",
-        "No sound",
-        "Higher pitch",
-        "Lower pitch"
-      ],
+      "options": {
+        "A": "Louder pitch",
+        "B": "No sound",
+        "C": "Higher pitch",
+        "D": "Lower pitch"
+      },
       "answer": "Lower pitch",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "Materials and sizes of objects affect:",
-      "options": [
-        "The temperature of sound",
-        "The color of the sound",
-        "The pitch of the sound they produce",
-        "The taste of sound"
-      ],
+      "options": {
+        "A": "The temperature of sound",
+        "B": "The color of the sound",
+        "C": "The pitch of the sound they produce",
+        "D": "The taste of sound"
+      },
       "answer": "The pitch of the sound they produce",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "If you tap an object gently, the sound is usually:",
-      "options": [
-        "Higher pitched",
-        "Louder",
-        "Lower pitched",
-        "Softer"
-      ],
+      "options": {
+        "A": "Higher pitched",
+        "B": "Louder",
+        "C": "Lower pitched",
+        "D": "Softer"
+      },
       "answer": "Softer",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "An object vibrating slowly produces a ___low___ pitch. (low or high)",
       "answer": "",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "A whisper is an example of:",
-      "options": [
-        "A soft sound",
-        "A musical sound",
-        "A high-pitched sound",
-        "A loud sound"
-      ],
+      "options": {
+        "A": "A soft sound",
+        "B": "A musical sound",
+        "C": "A high-pitched sound",
+        "D": "A loud sound"
+      },
       "answer": "A soft sound",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "Ultrasound has a pitch that is:",
-      "options": [
-        "Exactly at human hearing range",
-        "A type of music",
-        "Too high for human ears to hear",
-        "Too low for human ears to hear"
-      ],
+      "options": {
+        "A": "Exactly at human hearing range",
+        "B": "A type of music",
+        "C": "Too high for human ears to hear",
+        "D": "Too low for human ears to hear"
+      },
       "answer": "Too high for human ears to hear",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "A short bar on a xylophone produces what kind of pitch?",
-      "options": [
-        "Higher pitch",
-        "No pitch",
-        "Lower pitch",
-        "Louder pitch"
-      ],
+      "options": {
+        "A": "Higher pitch",
+        "B": "No pitch",
+        "C": "Lower pitch",
+        "D": "Louder pitch"
+      },
       "answer": "Higher pitch",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "A ___thinner___ string produces a higher pitch than a thicker string.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "When less energy is used, the sound is ___softer___. (louder or softer)",
       "answer": "",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "When you blow harder into a whistle, the sound is:",
-      "options": [
-        "Louder",
-        "Higher pitched",
-        "Softer",
-        "Lower pitched"
-      ],
+      "options": {
+        "A": "Louder",
+        "B": "Higher pitched",
+        "C": "Softer",
+        "D": "Lower pitched"
+      },
       "answer": "Louder",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "A shorter air column in a pan flute produces:",
-      "options": [
-        "No pitch",
-        "Lower pitch",
-        "Higher pitch",
-        "Loud sound"
-      ],
+      "options": {
+        "A": "No pitch",
+        "B": "Lower pitch",
+        "C": "Higher pitch",
+        "D": "Loud sound"
+      },
       "answer": "Higher pitch",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "The source of sound is the:",
-      "options": [
-        "Person who hears the sound",
-        "Path the sound takes",
-        "Place where a sound is produced",
-        "End of the sound"
-      ],
+      "options": {
+        "A": "Person who hears the sound",
+        "B": "Path the sound takes",
+        "C": "Place where a sound is produced",
+        "D": "End of the sound"
+      },
       "answer": "Place where a sound is produced",
       "points": 2
     },
@@ -372,37 +372,37 @@
       "points": 5
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "Sound travels through air as invisible ___waves___.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "The ___length___ of a string affects the pitch of the sound it produces.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "___Soft___ sounds include whispers. (Loud or Soft)",
       "answer": "",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "When sound waves reach our ears, vibrations are changed to ___electrical signals___ and sent to the brain.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "___Distance___ from the source of sound affects how loud or soft it sounds.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "Sound is produced when an object ___vibrates___.",
       "answer": "",
       "points": 2
@@ -414,116 +414,116 @@
       "points": 5
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "When you hit a drum, it vibrates slowly and produces:",
-      "options": [
-        "Quiet sound",
-        "No sound",
-        "Low-pitched sound",
-        "High-pitched sound"
-      ],
+      "options": {
+        "A": "Quiet sound",
+        "B": "No sound",
+        "C": "Low-pitched sound",
+        "D": "High-pitched sound"
+      },
       "answer": "Low-pitched sound",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "Sound waves travel away from the source in:",
-      "options": [
-        "All directions",
-        "Only down",
-        "In one straight line",
-        "Only up"
-      ],
+      "options": {
+        "A": "All directions",
+        "B": "Only down",
+        "C": "In one straight line",
+        "D": "Only up"
+      },
       "answer": "All directions",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "What determines the pitch of a sound?",
-      "options": [
-        "The color of the object",
-        "The temperature of the object",
-        "The weight of the object",
-        "How quickly the object vibrates"
-      ],
+      "options": {
+        "A": "The color of the object",
+        "B": "The temperature of the object",
+        "C": "The weight of the object",
+        "D": "How quickly the object vibrates"
+      },
       "answer": "How quickly the object vibrates",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "A harp makes different pitches using:",
-      "options": [
-        "Keys",
-        "Strings of different lengths and thickness",
-        "Drum skins",
-        "Bells"
-      ],
+      "options": {
+        "A": "Keys",
+        "B": "Strings of different lengths and thickness",
+        "C": "Drum skins",
+        "D": "Bells"
+      },
       "answer": "Strings of different lengths and thickness",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "Which instrument uses bars of different lengths to make different pitches?",
-      "options": [
-        "Trumpet",
-        "Flute",
-        "Xylophone",
-        "Drum"
-      ],
+      "options": {
+        "A": "Trumpet",
+        "B": "Flute",
+        "C": "Xylophone",
+        "D": "Drum"
+      },
       "answer": "Xylophone",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "A thinner string produces what pitch compared to a thicker string?",
-      "options": [
-        "Same pitch",
-        "Lower pitch",
-        "Higher pitch",
-        "No pitch"
-      ],
+      "options": {
+        "A": "Same pitch",
+        "B": "Lower pitch",
+        "C": "Higher pitch",
+        "D": "No pitch"
+      },
       "answer": "Higher pitch",
       "points": 2
     },
     {
-      "type": "fill_in_the_blank",
+      "type": "fill",
       "text": "A ___longer___ air column produces a lower pitch than a shorter air column.",
       "answer": "",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "When a string is pulled more tightly, it produces:",
-      "options": [
-        "No sound",
-        "Softer sound",
-        "Lower pitch",
-        "Higher pitch"
-      ],
+      "options": {
+        "A": "No sound",
+        "B": "Softer sound",
+        "C": "Lower pitch",
+        "D": "Higher pitch"
+      },
       "answer": "Higher pitch",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "When we are FAR from the source of sound, we hear:",
-      "options": [
-        "A softer sound",
-        "A higher pitch",
-        "A lower pitch",
-        "A louder sound"
-      ],
+      "options": {
+        "A": "A softer sound",
+        "B": "A higher pitch",
+        "C": "A lower pitch",
+        "D": "A louder sound"
+      },
       "answer": "A softer sound",
       "points": 2
     },
     {
-      "type": "multiple_choice",
+      "type": "mc",
       "text": "When we are CLOSE to the source of sound, we hear:",
-      "options": [
-        "A softer sound",
-        "A lower pitch",
-        "No sound",
-        "A louder sound"
-      ],
+      "options": {
+        "A": "A softer sound",
+        "B": "A lower pitch",
+        "C": "No sound",
+        "D": "A louder sound"
+      },
       "answer": "A louder sound",
       "points": 2
     }
